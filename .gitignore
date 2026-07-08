@@ -27,3 +27,4 @@ data/*_before*.json
 data/validation_flags.json
 data/llm_excerpts.txt
 data/llm_excerpts.txt
+data/verify_batches/
