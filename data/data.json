@@ -862,9 +862,9 @@
     "median_pay": 90534,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000088/amt-20260406.htm",
-    "employees": 2388,
+    "employees": 4866,
     "profit_per_employee": 876019,
-    "worker_share": 0.103,
+    "worker_share": 0.211,
     "complete": true
   },
   {
@@ -1015,9 +1015,9 @@
     "median_pay": 18816,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926040688/tm261344-1_def14a.htm",
-    "employees": 6400,
+    "employees": 170000,
     "profit_per_employee": 449078,
-    "worker_share": 0.042,
+    "worker_share": 1.113,
     "complete": true
   },
   {
@@ -2761,10 +2761,10 @@
     "median_pay": 197994,
     "confidence": "high (llm)",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1374310/000162828026022939/cboe-20260401.htm",
-    "employees": 865,
+    "employees": 1661,
     "profit_per_employee": 1012062,
     "complete": true,
-    "worker_share": 0.196
+    "worker_share": 0.376
   },
   {
     "ticker": "CBRE",
@@ -3319,9 +3319,9 @@
     "median_pay": 177115,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000150/csco-20251027.htm",
-    "employees": 25600,
+    "employees": 86200,
     "profit_per_employee": 431159,
-    "worker_share": 0.411,
+    "worker_share": 1.383,
     "complete": true
   },
   {
@@ -4187,9 +4187,9 @@
     "median_pay": 63834,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/26172/000110465926039158/tm261336-2_def14a.htm",
-    "employees": 20000,
+    "employees": 67400,
     "profit_per_employee": 131083,
-    "worker_share": 0.487,
+    "worker_share": 1.641,
     "complete": true
   },
   {
@@ -6116,9 +6116,9 @@
     "median_pay": 160003,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1031296/000119312526138029/fe-20260401.htm",
-    "employees": 1013,
+    "employees": 12200,
     "profit_per_employee": 1020072,
-    "worker_share": 0.157,
+    "worker_share": 1.889,
     "complete": true
   },
   {
@@ -6826,13 +6826,13 @@
     "margin_3yr": 23.13,
     "avg_net_income": 1062233333,
     "ratio": 206,
-    "median_pay": null,
+    "median_pay": 111501,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000030/gddy-20260423.htm",
     "employees": 5845,
     "profit_per_employee": 181734,
     "complete": false,
-    "worker_share": null
+    "worker_share": 0.614
   },
   {
     "ticker": "GS",
@@ -6922,9 +6922,9 @@
     "median_pay": 113040,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/874766/000087476626000025/hig-20260409.htm",
-    "employees": 6700,
+    "employees": 19200,
     "profit_per_employee": 470199,
-    "worker_share": 0.24,
+    "worker_share": 0.689,
     "complete": true
   },
   {
@@ -7489,7 +7489,7 @@
     "margin_3yr": 12.55,
     "avg_net_income": 8039333333,
     "ratio": 765,
-    "median_pay": 48001,
+    "median_pay": 49630,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000025/ibm-20260306.htm",
     "employees": null,
@@ -8017,9 +8017,9 @@
     "median_pay": 37949,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1020569/000102056926000026/irm-20260323.htm",
-    "employees": 11700,
+    "employees": 29400,
     "profit_per_employee": 14905,
-    "worker_share": 2.546,
+    "worker_share": 6.398,
     "complete": true
   },
   {
@@ -8203,9 +8203,9 @@
     "median_pay": 66795,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/833444/000110465926004565/tm2524665-5_def14a.htm",
-    "employees": 75000,
+    "employees": 87000,
     "profit_per_employee": 30422,
-    "worker_share": 2.196,
+    "worker_share": 2.547,
     "complete": true
   },
   {
@@ -8482,7 +8482,7 @@
     "median_pay": null,
     "confidence": "none",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1404912/000114036126007164/ny20061501x2_def14a.htm",
-    "employees": 800,
+    "employees": 5043,
     "profit_per_employee": 3824570,
     "complete": false,
     "worker_share": null
@@ -8976,9 +8976,9 @@
     "median_pay": 37371,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/60667/000006066726000056/low-20260415.htm",
-    "employees": 167000,
+    "employees": 276000,
     "profit_per_employee": 42589,
-    "worker_share": 0.877,
+    "worker_share": 1.45,
     "complete": true
   },
   {
@@ -9906,9 +9906,9 @@
     "median_pay": 123561,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1059556/000105955626000019/mco-20260304.htm",
-    "employees": 5300,
+    "employees": 16076,
     "profit_per_employee": 385157,
-    "worker_share": 0.321,
+    "worker_share": 0.973,
     "complete": true
   },
   {
@@ -10400,9 +10400,9 @@
     "median_pay": 112998,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000007/noc-20260401.htm",
-    "employees": 7500,
+    "employees": 95000,
     "profit_per_employee": 462756,
-    "worker_share": 0.244,
+    "worker_share": 3.093,
     "complete": true
   },
   {
@@ -10431,9 +10431,9 @@
     "median_pay": 25954,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1513761/000110465926052146/tm261503-1_def14a.htm",
-    "employees": 5300,
+    "employees": 44500,
     "profit_per_employee": 94320,
-    "worker_share": 0.275,
+    "worker_share": 2.31,
     "complete": true
   },
   {
@@ -11322,9 +11322,9 @@
     "median_pay": 130900,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/713676/000119312526102189/d62941ddef14a.htm",
-    "employees": 1474,
+    "employees": 55333,
     "profit_per_employee": 4205563,
-    "worker_share": 0.031,
+    "worker_share": 1.168,
     "complete": true
   },
   {
@@ -11384,9 +11384,9 @@
     "median_pay": 178625,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/922224/000119312526135991/ppl-20260331.htm",
-    "employees": 600,
+    "employees": 6591,
     "profit_per_employee": 1560556,
-    "worker_share": 0.114,
+    "worker_share": 1.257,
     "complete": true
   },
   {
@@ -11477,9 +11477,9 @@
     "median_pay": 86906,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000099/pgr-20260318.htm",
-    "employees": 18000,
+    "employees": 70000,
     "profit_per_employee": 438722,
-    "worker_share": 0.198,
+    "worker_share": 0.77,
     "complete": true
   },
   {
@@ -11629,12 +11629,12 @@
     "margin_3yr": 42.78,
     "avg_net_income": 2001562000,
     "ratio": 255,
-    "median_pay": 35994,
+    "median_pay": 38819,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1393311/000119312526128991/psa-20260325.htm",
     "employees": 5770,
     "profit_per_employee": 346891,
-    "worker_share": 0.104,
+    "worker_share": 0.112,
     "complete": true
   },
   {
@@ -12593,9 +12593,9 @@
     "median_pay": 78989,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926038320/spg-20260513xdef14a.htm",
-    "employees": 1000,
+    "employees": 3600,
     "profit_per_employee": 3570053,
-    "worker_share": 0.022,
+    "worker_share": 0.08,
     "complete": true
   },
   {
@@ -14607,9 +14607,9 @@
     "median_pay": 115931,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1396009/000162828026020812/vmc-20260324.htm",
-    "employees": 11172,
+    "employees": 11548,
     "profit_per_employee": 87176,
-    "worker_share": 1.33,
+    "worker_share": 1.375,
     "complete": true
   },
   {
@@ -15287,9 +15287,9 @@
     "median_pay": 15346,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1041061/000119312526142078/yum-20260402.htm",
-    "employees": 28000,
+    "employees": 49000,
     "profit_per_employee": 55262,
-    "worker_share": 0.278,
+    "worker_share": 0.486,
     "complete": true
   },
   {
