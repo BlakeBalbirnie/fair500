@@ -62,6 +62,18 @@
   ]
 }
 </script>
+<!-- Consent Mode v2 defaults (must run before AdSense) -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  var _cc = null; try{ _cc = localStorage.getItem('fair500-consent'); }catch(e){}
+  gtag('consent', 'default', {
+    ad_storage: _cc==='granted' ? 'granted' : 'denied',
+    ad_user_data: _cc==='granted' ? 'granted' : 'denied',
+    ad_personalization: _cc==='granted' ? 'granted' : 'denied',
+    analytics_storage: _cc==='granted' ? 'granted' : 'denied'
+  });
+</script>
 <!-- Google AdSense (Auto Ads) -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7286721892267178" crossorigin="anonymous"></script>
 <style>
@@ -166,6 +178,41 @@
   td.co{font-weight:600}
   .pill{display:inline-block;min-width:34px;padding:2px 8px;border-radius:20px;color:#fff;font-weight:700;font-size:12px}
   a{color:var(--accent)}
+
+  /* SEO content + FAQ + footer */
+  .content{line-height:1.65}
+  .content h2{font-size:19px;font-weight:700;letter-spacing:-.01em;margin:4px 0 10px}
+  .content p{color:var(--muted);margin:0 0 12px;font-size:14px}
+  .content p b{color:var(--ink);font-weight:600}
+  .faq{margin-top:4px}
+  .faq details{border-top:1px solid var(--line);padding:12px 2px}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-weight:650;font-size:14.5px;color:var(--ink);list-style:none;display:flex;justify-content:space-between;gap:12px}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--muted);font-weight:400}
+  .faq details[open] summary::after{content:"–"}
+  .faq details p{margin:9px 0 2px}
+  .co-index{margin-top:20px;border-top:1px solid var(--line);padding-top:14px}
+  .co-index summary{cursor:pointer;font-weight:650;color:var(--ink);font-size:14px;list-style:none}
+  .co-index summary::-webkit-details-marker{display:none}
+  .co-index summary::before{content:"▸ ";color:var(--muted)}
+  .co-index[open] summary::before{content:"▾ "}
+  .co-index .cols{columns:3;column-gap:26px;margin-top:14px}
+  @media(max-width:640px){.co-index .cols{columns:2}}
+  .co-index .cols span{display:block;color:var(--muted);break-inside:avoid;padding:2px 0;font-size:12.5px}
+  .co-index .cols b{color:var(--ink);font-weight:600}
+  footer.site{color:var(--muted);font-size:12.5px;text-align:center;padding:30px 12px 0;line-height:1.8}
+  footer.site a{color:var(--muted);text-decoration:underline;text-underline-offset:2px}
+  footer.site a:hover{color:var(--accent)}
+  /* cookie consent banner */
+  .cc-banner{position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--bg);border-top:1px solid var(--line);
+    box-shadow:0 -4px 24px rgba(20,24,31,.12);padding:14px 18px;display:flex;gap:14px;align-items:center;justify-content:center;flex-wrap:wrap}
+  .cc-banner p{margin:0;font-size:13px;color:var(--muted);max-width:640px}
+  .cc-banner a{color:var(--accent)}
+  .cc-btns{display:flex;gap:8px;flex-shrink:0}
+  .cc-btn{border:1px solid var(--line);background:var(--panel2);color:var(--ink);font:600 13px/1 inherit;padding:9px 16px;border-radius:9px;cursor:pointer}
+  .cc-btn.accept{background:var(--accent);border-color:var(--accent);color:#fff}
+  .cc-btn:hover{border-color:var(--accent)}
 </style>
 </head>
 <body>
@@ -264,6 +311,496 @@
     </div>
   </div>
 
+
+  <section class="card content">
+    <h2>How much the S&amp;P 500 makes — and how much reaches its workers</h2>
+    <p>Fair500 maps the profitability and pay fairness of every company in the S&amp;P 500 — from <b>Apple, Microsoft, Amazon, Alphabet (Google), Nvidia</b> and <b>Meta</b> to <b>Walmart, JPMorgan Chase, ExxonMobil, Coca-Cola, McDonald's</b> and <b>Disney</b>. For each of 462 companies it plots how much profit the business earns against how much of that money actually reaches the people who do the work.</p>
+    <p>The picture is built from two figures every large company must disclose: the <b>CEO-to-worker pay ratio</b> — how many times the median employee's pay the chief executive takes home — and <b>median worker pay</b> measured against the profit each employee generates. Together they turn the abstract debate over executive compensation and income inequality into a concrete, company-by-company comparison, sourced entirely from SEC filings.</p>
+    <p>Companies with large hourly and part-time workforces — retailers and restaurant chains such as <b>Starbucks, Target, Costco</b> and <b>McDonald's</b> — often show the widest pay ratios, while capital-intensive and high-margin businesses concentrate profit among far fewer employees. Explore the map above, or read the details below.</p>
+
+    <h2 style="margin-top:22px">Frequently asked questions</h2>
+    <div class="faq">
+      <details><summary>What is the CEO-to-worker pay ratio?</summary><p>Since 2018, every U.S. public company has had to disclose the ratio of its CEO&#x27;s total annual compensation to that of its median employee, under Section 953(b) of the Dodd-Frank Act. A ratio of 300-to-1 means the chief executive is paid about 300 times what a typical worker at that company earns. Fair500 reads this figure straight from each company&#x27;s annual proxy statement (SEC form DEF 14A).</p></details>
+      <details><summary>How does Fair500 measure pay fairness?</summary><p>Each company receives a 0–100 fairness score built from two equally weighted lenses: the CEO-to-worker pay gap, and median worker pay relative to the profit each employee helps generate. You can view either lens on its own or combined. A higher score means more of the company&#x27;s financial success reaches the people who work there.</p></details>
+      <details><summary>Which S&amp;P 500 companies have the widest CEO-to-worker pay gaps?</summary><p>The widest ratios tend to belong to companies that employ large numbers of part-time and hourly staff — big retailers, restaurant and hospitality chains such as Starbucks, Coca-Cola, TJX and McDonald&#x27;s — where a modest median wage sits beneath a large executive pay package. Switch to the &#x27;CEO Pay Gap&#x27; view and sort the table to see the current ranking.</p></details>
+      <details><summary>Where does Fair500&#x27;s data come from?</summary><p>Every figure is pulled from primary SEC filings. Profit and revenue come from EDGAR XBRL financial data for the last three fiscal years; the pay ratio, median worker pay and employee headcount come from each company&#x27;s DEF 14A proxy statement and 10-K annual report. Nothing is estimated where a company discloses the real number.</p></details>
+      <details><summary>How often is the data updated?</summary><p>The dataset is rebuilt as companies file their annual proxy statements, which cluster in the spring each year. Each company&#x27;s numbers reflect its three most recent fiscal years. Last updated July 2026.</p></details>
+      <details><summary>Is Fair500 free to use?</summary><p>Yes. Fair500 is free and supported by advertising. It draws on public government data and is not affiliated with the SEC or with any company listed.</p></details>
+    </div>
+
+    <details class="co-index">
+      <summary>All 462 companies covered (A–Z by ticker)</summary>
+      <div class="cols">
+<span><b>A</b> Agilent Technologies</span>
+<span><b>AAPL</b> Apple Inc.</span>
+<span><b>ABBV</b> AbbVie</span>
+<span><b>ABNB</b> Airbnb</span>
+<span><b>ABT</b> Abbott Laboratories</span>
+<span><b>ACGL</b> Arch Capital Group</span>
+<span><b>ACN</b> Accenture</span>
+<span><b>ADBE</b> Adobe Inc.</span>
+<span><b>ADI</b> Analog Devices</span>
+<span><b>ADM</b> Archer Daniels Midland</span>
+<span><b>ADP</b> Automatic Data Processing</span>
+<span><b>ADSK</b> Autodesk</span>
+<span><b>AEE</b> Ameren</span>
+<span><b>AEP</b> American Electric Power</span>
+<span><b>AES</b> AES Corporation</span>
+<span><b>AFL</b> Aflac</span>
+<span><b>AIG</b> American International Group</span>
+<span><b>AIZ</b> Assurant</span>
+<span><b>AJG</b> Arthur J. Gallagher &amp; Co.</span>
+<span><b>AKAM</b> Akamai Technologies</span>
+<span><b>ALGN</b> Align Technology</span>
+<span><b>ALL</b> Allstate</span>
+<span><b>ALLE</b> Allegion</span>
+<span><b>AMAT</b> Applied Materials</span>
+<span><b>AMCR</b> Amcor</span>
+<span><b>AMD</b> Advanced Micro Devices</span>
+<span><b>AME</b> Ametek</span>
+<span><b>AMGN</b> Amgen</span>
+<span><b>AMP</b> Ameriprise Financial</span>
+<span><b>AMT</b> American Tower</span>
+<span><b>AMZN</b> AMAZON COM INC</span>
+<span><b>ANET</b> Arista Networks</span>
+<span><b>AON</b> Aon plc</span>
+<span><b>AOS</b> A. O. Smith</span>
+<span><b>APD</b> Air Products</span>
+<span><b>APH</b> Amphenol</span>
+<span><b>APO</b> Apollo Global Management</span>
+<span><b>APP</b> AppLovin</span>
+<span><b>APTV</b> Aptiv</span>
+<span><b>ARES</b> Ares Management</span>
+<span><b>ATO</b> Atmos Energy</span>
+<span><b>AVB</b> AvalonBay Communities</span>
+<span><b>AVGO</b> Broadcom</span>
+<span><b>AVY</b> Avery Dennison</span>
+<span><b>AWK</b> American Water Works</span>
+<span><b>AXP</b> American Express</span>
+<span><b>AZO</b> AutoZone</span>
+<span><b>BAC</b> Bank of America</span>
+<span><b>BALL</b> Ball Corporation</span>
+<span><b>BAX</b> Baxter International</span>
+<span><b>BBY</b> Best Buy</span>
+<span><b>BDX</b> Becton Dickinson</span>
+<span><b>BEN</b> Franklin Resources</span>
+<span><b>BF.B</b> Brown–Forman</span>
+<span><b>BG</b> Bunge Global</span>
+<span><b>BIIB</b> Biogen</span>
+<span><b>BKNG</b> Booking Holdings</span>
+<span><b>BKR</b> Baker Hughes</span>
+<span><b>BLDR</b> Builders FirstSource</span>
+<span><b>BLK</b> BlackRock</span>
+<span><b>BMY</b> Bristol Myers Squibb</span>
+<span><b>BNY</b> BNY Mellon</span>
+<span><b>BR</b> Broadridge Financial Solutions</span>
+<span><b>BRK.B</b> Berkshire Hathaway</span>
+<span><b>BRO</b> Brown &amp; Brown</span>
+<span><b>BSX</b> Boston Scientific</span>
+<span><b>BXP</b> BXP, Inc.</span>
+<span><b>C</b> Citigroup</span>
+<span><b>CAH</b> Cardinal Health</span>
+<span><b>CARR</b> Carrier Global</span>
+<span><b>CASY</b> Casey&#x27;s</span>
+<span><b>CAT</b> Caterpillar Inc.</span>
+<span><b>CB</b> Chubb Limited</span>
+<span><b>CBOE</b> Cboe Global Markets</span>
+<span><b>CBRE</b> CBRE Group</span>
+<span><b>CCL</b> Carnival Corporation</span>
+<span><b>CDNS</b> Cadence Design Systems</span>
+<span><b>CDW</b> CDW Corporation</span>
+<span><b>CEG</b> Constellation Energy</span>
+<span><b>CF</b> CF Industries</span>
+<span><b>CFG</b> Citizens Financial Group</span>
+<span><b>CHD</b> Church &amp; Dwight</span>
+<span><b>CHRW</b> C.H. Robinson</span>
+<span><b>CHTR</b> Charter Communications</span>
+<span><b>CI</b> Cigna</span>
+<span><b>CIEN</b> Ciena</span>
+<span><b>CINF</b> Cincinnati Financial</span>
+<span><b>CL</b> Colgate-Palmolive</span>
+<span><b>CLX</b> Clorox</span>
+<span><b>CMCSA</b> Comcast</span>
+<span><b>CME</b> CME Group</span>
+<span><b>CMG</b> Chipotle Mexican Grill</span>
+<span><b>CMI</b> Cummins</span>
+<span><b>CMS</b> CMS Energy</span>
+<span><b>CNP</b> CenterPoint Energy</span>
+<span><b>COF</b> Capital One</span>
+<span><b>COIN</b> Coinbase</span>
+<span><b>COO</b> Cooper Companies (The)</span>
+<span><b>COP</b> ConocoPhillips</span>
+<span><b>COR</b> Cencora</span>
+<span><b>COST</b> COSTCO WHOLESALE CORP /NEW</span>
+<span><b>CPAY</b> Corpay</span>
+<span><b>CPRT</b> Copart</span>
+<span><b>CPT</b> Camden Property Trust</span>
+<span><b>CRH</b> CRH plc</span>
+<span><b>CRL</b> Charles River Laboratories</span>
+<span><b>CRM</b> Salesforce</span>
+<span><b>CSCO</b> Cisco</span>
+<span><b>CSGP</b> CoStar Group</span>
+<span><b>CSX</b> CSX Corporation</span>
+<span><b>CTAS</b> Cintas</span>
+<span><b>CTSH</b> Cognizant</span>
+<span><b>CTVA</b> Corteva</span>
+<span><b>CVNA</b> Carvana</span>
+<span><b>CVS</b> CVS Health</span>
+<span><b>CVX</b> Chevron Corporation</span>
+<span><b>D</b> Dominion Energy</span>
+<span><b>DAL</b> Delta Air Lines</span>
+<span><b>DASH</b> DoorDash</span>
+<span><b>DD</b> DuPont</span>
+<span><b>DDOG</b> Datadog</span>
+<span><b>DE</b> Deere &amp; Company</span>
+<span><b>DECK</b> Deckers Brands</span>
+<span><b>DELL</b> Dell Technologies</span>
+<span><b>DG</b> Dollar General</span>
+<span><b>DGX</b> Quest Diagnostics</span>
+<span><b>DHI</b> D. R. Horton</span>
+<span><b>DHR</b> Danaher Corporation</span>
+<span><b>DIS</b> Walt Disney Co</span>
+<span><b>DLR</b> Digital Realty</span>
+<span><b>DOC</b> Healthpeak Properties</span>
+<span><b>DOV</b> Dover Corporation</span>
+<span><b>DPZ</b> Domino&#x27;s</span>
+<span><b>DRI</b> Darden Restaurants</span>
+<span><b>DTE</b> DTE Energy</span>
+<span><b>DUK</b> Duke Energy</span>
+<span><b>DVA</b> DaVita</span>
+<span><b>DVN</b> Devon Energy</span>
+<span><b>DXCM</b> Dexcom</span>
+<span><b>EA</b> Electronic Arts</span>
+<span><b>EBAY</b> eBay Inc.</span>
+<span><b>ECL</b> Ecolab</span>
+<span><b>ED</b> Consolidated Edison</span>
+<span><b>EFX</b> Equifax</span>
+<span><b>EG</b> Everest Group</span>
+<span><b>EIX</b> Edison International</span>
+<span><b>EL</b> Estée Lauder Companies (The)</span>
+<span><b>ELV</b> Elevance Health</span>
+<span><b>EME</b> Emcor</span>
+<span><b>EMR</b> Emerson Electric</span>
+<span><b>EOG</b> EOG Resources</span>
+<span><b>EQIX</b> Equinix</span>
+<span><b>EQR</b> Equity Residential</span>
+<span><b>EQT</b> EQT Corporation</span>
+<span><b>ES</b> Eversource Energy</span>
+<span><b>ESS</b> Essex Property Trust</span>
+<span><b>ETN</b> Eaton Corporation</span>
+<span><b>ETR</b> Entergy</span>
+<span><b>EVRG</b> Evergy</span>
+<span><b>EW</b> Edwards Lifesciences</span>
+<span><b>EXC</b> Exelon</span>
+<span><b>EXE</b> Expand Energy</span>
+<span><b>EXPD</b> Expeditors International</span>
+<span><b>EXPE</b> Expedia Group</span>
+<span><b>EXR</b> Extra Space Storage</span>
+<span><b>F</b> Ford Motor Company</span>
+<span><b>FANG</b> Diamondback Energy</span>
+<span><b>FAST</b> Fastenal</span>
+<span><b>FCX</b> Freeport-McMoRan</span>
+<span><b>FDS</b> FactSet</span>
+<span><b>FDX</b> FedEx</span>
+<span><b>FE</b> FirstEnergy</span>
+<span><b>FFIV</b> F5, Inc.</span>
+<span><b>FICO</b> Fair Isaac</span>
+<span><b>FISV</b> Fiserv</span>
+<span><b>FITB</b> Fifth Third Bancorp</span>
+<span><b>FIX</b> Comfort Systems USA</span>
+<span><b>FLEX</b> Flex Ltd.</span>
+<span><b>FOXA</b> Fox Corporation (Class A)</span>
+<span><b>FRT</b> Federal Realty Investment Trust</span>
+<span><b>FSLR</b> First Solar</span>
+<span><b>FTNT</b> Fortinet</span>
+<span><b>FTV</b> Fortive</span>
+<span><b>GD</b> General Dynamics</span>
+<span><b>GDDY</b> GoDaddy</span>
+<span><b>GE</b> GE Aerospace</span>
+<span><b>GEHC</b> GE HealthCare</span>
+<span><b>GEN</b> Gen Digital</span>
+<span><b>GEV</b> GE Vernova</span>
+<span><b>GILD</b> Gilead Sciences</span>
+<span><b>GIS</b> General Mills</span>
+<span><b>GL</b> Globe Life</span>
+<span><b>GLW</b> Corning Inc.</span>
+<span><b>GM</b> General Motors</span>
+<span><b>GNRC</b> Generac</span>
+<span><b>GOOGL</b> Alphabet Inc.</span>
+<span><b>GPC</b> Genuine Parts Company</span>
+<span><b>GPN</b> Global Payments</span>
+<span><b>GRMN</b> Garmin</span>
+<span><b>GS</b> Goldman Sachs</span>
+<span><b>GWW</b> W. W. Grainger</span>
+<span><b>HAL</b> Halliburton</span>
+<span><b>HBAN</b> Huntington Bancshares</span>
+<span><b>HCA</b> HCA Healthcare</span>
+<span><b>HD</b> HOME DEPOT, INC.</span>
+<span><b>HIG</b> Hartford (The)</span>
+<span><b>HII</b> Huntington Ingalls Industries</span>
+<span><b>HLT</b> Hilton Worldwide</span>
+<span><b>HON</b> Honeywell Technologies</span>
+<span><b>HOOD</b> Robinhood Markets</span>
+<span><b>HPE</b> Hewlett Packard Enterprise</span>
+<span><b>HPQ</b> HP Inc.</span>
+<span><b>HRL</b> Hormel Foods</span>
+<span><b>HSIC</b> Henry Schein</span>
+<span><b>HST</b> Host Hotels &amp; Resorts</span>
+<span><b>HSY</b> Hershey Company (The)</span>
+<span><b>HUBB</b> Hubbell Incorporated</span>
+<span><b>HUM</b> Humana</span>
+<span><b>HWM</b> Howmet Aerospace</span>
+<span><b>IBKR</b> Interactive Brokers</span>
+<span><b>IBM</b> IBM</span>
+<span><b>ICE</b> Intercontinental Exchange</span>
+<span><b>IDXX</b> Idexx Laboratories</span>
+<span><b>IEX</b> IDEX Corporation</span>
+<span><b>INCY</b> Incyte</span>
+<span><b>INTU</b> Intuit</span>
+<span><b>INVH</b> Invitation Homes</span>
+<span><b>IQV</b> IQVIA</span>
+<span><b>IR</b> Ingersoll Rand</span>
+<span><b>IRM</b> Iron Mountain</span>
+<span><b>ISRG</b> Intuitive Surgical</span>
+<span><b>IT</b> Gartner</span>
+<span><b>ITW</b> Illinois Tool Works</span>
+<span><b>IVZ</b> Invesco</span>
+<span><b>J</b> Jacobs Solutions</span>
+<span><b>JBHT</b> J.B. Hunt</span>
+<span><b>JBL</b> Jabil</span>
+<span><b>JCI</b> Johnson Controls</span>
+<span><b>JKHY</b> Jack Henry &amp; Associates</span>
+<span><b>JNJ</b> JOHNSON &amp; JOHNSON</span>
+<span><b>JPM</b> JPMORGAN CHASE &amp; CO</span>
+<span><b>KDP</b> Keurig Dr Pepper</span>
+<span><b>KEY</b> KeyCorp</span>
+<span><b>KEYS</b> Keysight Technologies</span>
+<span><b>KIM</b> Kimco Realty</span>
+<span><b>KLAC</b> KLA Corporation</span>
+<span><b>KMB</b> Kimberly-Clark</span>
+<span><b>KMI</b> Kinder Morgan</span>
+<span><b>KO</b> COCA COLA CO</span>
+<span><b>KR</b> Kroger</span>
+<span><b>KVUE</b> Kenvue</span>
+<span><b>L</b> Loews Corporation</span>
+<span><b>LDOS</b> Leidos</span>
+<span><b>LEN</b> Lennar</span>
+<span><b>LH</b> Labcorp</span>
+<span><b>LHX</b> L3Harris</span>
+<span><b>LII</b> Lennox International</span>
+<span><b>LIN</b> Linde plc</span>
+<span><b>LLY</b> Lilly (Eli)</span>
+<span><b>LMT</b> Lockheed Martin</span>
+<span><b>LNT</b> Alliant Energy</span>
+<span><b>LOW</b> Lowe&#x27;s</span>
+<span><b>LRCX</b> Lam Research</span>
+<span><b>LULU</b> Lululemon Athletica</span>
+<span><b>LUV</b> Southwest Airlines</span>
+<span><b>LVS</b> Las Vegas Sands</span>
+<span><b>LYB</b> LyondellBasell</span>
+<span><b>LYV</b> Live Nation Entertainment</span>
+<span><b>MA</b> Mastercard</span>
+<span><b>MAA</b> Mid-America Apartment Communities</span>
+<span><b>MAR</b> Marriott International</span>
+<span><b>MAS</b> Masco</span>
+<span><b>MCD</b> MCDONALDS CORP</span>
+<span><b>MCHP</b> Microchip Technology</span>
+<span><b>MCK</b> McKesson Corporation</span>
+<span><b>MCO</b> Moody&#x27;s Corporation</span>
+<span><b>MDLZ</b> Mondelez International</span>
+<span><b>MDT</b> Medtronic</span>
+<span><b>MET</b> MetLife</span>
+<span><b>META</b> Meta Platforms</span>
+<span><b>MGM</b> MGM Resorts</span>
+<span><b>MKC</b> McCormick &amp; Company</span>
+<span><b>MLM</b> Martin Marietta Materials</span>
+<span><b>MMM</b> 3M</span>
+<span><b>MNST</b> Monster Beverage</span>
+<span><b>MO</b> Altria</span>
+<span><b>MOS</b> Mosaic Company (The)</span>
+<span><b>MPC</b> Marathon Petroleum</span>
+<span><b>MPWR</b> Monolithic Power Systems</span>
+<span><b>MRK</b> Merck &amp; Co.</span>
+<span><b>MRSH</b> Marsh McLennan</span>
+<span><b>MRVL</b> Marvell Technology</span>
+<span><b>MS</b> Morgan Stanley</span>
+<span><b>MSCI</b> MSCI Inc.</span>
+<span><b>MSFT</b> MICROSOFT CORP</span>
+<span><b>MSI</b> Motorola Solutions</span>
+<span><b>MTB</b> M&amp;T Bank</span>
+<span><b>MTD</b> Mettler Toledo</span>
+<span><b>MU</b> Micron Technology</span>
+<span><b>NCLH</b> Norwegian Cruise Line Holdings</span>
+<span><b>NDAQ</b> Nasdaq, Inc.</span>
+<span><b>NDSN</b> Nordson Corporation</span>
+<span><b>NEE</b> NextEra Energy</span>
+<span><b>NEM</b> Newmont</span>
+<span><b>NFLX</b> Netflix</span>
+<span><b>NI</b> NiSource</span>
+<span><b>NKE</b> NIKE, Inc.</span>
+<span><b>NOC</b> Northrop Grumman</span>
+<span><b>NOW</b> ServiceNow</span>
+<span><b>NRG</b> NRG Energy</span>
+<span><b>NSC</b> Norfolk Southern</span>
+<span><b>NTAP</b> NetApp</span>
+<span><b>NTRS</b> Northern Trust</span>
+<span><b>NUE</b> Nucor</span>
+<span><b>NVDA</b> NVIDIA CORP</span>
+<span><b>NVR</b> NVR, Inc.</span>
+<span><b>NWSA</b> News Corp (Class A)</span>
+<span><b>NXPI</b> NXP Semiconductors</span>
+<span><b>O</b> Realty Income</span>
+<span><b>ODFL</b> Old Dominion</span>
+<span><b>OKE</b> Oneok</span>
+<span><b>OMC</b> Omnicom Group</span>
+<span><b>ON</b> ON Semiconductor</span>
+<span><b>ORCL</b> Oracle Corporation</span>
+<span><b>ORLY</b> O’Reilly Automotive</span>
+<span><b>OTIS</b> Otis Worldwide</span>
+<span><b>OXY</b> Occidental Petroleum</span>
+<span><b>PANW</b> Palo Alto Networks</span>
+<span><b>PAYX</b> Paychex</span>
+<span><b>PCAR</b> Paccar</span>
+<span><b>PCG</b> PG&amp;E Corporation</span>
+<span><b>PEG</b> Public Service Enterprise Group</span>
+<span><b>PEP</b> PepsiCo</span>
+<span><b>PFE</b> PFIZER INC</span>
+<span><b>PFG</b> Principal Financial Group</span>
+<span><b>PG</b> PROCTER &amp; GAMBLE Co</span>
+<span><b>PGR</b> Progressive Corporation</span>
+<span><b>PH</b> Parker Hannifin</span>
+<span><b>PHM</b> PulteGroup</span>
+<span><b>PKG</b> Packaging Corporation of America</span>
+<span><b>PLD</b> Prologis</span>
+<span><b>PLTR</b> Palantir Technologies</span>
+<span><b>PM</b> Philip Morris International</span>
+<span><b>PNC</b> PNC Financial Services</span>
+<span><b>PNR</b> Pentair</span>
+<span><b>PNW</b> Pinnacle West Capital</span>
+<span><b>PODD</b> Insulet Corporation</span>
+<span><b>PPG</b> PPG Industries</span>
+<span><b>PPL</b> PPL Corporation</span>
+<span><b>PRU</b> Prudential Financial</span>
+<span><b>PSA</b> Public Storage</span>
+<span><b>PSX</b> Phillips 66</span>
+<span><b>PTC</b> PTC Inc.</span>
+<span><b>PWR</b> Quanta Services</span>
+<span><b>PYPL</b> PayPal</span>
+<span><b>QCOM</b> Qualcomm</span>
+<span><b>RCL</b> Royal Caribbean Group</span>
+<span><b>REG</b> Regency Centers</span>
+<span><b>REGN</b> Regeneron Pharmaceuticals</span>
+<span><b>RF</b> Regions Financial Corporation</span>
+<span><b>RJF</b> Raymond James Financial</span>
+<span><b>RL</b> Ralph Lauren Corporation</span>
+<span><b>RMD</b> ResMed</span>
+<span><b>ROK</b> Rockwell Automation</span>
+<span><b>ROL</b> Rollins, Inc.</span>
+<span><b>ROP</b> Roper Technologies</span>
+<span><b>ROST</b> Ross Stores</span>
+<span><b>RSG</b> Republic Services</span>
+<span><b>RTX</b> RTX Corporation</span>
+<span><b>RVTY</b> Revvity</span>
+<span><b>SBAC</b> SBA Communications</span>
+<span><b>SBUX</b> STARBUCKS CORP</span>
+<span><b>SCHW</b> Charles Schwab Corporation</span>
+<span><b>SHW</b> Sherwin-Williams</span>
+<span><b>SLB</b> Schlumberger</span>
+<span><b>SNA</b> Snap-on</span>
+<span><b>SNPS</b> Synopsys</span>
+<span><b>SO</b> Southern Company</span>
+<span><b>SOLV</b> Solventum</span>
+<span><b>SPG</b> Simon Property Group</span>
+<span><b>SPGI</b> S&amp;P Global</span>
+<span><b>SRE</b> Sempra</span>
+<span><b>STE</b> Steris</span>
+<span><b>STLD</b> Steel Dynamics</span>
+<span><b>STT</b> State Street Corporation</span>
+<span><b>STX</b> Seagate Technology</span>
+<span><b>STZ</b> Constellation Brands</span>
+<span><b>SW</b> Smurfit Westrock</span>
+<span><b>SWK</b> Stanley Black &amp; Decker</span>
+<span><b>SWKS</b> Skyworks Solutions</span>
+<span><b>SYK</b> Stryker Corporation</span>
+<span><b>SYY</b> Sysco</span>
+<span><b>T</b> AT&amp;T</span>
+<span><b>TDG</b> TransDigm Group</span>
+<span><b>TDY</b> Teledyne Technologies</span>
+<span><b>TECH</b> Bio-Techne</span>
+<span><b>TEL</b> TE Connectivity</span>
+<span><b>TER</b> Teradyne</span>
+<span><b>TGT</b> TARGET CORP</span>
+<span><b>TJX</b> TJX Companies</span>
+<span><b>TKO</b> TKO Group Holdings</span>
+<span><b>TMO</b> Thermo Fisher Scientific</span>
+<span><b>TMUS</b> T-Mobile US</span>
+<span><b>TPL</b> Texas Pacific Land Corporation</span>
+<span><b>TPR</b> Tapestry, Inc.</span>
+<span><b>TRGP</b> Targa Resources</span>
+<span><b>TRMB</b> Trimble Inc.</span>
+<span><b>TROW</b> T. Rowe Price</span>
+<span><b>TRV</b> Travelers Companies (The)</span>
+<span><b>TSCO</b> Tractor Supply</span>
+<span><b>TSLA</b> Tesla, Inc.</span>
+<span><b>TSN</b> Tyson Foods</span>
+<span><b>TT</b> Trane Technologies</span>
+<span><b>TTD</b> Trade Desk (The)</span>
+<span><b>TXN</b> Texas Instruments</span>
+<span><b>TXT</b> Textron</span>
+<span><b>TYL</b> Tyler Technologies</span>
+<span><b>UAL</b> United Airlines Holdings</span>
+<span><b>UBER</b> Uber</span>
+<span><b>UDR</b> UDR, Inc.</span>
+<span><b>UHS</b> Universal Health Services</span>
+<span><b>ULTA</b> Ulta Beauty</span>
+<span><b>UNH</b> UnitedHealth Group</span>
+<span><b>UNP</b> Union Pacific Corporation</span>
+<span><b>UPS</b> United Parcel Service</span>
+<span><b>URI</b> United Rentals</span>
+<span><b>USB</b> U.S. Bancorp</span>
+<span><b>V</b> VISA INC.</span>
+<span><b>VEEV</b> Veeva Systems</span>
+<span><b>VICI</b> Vici Properties</span>
+<span><b>VLO</b> Valero Energy</span>
+<span><b>VLTO</b> Veralto</span>
+<span><b>VMC</b> Vulcan Materials Company</span>
+<span><b>VRSK</b> Verisk Analytics</span>
+<span><b>VRSN</b> Verisign</span>
+<span><b>VRT</b> Vertiv</span>
+<span><b>VRTX</b> Vertex Pharmaceuticals</span>
+<span><b>VST</b> Vistra Corp.</span>
+<span><b>VTR</b> Ventas</span>
+<span><b>VZ</b> Verizon</span>
+<span><b>WAB</b> Wabtec</span>
+<span><b>WAT</b> Waters Corporation</span>
+<span><b>WDAY</b> Workday, Inc.</span>
+<span><b>WEC</b> WEC Energy Group</span>
+<span><b>WELL</b> Welltower</span>
+<span><b>WFC</b> Wells Fargo</span>
+<span><b>WM</b> Waste Management</span>
+<span><b>WMB</b> Williams Companies</span>
+<span><b>WMT</b> Walmart Inc.</span>
+<span><b>WRB</b> W. R. Berkley Corporation</span>
+<span><b>WSM</b> Williams-Sonoma, Inc.</span>
+<span><b>WST</b> West Pharmaceutical Services</span>
+<span><b>WTW</b> Willis Towers Watson</span>
+<span><b>WY</b> Weyerhaeuser</span>
+<span><b>WYNN</b> Wynn Resorts</span>
+<span><b>XEL</b> Xcel Energy</span>
+<span><b>XOM</b> EXXON MOBIL CORP</span>
+<span><b>XYL</b> Xylem Inc.</span>
+<span><b>YUM</b> Yum! Brands</span>
+<span><b>ZBH</b> Zimmer Biomet</span>
+<span><b>ZBRA</b> Zebra Technologies</span>
+<span><b>ZTS</b> Zoetis</span>
+      </div>
+    </details>
+  </section>
+
+  <footer class="site">
+    <p><b>Fair500</b> · Built from public <a href="https://www.sec.gov/edgar" rel="nofollow">SEC EDGAR</a> filings · CEO pay-ratio and median-worker-pay data from DEF 14A proxy statements.</p>
+    <p><a href="/privacy.html">Privacy Policy</a> · <a href="https://github.com/BlakeBalbirnie/fair500" rel="nofollow">Source on GitHub</a> · Data last updated July 2026 · Not affiliated with the U.S. Securities and Exchange Commission or any company listed.</p>
+  </footer>
 </div>
 
 <div class="tip" id="tip"></div>
@@ -440,6 +977,87 @@ tbtn.addEventListener('click',()=>applyTheme(effective()==='dark'?'light':'dark'
 
 refresh();
 addEventListener('resize',()=>{ if(tip) tip.style.opacity=0; });
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "What is the CEO-to-worker pay ratio?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Since 2018, every U.S. public company has had to disclose the ratio of its CEO's total annual compensation to that of its median employee, under Section 953(b) of the Dodd-Frank Act. A ratio of 300-to-1 means the chief executive is paid about 300 times what a typical worker at that company earns. Fair500 reads this figure straight from each company's annual proxy statement (SEC form DEF 14A)."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How does Fair500 measure pay fairness?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Each company receives a 0\u2013100 fairness score built from two equally weighted lenses: the CEO-to-worker pay gap, and median worker pay relative to the profit each employee helps generate. You can view either lens on its own or combined. A higher score means more of the company's financial success reaches the people who work there."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Which S&P 500 companies have the widest CEO-to-worker pay gaps?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "The widest ratios tend to belong to companies that employ large numbers of part-time and hourly staff \u2014 big retailers, restaurant and hospitality chains such as Starbucks, Coca-Cola, TJX and McDonald's \u2014 where a modest median wage sits beneath a large executive pay package. Switch to the 'CEO Pay Gap' view and sort the table to see the current ranking."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Where does Fair500's data come from?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Every figure is pulled from primary SEC filings. Profit and revenue come from EDGAR XBRL financial data for the last three fiscal years; the pay ratio, median worker pay and employee headcount come from each company's DEF 14A proxy statement and 10-K annual report. Nothing is estimated where a company discloses the real number."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How often is the data updated?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "The dataset is rebuilt as companies file their annual proxy statements, which cluster in the spring each year. Each company's numbers reflect its three most recent fiscal years. Last updated July 2026."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is Fair500 free to use?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Fair500 is free and supported by advertising. It draws on public government data and is not affiliated with the SEC or with any company listed."
+   }
+  }
+ ]
+}
+</script>
+<!-- Cookie consent banner -->
+<div class="cc-banner" id="ccBanner" hidden>
+  <p>Fair500 uses cookies to power ads and understand traffic. You can accept personalized ads, or reject them and still see the site with non-personalized ads. See our <a href="/privacy.html">Privacy&nbsp;Policy</a>.</p>
+  <div class="cc-btns">
+    <button class="cc-btn" id="ccReject" type="button">Reject</button>
+    <button class="cc-btn accept" id="ccAccept" type="button">Accept</button>
+  </div>
+</div>
+<script>
+(function(){
+  var KEY='fair500-consent', b=document.getElementById('ccBanner');
+  var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
+  if(!saved){ b.hidden=false; }
+  function choose(v){
+    try{localStorage.setItem(KEY,v);}catch(e){}
+    if(typeof gtag==='function'){
+      var g = v==='granted' ? 'granted' : 'denied';
+      gtag('consent','update',{ad_storage:g,ad_user_data:g,ad_personalization:g,analytics_storage:g});
+    }
+    b.hidden=true;
+  }
+  document.getElementById('ccAccept').addEventListener('click',function(){choose('granted');});
+  document.getElementById('ccReject').addEventListener('click',function(){choose('denied');});
+})();
 </script>
 </body>
 </html>

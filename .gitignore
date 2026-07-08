@@ -16,3 +16,8 @@ data/snippets*.json
 
 # Local Claude Code / editor config
 .claude/
+
+# SSL cert bundles / private keys — NEVER commit (GitHub Pages manages its own cert)
+fair500.com-ssl-bundle/
+*.pem
+*.key
