@@ -1,0 +1,18 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Pipeline intermediate outputs (regenerated on demand)
+data/audit_flags.json
+data/reaudit_bad.json
+data/reaudit_unverifiable.json
+data/verify48_results.json
+data/snippets*.json
+*.log
+
+# Local Claude Code / editor config
+.claude/
