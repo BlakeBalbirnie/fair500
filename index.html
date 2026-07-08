@@ -62,19 +62,8 @@
   ]
 }
 </script>
-<!-- Consent Mode v2 defaults (must run before AdSense) -->
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  var _cc = null; try{ _cc = localStorage.getItem('fair500-consent'); }catch(e){}
-  gtag('consent', 'default', {
-    ad_storage: _cc==='granted' ? 'granted' : 'denied',
-    ad_user_data: _cc==='granted' ? 'granted' : 'denied',
-    ad_personalization: _cc==='granted' ? 'granted' : 'denied',
-    analytics_storage: _cc==='granted' ? 'granted' : 'denied'
-  });
-</script>
-<!-- Google AdSense (Auto Ads) -->
+<!-- Google AdSense (Auto Ads). Consent (GDPR/US) is handled by Google's
+     certified CMP, configured in AdSense > Privacy & messaging. -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7286721892267178" crossorigin="anonymous"></script>
 <style>
   :root{
@@ -204,16 +193,6 @@
   footer.site{color:var(--muted);font-size:12.5px;text-align:center;padding:30px 12px 0;line-height:1.8}
   footer.site a{color:var(--muted);text-decoration:underline;text-underline-offset:2px}
   footer.site a:hover{color:var(--accent)}
-  /* cookie consent banner */
-  .cc-banner{position:fixed;left:0;right:0;bottom:0;z-index:2147483000;background:var(--bg);border-top:1px solid var(--line);
-    box-shadow:0 -4px 24px rgba(20,24,31,.12);padding:14px 18px;display:flex;gap:14px;align-items:center;justify-content:center;flex-wrap:wrap}
-  .cc-banner[hidden]{display:none}
-  .cc-banner p{margin:0;font-size:13px;color:var(--muted);max-width:640px}
-  .cc-banner a{color:var(--accent)}
-  .cc-btns{display:flex;gap:8px;flex-shrink:0}
-  .cc-btn{border:1px solid var(--line);background:var(--panel2);color:var(--ink);font:600 13px/1 inherit;padding:9px 16px;border-radius:9px;cursor:pointer}
-  .cc-btn.accept{background:var(--accent);border-color:var(--accent);color:#fff}
-  .cc-btn:hover{border-color:var(--accent)}
 </style>
 </head>
 <body>
@@ -1035,31 +1014,6 @@ addEventListener('resize',()=>{ if(tip) tip.style.opacity=0; });
   }
  ]
 }
-</script>
-<!-- Cookie consent banner -->
-<div class="cc-banner" id="ccBanner" hidden>
-  <p>Fair500 uses cookies to power ads and understand traffic. You can accept personalized ads, or reject them and still see the site with non-personalized ads. See our <a href="/privacy.html">Privacy&nbsp;Policy</a>.</p>
-  <div class="cc-btns">
-    <button class="cc-btn" id="ccReject" type="button">Reject</button>
-    <button class="cc-btn accept" id="ccAccept" type="button">Accept</button>
-  </div>
-</div>
-<script>
-(function(){
-  var KEY='fair500-consent', b=document.getElementById('ccBanner');
-  var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
-  if(!saved){ b.hidden=false; }
-  function choose(v){
-    try{localStorage.setItem(KEY,v);}catch(e){}
-    if(typeof gtag==='function'){
-      var g = v==='granted' ? 'granted' : 'denied';
-      gtag('consent','update',{ad_storage:g,ad_user_data:g,ad_personalization:g,analytics_storage:g});
-    }
-    b.hidden=true;
-  }
-  document.getElementById('ccAccept').addEventListener('click',function(){choose('granted');});
-  document.getElementById('ccReject').addEventListener('click',function(){choose('denied');});
-})();
 </script>
 </body>
 </html>
