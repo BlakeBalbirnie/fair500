@@ -21,3 +21,6 @@ data/snippets*.json
 fair500.com-ssl-bundle/
 *.pem
 *.key
+
+# Data backups (kept locally, not in repo)
+data/*_before*.json
