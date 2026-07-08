@@ -25,3 +25,5 @@ fair500.com-ssl-bundle/
 # Data backups (kept locally, not in repo)
 data/*_before*.json
 data/validation_flags.json
+data/llm_excerpts.txt
+data/llm_excerpts.txt

@@ -43,6 +43,10 @@ def checks(r):
     m = r.get("margin_3yr")
     rev = avg_revenue(r)
 
+    # --- headcount looks like a filing YEAR (classic mis-parse) ---
+    if emp and 2000 <= emp <= 2030:
+        out.append(("HIGH", f"employees={emp} looks like a YEAR, not a headcount"))
+
     # --- headcount sanity via revenue- and profit-per-employee ---
     if emp and rev:
         rpe = rev / emp
