@@ -652,7 +652,7 @@
   },
   {
     "ticker": "AMZN",
-    "name": "Amazon",
+    "name": "AMAZON COM INC",
     "sector": "Consumer Discretionary",
     "cik": "0001018724",
     "years": [
@@ -3481,7 +3481,7 @@
   },
   {
     "ticker": "KO",
-    "name": "Coca-Cola Company",
+    "name": "COCA COLA CO",
     "sector": "Consumer Staples",
     "cik": "0000021344",
     "years": [
@@ -3822,7 +3822,7 @@
   },
   {
     "ticker": "COO",
-    "name": "Cooper Companies",
+    "name": "Cooper Companies (The)",
     "sector": "Health Care",
     "cik": "0000711404",
     "years": [
@@ -4008,7 +4008,7 @@
   },
   {
     "ticker": "COST",
-    "name": "Costco",
+    "name": "COSTCO WHOLESALE CORP /NEW",
     "sector": "Consumer Staples",
     "cik": "0000909832",
     "years": [
@@ -5491,7 +5491,7 @@
   },
   {
     "ticker": "EL",
-    "name": "Est\u00e9e Lauder Companies",
+    "name": "Est\u00e9e Lauder Companies (The)",
     "sector": "Consumer Staples",
     "cik": "0001001250",
     "years": [
@@ -5770,7 +5770,7 @@
   },
   {
     "ticker": "XOM",
-    "name": "ExxonMobil",
+    "name": "EXXON MOBIL CORP",
     "sector": "Energy",
     "cik": "0000034088",
     "years": [
@@ -6278,7 +6278,7 @@
   },
   {
     "ticker": "FOXA",
-    "name": "Fox Corporation",
+    "name": "Fox Corporation (Class A)",
     "sector": "Communication Services",
     "cik": "0001754301",
     "years": [
@@ -6898,7 +6898,7 @@
   },
   {
     "ticker": "HIG",
-    "name": "Hartford",
+    "name": "Hartford (The)",
     "sector": "Financials",
     "cik": "0000874766",
     "years": [
@@ -7053,7 +7053,7 @@
   },
   {
     "ticker": "HSY",
-    "name": "Hershey Company",
+    "name": "Hershey Company (The)",
     "sector": "Consumer Staples",
     "cik": "0000047111",
     "years": [
@@ -7146,7 +7146,7 @@
   },
   {
     "ticker": "HD",
-    "name": "Home Depot",
+    "name": "HOME DEPOT, INC.",
     "sector": "Consumer Discretionary",
     "cik": "0000354950",
     "years": [
@@ -8148,7 +8148,7 @@
   },
   {
     "ticker": "JNJ",
-    "name": "Johnson & Johnson",
+    "name": "JOHNSON & JOHNSON",
     "sector": "Health Care",
     "cik": "0000200406",
     "years": [
@@ -8210,7 +8210,7 @@
   },
   {
     "ticker": "JPM",
-    "name": "JPMorgan Chase",
+    "name": "JPMORGAN CHASE & CO",
     "sector": "Financials",
     "cik": "0000019617",
     "years": [
@@ -9355,7 +9355,7 @@
   },
   {
     "ticker": "MCD",
-    "name": "McDonald's",
+    "name": "MCDONALDS CORP",
     "sector": "Consumer Discretionary",
     "cik": "0000063908",
     "years": [
@@ -9665,7 +9665,7 @@
   },
   {
     "ticker": "MSFT",
-    "name": "Microsoft",
+    "name": "MICROSOFT CORP",
     "sector": "Technology",
     "cik": "0000789019",
     "years": [
@@ -9942,7 +9942,7 @@
   },
   {
     "ticker": "MOS",
-    "name": "Mosaic Company",
+    "name": "Mosaic Company (The)",
     "sector": "Materials",
     "cik": "0001285785",
     "years": [
@@ -10159,7 +10159,7 @@
   },
   {
     "ticker": "NWSA",
-    "name": "News Corp",
+    "name": "News Corp (Class A)",
     "sector": "Communication Services",
     "cik": "0001564708",
     "years": [
@@ -10221,7 +10221,7 @@
   },
   {
     "ticker": "NKE",
-    "name": "Nike, Inc.",
+    "name": "NIKE, Inc.",
     "sector": "Consumer Discretionary",
     "cik": "0000320187",
     "years": [
@@ -10500,7 +10500,7 @@
   },
   {
     "ticker": "NVDA",
-    "name": "Nvidia",
+    "name": "NVIDIA CORP",
     "sector": "Technology",
     "cik": "0001045810",
     "years": [
@@ -11143,7 +11143,7 @@
   },
   {
     "ticker": "PFE",
-    "name": "Pfizer",
+    "name": "PFIZER INC",
     "sector": "Health Care",
     "cik": "0000078003",
     "years": [
@@ -11422,7 +11422,7 @@
   },
   {
     "ticker": "PG",
-    "name": "Procter & Gamble",
+    "name": "PROCTER & GAMBLE Co",
     "sector": "Consumer Staples",
     "cik": "0000080424",
     "years": [
@@ -12631,7 +12631,7 @@
   },
   {
     "ticker": "SJM",
-    "name": "J.M. Smucker Company",
+    "name": "J.M. Smucker Company (The)",
     "sector": "Consumer Staples",
     "cik": "0000091419",
     "years": [
@@ -12848,7 +12848,7 @@
   },
   {
     "ticker": "SBUX",
-    "name": "Starbucks",
+    "name": "STARBUCKS CORP",
     "sector": "Consumer Discretionary",
     "cik": "0000829224",
     "years": [
@@ -13266,7 +13266,7 @@
   },
   {
     "ticker": "TGT",
-    "name": "Target Corporation",
+    "name": "TARGET CORP",
     "sector": "Consumer Discretionary",
     "cik": "0000027419",
     "years": [
@@ -13607,7 +13607,7 @@
   },
   {
     "ticker": "TTD",
-    "name": "Trade Desk",
+    "name": "Trade Desk (The)",
     "sector": "Communication Services",
     "cik": "0001671933",
     "years": [
@@ -13731,7 +13731,7 @@
   },
   {
     "ticker": "TRV",
-    "name": "Travelers Companies",
+    "name": "Travelers Companies (The)",
     "sector": "Financials",
     "cik": "0000086312",
     "years": [
@@ -14521,7 +14521,7 @@
   },
   {
     "ticker": "V",
-    "name": "Visa Inc.",
+    "name": "VISA INC.",
     "sector": "Financials",
     "cik": "0001403161",
     "years": [

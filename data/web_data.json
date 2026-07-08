@@ -305,7 +305,7 @@
  },
  {
   "t": "AMZN",
-  "n": "AMAZON COM INC",
+  "n": "Amazon",
   "sec": "Consumer Discretionary",
   "m": 8.67,
   "r": 51,
@@ -1681,7 +1681,7 @@
  },
  {
   "t": "KO",
-  "n": "COCA COLA CO",
+  "n": "Coca-Cola Company",
   "sec": "Consumer Staples",
   "m": 24.48,
   "r": 1739,
@@ -1841,7 +1841,7 @@
  },
  {
   "t": "COO",
-  "n": "Cooper Companies (The)",
+  "n": "Cooper Companies",
   "sec": "Health Care",
   "m": 9.17,
   "r": 331,
@@ -1937,7 +1937,7 @@
  },
  {
   "t": "COST",
-  "n": "COSTCO WHOLESALE CORP /NEW",
+  "n": "Costco",
   "sec": "Consumer Staples",
   "m": 2.82,
   "r": 283,
@@ -2609,7 +2609,7 @@
  },
  {
   "t": "EL",
-  "n": "Est\u00e9e Lauder Companies (The)",
+  "n": "Est\u00e9e Lauder Companies",
   "sec": "Consumer Staples",
   "m": 0.62,
   "r": 352,
@@ -2753,7 +2753,7 @@
  },
  {
   "t": "XOM",
-  "n": "EXXON MOBIL CORP",
+  "n": "ExxonMobil",
   "sec": "Energy",
   "m": 9.6,
   "r": 181,
@@ -2993,7 +2993,7 @@
  },
  {
   "t": "FOXA",
-  "n": "Fox Corporation (Class A)",
+  "n": "Fox Corporation",
   "sec": "Communication Services",
   "m": 11.28,
   "r": 327,
@@ -3313,7 +3313,7 @@
  },
  {
   "t": "HIG",
-  "n": "Hartford (The)",
+  "n": "Hartford",
   "sec": "Financials",
   "m": 217.46,
   "r": 196,
@@ -3377,7 +3377,7 @@
  },
  {
   "t": "HSY",
-  "n": "Hershey Company (The)",
+  "n": "Hershey Company",
   "sec": "Consumer Staples",
   "m": 14.58,
   "r": 389,
@@ -3425,7 +3425,7 @@
  },
  {
   "t": "HD",
-  "n": "HOME DEPOT, INC.",
+  "n": "Home Depot",
   "sec": "Consumer Discretionary",
   "m": 9.25,
   "r": 427,
@@ -3889,7 +3889,7 @@
  },
  {
   "t": "JNJ",
-  "n": "JOHNSON & JOHNSON",
+  "n": "Johnson & Johnson",
   "sec": "Health Care",
   "m": 28.35,
   "r": 360,
@@ -3921,7 +3921,7 @@
  },
  {
   "t": "JPM",
-  "n": "JPMORGAN CHASE & CO",
+  "n": "JPMorgan Chase",
   "sec": "Financials",
   "m": 31.86,
   "r": 363,
@@ -4465,7 +4465,7 @@
  },
  {
   "t": "MCD",
-  "n": "MCDONALDS CORP",
+  "n": "McDonald's",
   "sec": "Consumer Discretionary",
   "m": 32.25,
   "r": 1082,
@@ -4625,7 +4625,7 @@
  },
  {
   "t": "MSFT",
-  "n": "MICROSOFT CORP",
+  "n": "Microsoft",
   "sec": "Technology",
   "m": 35.51,
   "r": 480,
@@ -4737,7 +4737,7 @@
  },
  {
   "t": "MOS",
-  "n": "Mosaic Company (The)",
+  "n": "Mosaic Company",
   "sec": "Materials",
   "m": 5.1,
   "r": 203,
@@ -4849,7 +4849,7 @@
  },
  {
   "t": "NWSA",
-  "n": "News Corp (Class A)",
+  "n": "News Corp",
   "sec": "Communication Services",
   "m": 6.45,
   "r": 221,
@@ -4881,7 +4881,7 @@
  },
  {
   "t": "NKE",
-  "n": "NIKE, Inc.",
+  "n": "Nike, Inc.",
   "sec": "Consumer Discretionary",
   "m": 9.4,
   "r": 545,
@@ -5025,7 +5025,7 @@
  },
  {
   "t": "NVDA",
-  "n": "NVIDIA CORP",
+  "n": "Nvidia",
   "sec": "Technology",
   "m": 54.67,
   "r": 129,
@@ -5345,7 +5345,7 @@
  },
  {
   "t": "PFE",
-  "n": "PFIZER INC",
+  "n": "Pfizer",
   "sec": "Health Care",
   "m": 9.65,
   "r": 277,
@@ -5489,7 +5489,7 @@
  },
  {
   "t": "PG",
-  "n": "PROCTER & GAMBLE Co",
+  "n": "Procter & Gamble",
   "sec": "Consumer Staples",
   "m": 18.18,
   "r": 276,
@@ -6177,7 +6177,7 @@
  },
  {
   "t": "SBUX",
-  "n": "STARBUCKS CORP",
+  "n": "Starbucks",
   "sec": "Consumer Discretionary",
   "m": 8.91,
   "r": 1794,
@@ -6353,7 +6353,7 @@
  },
  {
   "t": "TGT",
-  "n": "TARGET CORP",
+  "n": "Target Corporation",
   "sec": "Consumer Discretionary",
   "m": 3.74,
   "r": 794,
@@ -6529,7 +6529,7 @@
  },
  {
   "t": "TTD",
-  "n": "Trade Desk (The)",
+  "n": "Trade Desk",
   "sec": "Communication Services",
   "m": 13.93,
   "r": 125,
@@ -6593,7 +6593,7 @@
  },
  {
   "t": "TRV",
-  "n": "Travelers Companies (The)",
+  "n": "Travelers Companies",
   "sec": "Financials",
   "m": 10.45,
   "r": 204,
@@ -6977,7 +6977,7 @@
  },
  {
   "t": "V",
-  "n": "VISA INC.",
+  "n": "Visa Inc.",
   "sec": "Financials",
   "m": 52.56,
   "r": 204,

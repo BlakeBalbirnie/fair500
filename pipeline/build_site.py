@@ -16,7 +16,7 @@ Inclusion rule for the site (see fair500-data-audit memory):
 
 Run from anywhere:  python3 pipeline/build_site.py
 """
-import json, os, re
+import json, os, re, html as _html
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -50,13 +50,29 @@ def main():
     rows = build_rows(master)
     json.dump(rows, open(os.path.join(DATA_DIR, "web_data.json"), "w"), indent=1)
 
+    src = open(INDEX).read()
+
+    # 1) inline the DATA blob
     blob = "const DATA = " + json.dumps(rows, separators=(",", ":")) + ";"
-    html = open(INDEX).read()
-    new, n = re.subn(r"const DATA = \[.*?\];", lambda m: blob, html, count=1, flags=re.S)
+    src, n = re.subn(r"const DATA = \[.*?\];", lambda m: blob, src, count=1, flags=re.S)
     assert n == 1, f"expected exactly one DATA blob, found {n}"
-    open(INDEX, "w").write(new)
+
+    # 2) regenerate the crawlable A–Z company index between markers
+    cos = sorted(rows, key=lambda r: r["t"])
+    idx = "\n".join(f'<span><b>{_html.escape(r["t"])}</b> '
+                    f'{_html.escape(r["n"])}</span>' for r in cos)
+    src, n = re.subn(r"(<!--CO_INDEX_START-->).*?(<!--CO_INDEX_END-->)",
+                     lambda m: m.group(1) + "\n" + idx + "\n" + m.group(2),
+                     src, count=1, flags=re.S)
+    assert n == 1, f"expected exactly one CO_INDEX marker pair, found {n}"
+
+    # 3) keep the company counts in the copy in sync
+    src = re.sub(r"For each of \d+ companies", f"For each of {len(rows)} companies", src)
+    src = re.sub(r"All \d+ companies covered", f"All {len(rows)} companies covered", src)
+
+    open(INDEX, "w").write(src)
     print(f"Built {len(rows)} site rows from {len(master)} master records; "
-          f"re-inlined into {os.path.relpath(INDEX)}.")
+          f"re-inlined DATA, company index, and counts into {os.path.relpath(INDEX)}.")
 
 
 if __name__ == "__main__":
