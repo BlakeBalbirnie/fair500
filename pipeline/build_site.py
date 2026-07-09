@@ -40,6 +40,7 @@ def build_rows(master):
             "t": r["ticker"], "n": r["name"], "sec": r.get("sector"),
             "m": r.get("margin_3yr"), "r": ratio,
             "p": round(p / 1e9, 2), "med": med, "emp": r.get("employees"),
+            "cp": r.get("ceo_pay"),  # actual CEO total comp from proxy (null -> site estimates)
             "y": r.get("years"), "url": r.get("proxy_url"),
         })
     return rows

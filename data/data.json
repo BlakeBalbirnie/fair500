@@ -28,7 +28,8 @@
     "employees": 60500,
     "profit_per_employee": 2358,
     "worker_share": 28.211,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21005009
   },
   {
     "ticker": "AOS",
@@ -59,7 +60,8 @@
     "employees": 11500,
     "profit_per_employee": 47432,
     "worker_share": 0.948,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 5157676
   },
   {
     "ticker": "ABT",
@@ -152,7 +154,8 @@
     "employees": 779000,
     "profit_per_employee": 9335,
     "worker_share": 6.897,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 29641903
   },
   {
     "ticker": "ADBE",
@@ -183,7 +186,8 @@
     "employees": 31360,
     "profit_per_employee": 192581,
     "worker_share": 1.225,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 51173935
   },
   {
     "ticker": "AMD",
@@ -214,7 +218,8 @@
     "employees": 31000,
     "profit_per_employee": 73441,
     "worker_share": 2.203,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 55161779
   },
   {
     "ticker": "AES",
@@ -245,7 +250,8 @@
     "employees": 8336,
     "profit_per_employee": 963,
     "worker_share": 0.67,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9153896
   },
   {
     "ticker": "AFL",
@@ -276,7 +282,8 @@
     "employees": 112000,
     "profit_per_employee": 40917,
     "worker_share": 1.543,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25033687
   },
   {
     "ticker": "A",
@@ -307,7 +314,8 @@
     "employees": 18100,
     "profit_per_employee": 70571,
     "worker_share": 1.174,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12827236
   },
   {
     "ticker": "APD",
@@ -338,7 +346,8 @@
     "employees": 21300,
     "profit_per_employee": 89732,
     "worker_share": 0.797,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 11809287
   },
   {
     "ticker": "ABNB",
@@ -369,7 +378,8 @@
     "employees": 8200,
     "profit_per_employee": 404512,
     "worker_share": 0.582,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 242122
   },
   {
     "ticker": "AKAM",
@@ -400,7 +410,8 @@
     "employees": 11000,
     "profit_per_employee": 45593,
     "worker_share": 2.831,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15954172
   },
   {
     "ticker": "ALB",
@@ -493,7 +504,8 @@
     "employees": 20290,
     "profit_per_employee": 20975,
     "worker_share": 1.5,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 19193988
   },
   {
     "ticker": "ALLE",
@@ -524,7 +536,8 @@
     "employees": 13300,
     "profit_per_employee": 44654,
     "worker_share": 1.605,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9155073
   },
   {
     "ticker": "LNT",
@@ -555,7 +568,8 @@
     "employees": 1700,
     "profit_per_employee": 431961,
     "worker_share": 0.411,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8999073
   },
   {
     "ticker": "ALL",
@@ -586,7 +600,8 @@
     "employees": 53000,
     "profit_per_employee": 92836,
     "worker_share": 0.806,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 22920898
   },
   {
     "ticker": "GOOGL",
@@ -617,7 +632,8 @@
     "employees": 190820,
     "profit_per_employee": 534680,
     "worker_share": 0.581,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 10906079
   },
   {
     "ticker": "MO",
@@ -648,7 +664,8 @@
     "employees": 5900,
     "profit_per_employee": 4335967,
     "worker_share": 0.112,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 24581074
   },
   {
     "ticker": "AMZN",
@@ -679,7 +696,8 @@
     "employees": 1576000,
     "profit_per_employee": 35394,
     "worker_share": 1.136,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 2069861
   },
   {
     "ticker": "AMCR",
@@ -710,7 +728,8 @@
     "employees": 77000,
     "profit_per_employee": 9909,
     "worker_share": 7.169,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8458329
   },
   {
     "ticker": "AEE",
@@ -741,7 +760,8 @@
     "employees": 8913,
     "profit_per_employee": 629446,
     "worker_share": 0.879,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14056510
   },
   {
     "ticker": "AEP",
@@ -772,7 +792,8 @@
     "employees": 17581,
     "profit_per_employee": 168458,
     "worker_share": 0.834,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 36601524
   },
   {
     "ticker": "AXP",
@@ -803,7 +824,8 @@
     "employees": 76800,
     "profit_per_employee": 127326,
     "worker_share": 0.446,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 46239805
   },
   {
     "ticker": "AIG",
@@ -834,7 +856,8 @@
     "employees": 22100,
     "profit_per_employee": 80468,
     "worker_share": 1.165,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 32460049
   },
   {
     "ticker": "AMT",
@@ -865,7 +888,8 @@
     "employees": 4866,
     "profit_per_employee": 876019,
     "worker_share": 0.211,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14854505
   },
   {
     "ticker": "AWK",
@@ -896,7 +920,8 @@
     "employees": 7000,
     "profit_per_employee": 147905,
     "complete": true,
-    "worker_share": 0.71
+    "worker_share": 0.71,
+    "ceo_pay": 7697503
   },
   {
     "ticker": "AMP",
@@ -958,7 +983,8 @@
     "employees": 22500,
     "profit_per_employee": 61770,
     "worker_share": 1.032,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16462630
   },
   {
     "ticker": "AMGN",
@@ -987,7 +1013,8 @@
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/318154/000119312526145588/d13946ddef14a.htm",
     "employees": null,
-    "complete": false
+    "complete": false,
+    "ceo_pay": 24693120
   },
   {
     "ticker": "APH",
@@ -1018,7 +1045,8 @@
     "employees": 170000,
     "profit_per_employee": 449078,
     "worker_share": 1.113,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 22351288
   },
   {
     "ticker": "ADI",
@@ -1049,7 +1077,8 @@
     "employees": 24500,
     "profit_per_employee": 98193,
     "worker_share": 0.524,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 27456265
   },
   {
     "ticker": "AON",
@@ -1080,7 +1109,8 @@
     "employees": 60000,
     "profit_per_employee": 49517,
     "complete": true,
-    "worker_share": 1.804
+    "worker_share": 1.804,
+    "ceo_pay": 73773921
   },
   {
     "ticker": "APA",
@@ -1126,7 +1156,8 @@
     "employees": 4130,
     "profit_per_employee": 1058596,
     "worker_share": 0.179,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 913367
   },
   {
     "ticker": "AAPL",
@@ -1157,7 +1188,8 @@
     "employees": 166000,
     "profit_per_employee": 607914,
     "worker_share": 0.229,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 74294811
   },
   {
     "ticker": "AMAT",
@@ -1188,7 +1220,8 @@
     "employees": 36500,
     "profit_per_employee": 192064,
     "worker_share": 0.467,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 29649352
   },
   {
     "ticker": "APP",
@@ -1219,7 +1252,8 @@
     "employees": 898,
     "profit_per_employee": 1956287,
     "worker_share": 0.068,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12969001
   },
   {
     "ticker": "APTV",
@@ -1250,7 +1284,8 @@
     "employees": 140000,
     "profit_per_employee": 11643,
     "worker_share": 0.873,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 19250277
   },
   {
     "ticker": "ACGL",
@@ -1312,7 +1347,8 @@
     "employees": 41496,
     "profit_per_employee": 1047078,
     "worker_share": 1.672,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 23886978
   },
   {
     "ticker": "ARES",
@@ -1343,7 +1379,8 @@
     "employees": 4250,
     "profit_per_employee": 114936,
     "worker_share": 1.718,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 68279532
   },
   {
     "ticker": "ANET",
@@ -1374,7 +1411,8 @@
     "employees": 5115,
     "profit_per_employee": 550720,
     "worker_share": 0.346,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 2872145
   },
   {
     "ticker": "AJG",
@@ -1405,7 +1443,8 @@
     "employees": 72000,
     "profit_per_employee": 18181,
     "worker_share": 3.298,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 20745060
   },
   {
     "ticker": "AIZ",
@@ -1436,7 +1475,8 @@
     "employees": 14800,
     "profit_per_employee": 51248,
     "worker_share": 1.108,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15221983
   },
   {
     "ticker": "T",
@@ -1467,7 +1507,8 @@
     "employees": 133030,
     "profit_per_employee": 1751889,
     "worker_share": 1.173,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 29906872
   },
   {
     "ticker": "ATO",
@@ -1498,7 +1539,8 @@
     "employees": 5487,
     "profit_per_employee": 189995,
     "worker_share": 0.495,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9953274
   },
   {
     "ticker": "ADSK",
@@ -1529,7 +1571,8 @@
     "employees": 14300,
     "profit_per_employee": 73240,
     "worker_share": 2.019,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 30091165
   },
   {
     "ticker": "ADP",
@@ -1560,7 +1603,8 @@
     "employees": 67000,
     "profit_per_employee": 4997,
     "worker_share": 1.205,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 19137192
   },
   {
     "ticker": "AZO",
@@ -1589,7 +1633,8 @@
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/866787/000110465925103210/azo-20251217xdef14a.htm",
     "employees": null,
-    "complete": false
+    "complete": false,
+    "ceo_pay": 9636414
   },
   {
     "ticker": "AVB",
@@ -1620,7 +1665,8 @@
     "employees": 3041,
     "profit_per_employee": 336229,
     "worker_share": 0.211,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9663500
   },
   {
     "ticker": "AVY",
@@ -1651,7 +1697,8 @@
     "employees": 35000,
     "profit_per_employee": 18056,
     "worker_share": 0.95,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9538375
   },
   {
     "ticker": "AXON",
@@ -1713,7 +1760,8 @@
     "employees": 56000,
     "profit_per_employee": 44702,
     "worker_share": 1.537,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21363825
   },
   {
     "ticker": "BALL",
@@ -1744,7 +1792,8 @@
     "employees": 16000,
     "profit_per_employee": 117500,
     "worker_share": 0.777,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 4218225
   },
   {
     "ticker": "BAC",
@@ -1775,7 +1824,8 @@
     "employees": 213000,
     "profit_per_employee": 131122,
     "worker_share": 0.946,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 33720446
   },
   {
     "ticker": "BAX",
@@ -1806,7 +1856,8 @@
     "employees": 37500,
     "profit_per_employee": 9333,
     "worker_share": 7.757,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 32199341
   },
   {
     "ticker": "BDX",
@@ -1837,7 +1888,8 @@
     "employees": 72000,
     "profit_per_employee": 22532,
     "complete": true,
-    "worker_share": 2.034
+    "worker_share": 2.034,
+    "ceo_pay": 17129140
   },
   {
     "ticker": "BRK.B",
@@ -1868,7 +1920,8 @@
     "employees": 387800,
     "profit_per_employee": 216766,
     "worker_share": 0.432,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 389488
   },
   {
     "ticker": "BBY",
@@ -1899,7 +1952,8 @@
     "employees": 82000,
     "profit_per_employee": 13159,
     "worker_share": 2.433,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17346126
   },
   {
     "ticker": "TECH",
@@ -1930,7 +1984,8 @@
     "employees": 3100,
     "profit_per_employee": 56642,
     "worker_share": 1.619,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8151181
   },
   {
     "ticker": "BIIB",
@@ -1961,7 +2016,8 @@
     "employees": 7500,
     "profit_per_employee": 181609,
     "worker_share": 1.147,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 23646004
   },
   {
     "ticker": "BLK",
@@ -1992,7 +2048,8 @@
     "employees": 24900,
     "profit_per_employee": 233253,
     "worker_share": 0.659,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 37749569
   },
   {
     "ticker": "BX",
@@ -2082,7 +2139,8 @@
     "employees": 48100,
     "profit_per_employee": 92730,
     "worker_share": 0.884,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 83495625
   },
   {
     "ticker": "BA",
@@ -2144,7 +2202,8 @@
     "employees": 24300,
     "profit_per_employee": 94183,
     "worker_share": 0.473,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 35418102
   },
   {
     "ticker": "BSX",
@@ -2175,7 +2234,8 @@
     "employees": 59000,
     "profit_per_employee": 35763,
     "worker_share": 1.889,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 23532050
   },
   {
     "ticker": "BMY",
@@ -2206,7 +2266,8 @@
     "employees": 32500,
     "profit_per_employee": 62882,
     "worker_share": 2.659,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21879919
   },
   {
     "ticker": "AVGO",
@@ -2237,7 +2298,8 @@
     "employees": 33000,
     "profit_per_employee": 435384,
     "worker_share": 0.869,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 205278006
   },
   {
     "ticker": "BR",
@@ -2268,7 +2330,8 @@
     "employees": 15000,
     "profit_per_employee": 48182,
     "worker_share": 1.65,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17212066
   },
   {
     "ticker": "BRO",
@@ -2299,7 +2362,8 @@
     "employees": 14531,
     "profit_per_employee": 66937,
     "worker_share": 1.106,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8641088
   },
   {
     "ticker": "BF.B",
@@ -2361,7 +2425,8 @@
     "employees": 28000,
     "profit_per_employee": 36353,
     "worker_share": 2.057,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8153385
   },
   {
     "ticker": "BG",
@@ -2392,7 +2457,8 @@
     "employees": 34000,
     "profit_per_employee": 41137,
     "worker_share": 1.826,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18945479
   },
   {
     "ticker": "BXP",
@@ -2423,7 +2489,8 @@
     "employees": 714,
     "profit_per_employee": 224690,
     "worker_share": 0.624,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 23047305
   },
   {
     "ticker": "CHRW",
@@ -2454,7 +2521,8 @@
     "employees": 11855,
     "profit_per_employee": 38743,
     "worker_share": 1.605,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 11045949
   },
   {
     "ticker": "CDNS",
@@ -2485,7 +2553,8 @@
     "employees": 13800,
     "profit_per_employee": 77428,
     "complete": true,
-    "worker_share": 1.236
+    "worker_share": 1.236,
+    "ceo_pay": 56683576
   },
   {
     "ticker": "CPT",
@@ -2516,7 +2585,8 @@
     "employees": 1640,
     "profit_per_employee": 193306,
     "worker_share": 0.351,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8317514
   },
   {
     "ticker": "COF",
@@ -2547,7 +2617,8 @@
     "employees": 76300,
     "profit_per_employee": 52818,
     "worker_share": 2.337,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 64971137
   },
   {
     "ticker": "CAH",
@@ -2578,7 +2649,8 @@
     "employees": 57700,
     "profit_per_employee": 15846,
     "worker_share": 4.585,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18990992
   },
   {
     "ticker": "CCL",
@@ -2609,7 +2681,8 @@
     "employees": 101000,
     "profit_per_employee": 15188,
     "worker_share": 1.17,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18887776
   },
   {
     "ticker": "CARR",
@@ -2640,7 +2713,8 @@
     "employees": 47000,
     "profit_per_employee": 59837,
     "worker_share": 0.785,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14962913
   },
   {
     "ticker": "CVNA",
@@ -2671,7 +2745,8 @@
     "employees": 23100,
     "profit_per_employee": 29827,
     "complete": true,
-    "worker_share": 1.45
+    "worker_share": 1.45,
+    "ceo_pay": 8382555
   },
   {
     "ticker": "CASY",
@@ -2702,7 +2777,8 @@
     "employees": 49848,
     "complete": true,
     "profit_per_employee": 11789,
-    "worker_share": 1.539
+    "worker_share": 1.539,
+    "ceo_pay": 10680190
   },
   {
     "ticker": "CAT",
@@ -2733,7 +2809,8 @@
     "employees": 118000,
     "profit_per_employee": 1254474,
     "complete": true,
-    "worker_share": 1.053
+    "worker_share": 1.053,
+    "ceo_pay": 17524953
   },
   {
     "ticker": "CBOE",
@@ -2764,7 +2841,8 @@
     "employees": 1661,
     "profit_per_employee": 1012062,
     "complete": true,
-    "worker_share": 0.376
+    "worker_share": 0.376,
+    "ceo_pay": 20160177
   },
   {
     "ticker": "CBRE",
@@ -2795,7 +2873,8 @@
     "employees": 155000,
     "profit_per_employee": 6690,
     "worker_share": 10.665,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 24343379
   },
   {
     "ticker": "CDW",
@@ -2826,7 +2905,8 @@
     "employees": 14800,
     "complete": true,
     "profit_per_employee": 73169,
-    "worker_share": 1.607
+    "worker_share": 1.607,
+    "ceo_pay": 15009507
   },
   {
     "ticker": "COR",
@@ -2857,7 +2937,8 @@
     "employees": 51000,
     "profit_per_employee": 31429,
     "complete": true,
-    "worker_share": 2.941
+    "worker_share": 2.941,
+    "ceo_pay": 18256227
   },
   {
     "ticker": "CNC",
@@ -2919,7 +3000,8 @@
     "employees": 1613,
     "profit_per_employee": 617483,
     "worker_share": 0.211,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12092341
   },
   {
     "ticker": "CF",
@@ -2950,7 +3032,8 @@
     "employees": 2900,
     "profit_per_employee": 587701,
     "worker_share": 0.264,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13711938
   },
   {
     "ticker": "CRL",
@@ -2981,7 +3064,8 @@
     "employees": 19700,
     "profit_per_employee": 5964,
     "worker_share": 10.3,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15435220
   },
   {
     "ticker": "SCHW",
@@ -3012,7 +3096,8 @@
     "employees": 33000,
     "profit_per_employee": 200616,
     "worker_share": 0.655,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18755222
   },
   {
     "ticker": "CHTR",
@@ -3074,7 +3159,8 @@
     "employees": 43039,
     "complete": true,
     "profit_per_employee": 397539,
-    "worker_share": 0.385
+    "worker_share": 0.385,
+    "ceo_pay": 26828240
   },
   {
     "ticker": "CMG",
@@ -3105,7 +3191,8 @@
     "employees": 130301,
     "profit_per_employee": 10997,
     "worker_share": 1.586,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15460000
   },
   {
     "ticker": "CB",
@@ -3136,7 +3223,8 @@
     "employees": 45000,
     "profit_per_employee": 211926,
     "worker_share": 0.306,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 33180582
   },
   {
     "ticker": "CHD",
@@ -3198,7 +3286,8 @@
     "employees": 9080,
     "profit_per_employee": 16965,
     "worker_share": 6.579,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18530396
   },
   {
     "ticker": "CI",
@@ -3229,7 +3318,8 @@
     "employees": 67700,
     "profit_per_employee": 71664,
     "worker_share": 1.028,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 22866134
   },
   {
     "ticker": "CINF",
@@ -3260,7 +3350,8 @@
     "employees": 5705,
     "profit_per_employee": 381420,
     "worker_share": 0.336,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 5943492
   },
   {
     "ticker": "CTAS",
@@ -3291,7 +3382,8 @@
     "employees": 48300,
     "profit_per_employee": 786680,
     "worker_share": 2.263,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9267498
   },
   {
     "ticker": "CSCO",
@@ -3322,7 +3414,8 @@
     "employees": 86200,
     "profit_per_employee": 431159,
     "worker_share": 1.383,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 52838751
   },
   {
     "ticker": "C",
@@ -3353,7 +3446,8 @@
     "employees": 226000,
     "profit_per_employee": 15090000,
     "worker_share": 1.369,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 95774814
   },
   {
     "ticker": "CFG",
@@ -3384,7 +3478,8 @@
     "employees": 17398,
     "profit_per_employee": 94800,
     "worker_share": 0.85,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12513920
   },
   {
     "ticker": "CLX",
@@ -3446,7 +3541,8 @@
     "employees": 3875,
     "profit_per_employee": 931097,
     "complete": true,
-    "worker_share": 0.18
+    "worker_share": 0.18,
+    "ceo_pay": 23394854
   },
   {
     "ticker": "CMS",
@@ -3477,7 +3573,8 @@
     "employees": 8350,
     "profit_per_employee": 486447,
     "worker_share": 1.589,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 10534039
   },
   {
     "ticker": "KO",
@@ -3508,7 +3605,8 @@
     "employees": 65900,
     "profit_per_employee": 174264,
     "worker_share": 0.103,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 31208165
   },
   {
     "ticker": "CTSH",
@@ -3539,7 +3637,8 @@
     "employees": 351600,
     "profit_per_employee": 6253,
     "worker_share": 7.218,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21532448
   },
   {
     "ticker": "COHR",
@@ -3601,7 +3700,8 @@
     "employees": 4951,
     "profit_per_employee": 264880,
     "worker_share": 0.821,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9713000
   },
   {
     "ticker": "CL",
@@ -3632,7 +3732,8 @@
     "employees": 33600,
     "profit_per_employee": 72629,
     "worker_share": 0.821,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16478196
   },
   {
     "ticker": "CMCSA",
@@ -3694,7 +3795,8 @@
     "employees": 22700,
     "profit_per_employee": 27436,
     "worker_share": 2.446,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 10620815
   },
   {
     "ticker": "COP",
@@ -3725,7 +3827,8 @@
     "employees": 9900,
     "profit_per_employee": 949158,
     "worker_share": 0.223,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 23469730
   },
   {
     "ticker": "ED",
@@ -3756,7 +3859,8 @@
     "employees": 15407,
     "profit_per_employee": 137643,
     "worker_share": 1.505,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 19899971
   },
   {
     "ticker": "STZ",
@@ -3787,7 +3891,8 @@
     "employees": 9400,
     "profit_per_employee": 118181,
     "worker_share": 0.411,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14209126
   },
   {
     "ticker": "CEG",
@@ -3818,7 +3923,8 @@
     "employees": 15339,
     "profit_per_employee": 1025467,
     "worker_share": 0.734,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17115179
   },
   {
     "ticker": "COO",
@@ -3849,7 +3955,8 @@
     "employees": 15000,
     "profit_per_employee": 23587,
     "worker_share": 2.058,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16051141
   },
   {
     "ticker": "CPRT",
@@ -3880,7 +3987,8 @@
     "employees": 11600,
     "profit_per_employee": 119345,
     "worker_share": 0.374,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 2072692
   },
   {
     "ticker": "GLW",
@@ -3911,7 +4019,8 @@
     "employees": 67200,
     "profit_per_employee": 13309,
     "worker_share": 4.287,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25756121
   },
   {
     "ticker": "CPAY",
@@ -3942,7 +4051,8 @@
     "employees": 11800,
     "profit_per_employee": 86312,
     "worker_share": 0.609,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 3406867
   },
   {
     "ticker": "CTVA",
@@ -3973,7 +4083,8 @@
     "employees": 21500,
     "profit_per_employee": 42419,
     "worker_share": 2.004,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17499399
   },
   {
     "ticker": "CSGP",
@@ -4004,7 +4115,8 @@
     "employees": 8000,
     "profit_per_employee": 21708,
     "worker_share": 5.536,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 36431936
   },
   {
     "ticker": "COST",
@@ -4035,7 +4147,8 @@
     "employees": 341000,
     "profit_per_employee": 21269,
     "worker_share": 2.313,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13932597
   },
   {
     "ticker": "CRH",
@@ -4159,7 +4272,8 @@
     "employees": 23000,
     "profit_per_employee": 145319,
     "worker_share": 0.842,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14938149
   },
   {
     "ticker": "CMI",
@@ -4190,7 +4304,8 @@
     "employees": 67400,
     "profit_per_employee": 131083,
     "worker_share": 1.641,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 19905532
   },
   {
     "ticker": "CVS",
@@ -4221,7 +4336,8 @@
     "employees": 300000,
     "complete": true,
     "profit_per_employee": 16362,
-    "worker_share": 3.866
+    "worker_share": 3.866,
+    "ceo_pay": 21232392
   },
   {
     "ticker": "DHR",
@@ -4252,7 +4368,8 @@
     "employees": 60000,
     "profit_per_employee": 68206,
     "worker_share": 1.018,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 23795280
   },
   {
     "ticker": "DRI",
@@ -4283,7 +4400,8 @@
     "employees": 186993,
     "profit_per_employee": 5453,
     "worker_share": 4.231,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13995870
   },
   {
     "ticker": "DDOG",
@@ -4314,7 +4432,8 @@
     "employees": 8100,
     "profit_per_employee": 13994,
     "complete": true,
-    "worker_share": 14.738
+    "worker_share": 14.738,
+    "ceo_pay": 27055481
   },
   {
     "ticker": "DVA",
@@ -4345,7 +4464,8 @@
     "employees": 78000,
     "complete": true,
     "profit_per_employee": 10148,
-    "worker_share": 7.079
+    "worker_share": 7.079,
+    "ceo_pay": 18233679
   },
   {
     "ticker": "DECK",
@@ -4376,7 +4496,8 @@
     "employees": 6000,
     "profit_per_employee": 152762,
     "worker_share": 0.332,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 10051429
   },
   {
     "ticker": "DE",
@@ -4407,7 +4528,8 @@
     "employees": 73100,
     "profit_per_employee": 101655,
     "worker_share": 1.446,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 27925424
   },
   {
     "ticker": "DELL",
@@ -4438,7 +4560,8 @@
     "employees": 97000,
     "profit_per_employee": 47821,
     "worker_share": 1.648,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 3382209
   },
   {
     "ticker": "DAL",
@@ -4469,7 +4592,8 @@
     "employees": 100000,
     "profit_per_employee": 43570,
     "worker_share": 2.318,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 19222401
   },
   {
     "ticker": "DVN",
@@ -4500,7 +4624,8 @@
     "employees": 2200,
     "profit_per_employee": 1405152,
     "complete": true,
-    "worker_share": 0.135
+    "worker_share": 0.135,
+    "ceo_pay": 12600000
   },
   {
     "ticker": "DXCM",
@@ -4531,7 +4656,8 @@
     "employees": 11100,
     "profit_per_employee": 58679,
     "complete": true,
-    "worker_share": 1.0
+    "worker_share": 1.0,
+    "ceo_pay": 16282598
   },
   {
     "ticker": "FANG",
@@ -4562,7 +4688,8 @@
     "employees": 1762,
     "profit_per_employee": 1540863,
     "worker_share": 0.109,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14931423
   },
   {
     "ticker": "DLR",
@@ -4593,7 +4720,8 @@
     "employees": 4282,
     "profit_per_employee": 222631,
     "worker_share": 0.544,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21071498
   },
   {
     "ticker": "DG",
@@ -4686,7 +4814,8 @@
     "employees": 15200,
     "profit_per_employee": 153377,
     "worker_share": 0.974,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16037850
   },
   {
     "ticker": "DPZ",
@@ -4717,7 +4846,8 @@
     "employees": 10200,
     "profit_per_employee": 55719,
     "complete": true,
-    "worker_share": 0.66
+    "worker_share": 0.66,
+    "ceo_pay": 10696081
   },
   {
     "ticker": "DASH",
@@ -4748,7 +4878,8 @@
     "employees": 31400,
     "profit_per_employee": 5308,
     "worker_share": 6.853,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 431864
   },
   {
     "ticker": "DOV",
@@ -4779,7 +4910,8 @@
     "employees": 24000,
     "profit_per_employee": 67332,
     "worker_share": 0.828,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18757706
   },
   {
     "ticker": "DOW",
@@ -4841,7 +4973,8 @@
     "employees": 14341,
     "profit_per_employee": 304193,
     "worker_share": 0.427,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25162355
   },
   {
     "ticker": "DTE",
@@ -4872,7 +5005,8 @@
     "employees": 9650,
     "profit_per_employee": 94266,
     "worker_share": 1.075,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8457065
   },
   {
     "ticker": "DUK",
@@ -4903,7 +5037,8 @@
     "employees": 5027,
     "profit_per_employee": 817784,
     "worker_share": 0.162,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14031983
   },
   {
     "ticker": "DD",
@@ -4934,7 +5069,8 @@
     "employees": 15000,
     "profit_per_employee": 7711,
     "worker_share": 11.087,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16134250
   },
   {
     "ticker": "ETN",
@@ -4965,7 +5101,8 @@
     "employees": 97000,
     "profit_per_employee": 38141,
     "worker_share": 1.624,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 7944655
   },
   {
     "ticker": "EBAY",
@@ -4996,7 +5133,8 @@
     "employees": 12300,
     "profit_per_employee": 183550,
     "worker_share": 0.982,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 28463890
   },
   {
     "ticker": "ECHO",
@@ -5058,7 +5196,8 @@
     "employees": 48000,
     "profit_per_employee": 38613,
     "worker_share": 1.385,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17404935
   },
   {
     "ticker": "EIX",
@@ -5089,7 +5228,8 @@
     "employees": 13725,
     "profit_per_employee": 1144648,
     "worker_share": 1.306,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16544559
   },
   {
     "ticker": "EW",
@@ -5120,7 +5260,8 @@
     "employees": 16000,
     "profit_per_employee": 138552,
     "worker_share": 0.648,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17454255
   },
   {
     "ticker": "EA",
@@ -5151,7 +5292,8 @@
     "employees": 14600,
     "profit_per_employee": 74909,
     "worker_share": 1.566,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 30529835
   },
   {
     "ticker": "ELV",
@@ -5182,7 +5324,8 @@
     "employees": 97100,
     "profit_per_employee": 1175267,
     "worker_share": 1.306,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 22593979
   },
   {
     "ticker": "EME",
@@ -5213,7 +5356,8 @@
     "employees": 44000,
     "profit_per_employee": 22068,
     "complete": true,
-    "worker_share": 3.971
+    "worker_share": 3.971,
+    "ceo_pay": 14380630
   },
   {
     "ticker": "EMR",
@@ -5244,7 +5388,8 @@
     "employees": 71447,
     "profit_per_employee": 2880211,
     "worker_share": 0.649,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21259535
   },
   {
     "ticker": "ETR",
@@ -5273,7 +5418,8 @@
     "confidence": "high (llm)",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000211/etr-20260327.htm",
     "employees": null,
-    "complete": false
+    "complete": false,
+    "ceo_pay": 16752589
   },
   {
     "ticker": "EOG",
@@ -5304,7 +5450,8 @@
     "employees": 3400,
     "complete": true,
     "profit_per_employee": 1860490,
-    "worker_share": 0.121
+    "worker_share": 0.121,
+    "ceo_pay": 17576636
   },
   {
     "ticker": "EQT",
@@ -5335,7 +5482,8 @@
     "employees": 1523,
     "profit_per_employee": 876572,
     "worker_share": 0.178,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16087233
   },
   {
     "ticker": "EFX",
@@ -5366,7 +5514,8 @@
     "employees": 15000,
     "profit_per_employee": 40216,
     "worker_share": 1.977,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 23387653
   },
   {
     "ticker": "EQIX",
@@ -5428,7 +5577,8 @@
     "employees": 2400,
     "profit_per_employee": 309912,
     "worker_share": 0.18,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12759187
   },
   {
     "ticker": "ERIE",
@@ -5487,7 +5637,8 @@
     "employees": 1689,
     "profit_per_employee": 383814,
     "worker_share": 0.295,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 10096804
   },
   {
     "ticker": "EL",
@@ -5518,7 +5669,8 @@
     "employees": 62000,
     "profit_per_employee": 1538,
     "worker_share": 24.81,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13422486
   },
   {
     "ticker": "EG",
@@ -5549,7 +5701,8 @@
     "employees": 3064,
     "complete": true,
     "profit_per_employee": 596279,
-    "worker_share": 0.314
+    "worker_share": 0.314,
+    "ceo_pay": 8952500
   },
   {
     "ticker": "EVRG",
@@ -5580,7 +5733,8 @@
     "employees": 4691,
     "profit_per_employee": 174831,
     "worker_share": 0.849,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9537018
   },
   {
     "ticker": "ES",
@@ -5611,7 +5765,8 @@
     "employees": 10731,
     "profit_per_employee": 64745,
     "worker_share": 2.229,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14987168
   },
   {
     "ticker": "EXC",
@@ -5642,7 +5797,8 @@
     "employees": 20571,
     "profit_per_employee": 1243786,
     "worker_share": 1.233,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15601905
   },
   {
     "ticker": "EXE",
@@ -5673,7 +5829,8 @@
     "employees": 1600,
     "profit_per_employee": 734167,
     "worker_share": 0.216,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9879106
   },
   {
     "ticker": "EXPE",
@@ -5704,7 +5861,8 @@
     "employees": 16000,
     "profit_per_employee": 69271,
     "complete": true,
-    "worker_share": 1.654
+    "worker_share": 1.654,
+    "ceo_pay": 17592584
   },
   {
     "ticker": "EXPD",
@@ -5735,7 +5893,8 @@
     "employees": 20000,
     "profit_per_employee": 39555,
     "worker_share": 1.323,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9735290
   },
   {
     "ticker": "EXR",
@@ -5766,7 +5925,8 @@
     "employees": 8393,
     "profit_per_employee": 104527,
     "worker_share": 0.504,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14186887
   },
   {
     "ticker": "XOM",
@@ -5797,7 +5957,8 @@
     "employees": 57900,
     "profit_per_employee": 567265,
     "worker_share": 0.323,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 33059068
   },
   {
     "ticker": "FFIV",
@@ -5828,7 +5989,8 @@
     "employees": 6578,
     "profit_per_employee": 83820,
     "worker_share": 1.942,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 23039819
   },
   {
     "ticker": "FDS",
@@ -5859,7 +6021,8 @@
     "employees": 12800,
     "profit_per_employee": 41728,
     "worker_share": 0.423,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9460930
   },
   {
     "ticker": "FICO",
@@ -5890,7 +6053,8 @@
     "employees": 3811,
     "complete": true,
     "profit_per_employee": 139433,
-    "worker_share": 0.703
+    "worker_share": 0.703,
+    "ceo_pay": 36045267
   },
   {
     "ticker": "FAST",
@@ -5921,7 +6085,8 @@
     "employees": 24489,
     "profit_per_employee": 48512,
     "worker_share": 0.975,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 4183328
   },
   {
     "ticker": "FRT",
@@ -5952,7 +6117,8 @@
     "employees": 320,
     "complete": true,
     "profit_per_employee": 982573,
-    "worker_share": 0.133
+    "worker_share": 0.133,
+    "ceo_pay": 9929147
   },
   {
     "ticker": "FDX",
@@ -5983,7 +6149,8 @@
     "employees": 440000,
     "profit_per_employee": 9390,
     "worker_share": 5.409,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12897466
   },
   {
     "ticker": "FDXF",
@@ -6057,7 +6224,8 @@
     "employees": 18676,
     "profit_per_employee": 135022,
     "worker_share": 0.589,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 11052366
   },
   {
     "ticker": "FSLR",
@@ -6088,7 +6256,8 @@
     "employees": 7900,
     "profit_per_employee": 154053,
     "worker_share": 0.273,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8138605
   },
   {
     "ticker": "FE",
@@ -6119,7 +6288,8 @@
     "employees": 12200,
     "profit_per_employee": 1020072,
     "worker_share": 1.889,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13452559
   },
   {
     "ticker": "FISV",
@@ -6150,7 +6320,8 @@
     "employees": 38000,
     "profit_per_employee": 84904,
     "worker_share": 1.04,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 70447958
   },
   {
     "ticker": "FLEX",
@@ -6181,7 +6352,8 @@
     "employees": 150000,
     "profit_per_employee": 6053,
     "worker_share": 2.138,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 44391138
   },
   {
     "ticker": "F",
@@ -6212,7 +6384,8 @@
     "employees": 169000,
     "profit_per_employee": 4065,
     "worker_share": 22.975,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 27519557
   },
   {
     "ticker": "FTNT",
@@ -6243,7 +6416,8 @@
     "employees": 15109,
     "profit_per_employee": 104715,
     "worker_share": 1.452,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 11458039
   },
   {
     "ticker": "FTV",
@@ -6274,7 +6448,8 @@
     "employees": 10000,
     "profit_per_employee": 75930,
     "complete": true,
-    "worker_share": 1.24
+    "worker_share": 1.24,
+    "ceo_pay": 14473279
   },
   {
     "ticker": "FOXA",
@@ -6305,7 +6480,8 @@
     "employees": 10400,
     "profit_per_employee": 163462,
     "worker_share": 0.617,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 32980954
   },
   {
     "ticker": "BEN",
@@ -6336,7 +6512,8 @@
     "employees": 9800,
     "profit_per_employee": 63690,
     "worker_share": 2.34,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16844816
   },
   {
     "ticker": "FCX",
@@ -6367,7 +6544,8 @@
     "employees": 29000,
     "profit_per_employee": 141402,
     "worker_share": 0.82,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14808126
   },
   {
     "ticker": "GRMN",
@@ -6398,7 +6576,8 @@
     "employees": 23000,
     "profit_per_employee": 63260,
     "worker_share": 0.733,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 7744354
   },
   {
     "ticker": "IT",
@@ -6429,7 +6608,8 @@
     "employees": 20244,
     "profit_per_employee": 47181,
     "complete": true,
-    "worker_share": 2.698
+    "worker_share": 2.698,
+    "ceo_pay": 19226580
   },
   {
     "ticker": "GE",
@@ -6460,7 +6640,8 @@
     "employees": 57000,
     "profit_per_employee": 144690,
     "worker_share": 0.649,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 45616160
   },
   {
     "ticker": "GEHC",
@@ -6491,7 +6672,8 @@
     "employees": 54000,
     "profit_per_employee": 931057,
     "worker_share": 2.208,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18562794
   },
   {
     "ticker": "GEV",
@@ -6522,7 +6704,8 @@
     "employees": 75000,
     "profit_per_employee": 26658,
     "worker_share": 2.397,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18020345
   },
   {
     "ticker": "GEN",
@@ -6553,7 +6736,8 @@
     "employees": 3900,
     "profit_per_employee": 190000,
     "worker_share": 0.429,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 22503678
   },
   {
     "ticker": "GNRC",
@@ -6584,7 +6768,8 @@
     "employees": 4200,
     "profit_per_employee": 54800,
     "worker_share": 1.315,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8823989
   },
   {
     "ticker": "GD",
@@ -6615,7 +6800,8 @@
     "employees": 117000,
     "profit_per_employee": 32214,
     "worker_share": 3.337,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25924082
   },
   {
     "ticker": "GIS",
@@ -6646,7 +6832,8 @@
     "employees": 30000,
     "profit_per_employee": 52269,
     "worker_share": 1.16,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12492830
   },
   {
     "ticker": "GM",
@@ -6708,7 +6895,8 @@
     "employees": 65000,
     "profit_per_employee": 11726,
     "worker_share": 3.318,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12863479
   },
   {
     "ticker": "GILD",
@@ -6739,7 +6927,8 @@
     "employees": 17000,
     "profit_per_employee": 287353,
     "worker_share": 0.832,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 28437198
   },
   {
     "ticker": "GPN",
@@ -6770,7 +6959,8 @@
     "employees": 26000,
     "profit_per_employee": 50727,
     "worker_share": 1.203,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 20338768
   },
   {
     "ticker": "GL",
@@ -6801,7 +6991,8 @@
     "employees": 3695,
     "complete": true,
     "profit_per_employee": 288927,
-    "worker_share": 0.216
+    "worker_share": 0.216,
+    "ceo_pay": 9468963
   },
   {
     "ticker": "GDDY",
@@ -6832,7 +7023,8 @@
     "employees": 5845,
     "profit_per_employee": 181734,
     "complete": false,
-    "worker_share": 0.614
+    "worker_share": 0.614,
+    "ceo_pay": 23017010
   },
   {
     "ticker": "GS",
@@ -6863,7 +7055,8 @@
     "employees": 47400,
     "profit_per_employee": 6579095,
     "worker_share": 0.572,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 118891684
   },
   {
     "ticker": "HAL",
@@ -6894,7 +7087,8 @@
     "employees": 46000,
     "profit_per_employee": 46536,
     "worker_share": 1.906,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16539020
   },
   {
     "ticker": "HIG",
@@ -6925,7 +7119,8 @@
     "employees": 19200,
     "profit_per_employee": 470199,
     "worker_share": 0.689,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 22114212
   },
   {
     "ticker": "HAS",
@@ -6987,7 +7182,8 @@
     "employees": 320000,
     "profit_per_employee": 18527,
     "complete": true,
-    "worker_share": 3.398
+    "worker_share": 3.398,
+    "ceo_pay": 26456606
   },
   {
     "ticker": "DOC",
@@ -7018,7 +7214,8 @@
     "employees": 411,
     "profit_per_employee": 102140,
     "worker_share": 0.247,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 10072994
   },
   {
     "ticker": "HSIC",
@@ -7049,7 +7246,8 @@
     "employees": 25000,
     "profit_per_employee": 16053,
     "worker_share": 4.918,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12030340
   },
   {
     "ticker": "HSY",
@@ -7080,7 +7278,8 @@
     "employees": 2045,
     "profit_per_employee": 809500,
     "worker_share": 0.079,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 24878662
   },
   {
     "ticker": "HPE",
@@ -7111,7 +7310,8 @@
     "employees": 67000,
     "profit_per_employee": 23189,
     "worker_share": 3.203,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 23482721
   },
   {
     "ticker": "HLT",
@@ -7142,7 +7342,8 @@
     "employees": 182000,
     "profit_per_employee": 680329,
     "worker_share": 6.666,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 27692276
   },
   {
     "ticker": "HD",
@@ -7173,7 +7374,8 @@
     "employees": 472400,
     "profit_per_employee": 31121,
     "worker_share": 1.217,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16191127
   },
   {
     "ticker": "HONA",
@@ -7216,7 +7418,8 @@
     "employees": 101000,
     "profit_per_employee": 53109,
     "worker_share": 1.601,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 20381435
   },
   {
     "ticker": "HRL",
@@ -7247,7 +7450,8 @@
     "employees": 20000,
     "profit_per_employee": 34613,
     "complete": true,
-    "worker_share": 1.67
+    "worker_share": 1.67,
+    "ceo_pay": 8164852
   },
   {
     "ticker": "HST",
@@ -7309,7 +7513,8 @@
     "employees": 25430,
     "profit_per_employee": 44934,
     "worker_share": 1.414,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 70547718
   },
   {
     "ticker": "HPQ",
@@ -7340,7 +7545,8 @@
     "employees": 55000,
     "profit_per_employee": 51921,
     "worker_share": 1.496,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 23103812
   },
   {
     "ticker": "HUBB",
@@ -7371,7 +7577,8 @@
     "employees": 18000,
     "profit_per_employee": 44769,
     "worker_share": 1.434,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 10346752
   },
   {
     "ticker": "HUM",
@@ -7402,7 +7609,8 @@
     "employees": 67060,
     "profit_per_employee": 24277,
     "complete": true,
-    "worker_share": 3.416
+    "worker_share": 3.416,
+    "ceo_pay": 18757075
   },
   {
     "ticker": "HBAN",
@@ -7464,7 +7672,8 @@
     "employees": 44000,
     "profit_per_employee": 13909,
     "worker_share": 6.15,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13809406
   },
   {
     "ticker": "IBM",
@@ -7493,7 +7702,8 @@
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000025/ibm-20260306.htm",
     "employees": null,
-    "complete": false
+    "complete": false,
+    "ceo_pay": 37989685
   },
   {
     "ticker": "IEX",
@@ -7524,7 +7734,8 @@
     "employees": 8700,
     "profit_per_employee": 260790,
     "worker_share": 1.245,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9112893
   },
   {
     "ticker": "IDXX",
@@ -7555,7 +7766,8 @@
     "employees": 11000,
     "profit_per_employee": 459877,
     "worker_share": 0.791,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14580122
   },
   {
     "ticker": "ITW",
@@ -7586,7 +7798,8 @@
     "employees": 43000,
     "profit_per_employee": 73729,
     "worker_share": 0.991,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15228366
   },
   {
     "ticker": "INCY",
@@ -7617,7 +7830,8 @@
     "employees": 2844,
     "profit_per_employee": 224668,
     "worker_share": 1.317,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 32688692
   },
   {
     "ticker": "IR",
@@ -7648,7 +7862,8 @@
     "employees": 21000,
     "profit_per_employee": 34900,
     "worker_share": 2.161,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16197391
   },
   {
     "ticker": "PODD",
@@ -7679,7 +7894,8 @@
     "employees": 5400,
     "profit_per_employee": 53809,
     "worker_share": 1.76,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 20182817
   },
   {
     "ticker": "INTC",
@@ -7741,7 +7957,8 @@
     "employees": 3182,
     "profit_per_employee": 1107899,
     "worker_share": 0.1,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 19669486
   },
   {
     "ticker": "ICE",
@@ -7772,7 +7989,8 @@
     "employees": 12844,
     "profit_per_employee": 218961,
     "worker_share": 0.516,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 22133386
   },
   {
     "ticker": "IFF",
@@ -7865,7 +8083,8 @@
     "employees": 18200,
     "profit_per_employee": 168791,
     "worker_share": 1.435,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 36845552
   },
   {
     "ticker": "ISRG",
@@ -7896,7 +8115,8 @@
     "employees": 17021,
     "profit_per_employee": 136627,
     "worker_share": 0.909,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18275861
   },
   {
     "ticker": "IVZ",
@@ -7927,7 +8147,8 @@
     "employees": 7500,
     "profit_per_employee": 18196,
     "worker_share": 6.728,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16299849
   },
   {
     "ticker": "INVH",
@@ -7958,7 +8179,8 @@
     "employees": 1725,
     "profit_per_employee": 301703,
     "worker_share": 0.253,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14096355
   },
   {
     "ticker": "IQV",
@@ -8020,7 +8242,8 @@
     "employees": 29400,
     "profit_per_employee": 14905,
     "worker_share": 6.398,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17047480
   },
   {
     "ticker": "JBHT",
@@ -8051,7 +8274,8 @@
     "employees": 31750,
     "profit_per_employee": 19921,
     "worker_share": 3.837,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9004371
   },
   {
     "ticker": "JBL",
@@ -8082,7 +8306,8 @@
     "employees": 135000,
     "profit_per_employee": 471509,
     "worker_share": 1.718,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16092334
   },
   {
     "ticker": "JKHY",
@@ -8144,7 +8369,8 @@
     "employees": 43000,
     "profit_per_employee": 289910,
     "worker_share": 6.443,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14038363
   },
   {
     "ticker": "JNJ",
@@ -8175,7 +8401,8 @@
     "employees": 138200,
     "profit_per_employee": 183365,
     "worker_share": 0.496,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 32784511
   },
   {
     "ticker": "JCI",
@@ -8206,7 +8433,8 @@
     "employees": 87000,
     "profit_per_employee": 30422,
     "worker_share": 2.547,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 22547580
   },
   {
     "ticker": "JPM",
@@ -8237,7 +8465,8 @@
     "employees": 318512,
     "profit_per_employee": 172752,
     "worker_share": 0.648,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 40644723
   },
   {
     "ticker": "KVUE",
@@ -8268,7 +8497,8 @@
     "employees": 22000,
     "profit_per_employee": 63091,
     "worker_share": 1.113,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8177735
   },
   {
     "ticker": "KDP",
@@ -8299,7 +8529,8 @@
     "employees": 30600,
     "profit_per_employee": 62102,
     "worker_share": 1.039,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8217032
   },
   {
     "ticker": "KEY",
@@ -8330,7 +8561,8 @@
     "employees": 17226,
     "profit_per_employee": 50989,
     "worker_share": 1.786,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 11522025
   },
   {
     "ticker": "KEYS",
@@ -8361,7 +8593,8 @@
     "employees": 16800,
     "profit_per_employee": 50020,
     "worker_share": 1.716,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18020109
   },
   {
     "ticker": "KMB",
@@ -8392,7 +8625,8 @@
     "employees": 36000,
     "profit_per_employee": 58611,
     "worker_share": 0.965,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15320405
   },
   {
     "ticker": "KIM",
@@ -8423,7 +8657,8 @@
     "employees": 710,
     "complete": true,
     "profit_per_employee": 774554,
-    "worker_share": 0.155
+    "worker_share": 0.155,
+    "ceo_pay": 11581750
   },
   {
     "ticker": "KMI",
@@ -8454,7 +8689,8 @@
     "employees": 11028,
     "complete": true,
     "profit_per_employee": 243622,
-    "worker_share": 0.555
+    "worker_share": 0.555,
+    "ceo_pay": 12331566
   },
   {
     "ticker": "KKR",
@@ -8516,7 +8752,8 @@
     "employees": 15000,
     "profit_per_employee": 226907,
     "worker_share": 0.43,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25092254
   },
   {
     "ticker": "KHC",
@@ -8578,7 +8815,8 @@
     "employees": 403000,
     "profit_per_employee": 4835,
     "worker_share": 7.147,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14400108
   },
   {
     "ticker": "LHX",
@@ -8609,7 +8847,8 @@
     "employees": 45000,
     "profit_per_employee": 28081,
     "worker_share": 3.982,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25617590
   },
   {
     "ticker": "LH",
@@ -8640,7 +8879,8 @@
     "employees": 71000,
     "profit_per_employee": 9580,
     "worker_share": 6.569,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18355030
   },
   {
     "ticker": "LRCX",
@@ -8671,7 +8911,8 @@
     "employees": 19000,
     "profit_per_employee": 240297,
     "worker_share": 0.38,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 28298161
   },
   {
     "ticker": "LVS",
@@ -8702,7 +8943,8 @@
     "employees": 41500,
     "profit_per_employee": 34490,
     "worker_share": 1.166,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 31109661
   },
   {
     "ticker": "LDOS",
@@ -8733,7 +8975,8 @@
     "employees": 47000,
     "profit_per_employee": 20574,
     "worker_share": 5.853,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14736385
   },
   {
     "ticker": "LEN",
@@ -8762,7 +9005,8 @@
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/920760/000119312526073504/d940888ddef14a.htm",
     "employees": null,
-    "complete": false
+    "complete": false,
+    "ceo_pay": 29527931
   },
   {
     "ticker": "LII",
@@ -8824,7 +9068,8 @@
     "employees": 50000,
     "profit_per_employee": 243133,
     "worker_share": 0.515,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 36698337
   },
   {
     "ticker": "LIN",
@@ -8855,7 +9100,8 @@
     "employees": 65177,
     "profit_per_employee": 100557,
     "worker_share": 0.506,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21777870
   },
   {
     "ticker": "LYV",
@@ -8886,7 +9132,8 @@
     "employees": 17700,
     "profit_per_employee": 36707,
     "worker_share": 0.909,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 32552324
   },
   {
     "ticker": "LMT",
@@ -8948,7 +9195,8 @@
     "employees": 13440,
     "complete": true,
     "profit_per_employee": 111979,
-    "worker_share": 0.837
+    "worker_share": 0.837,
+    "ceo_pay": 8753165
   },
   {
     "ticker": "LOW",
@@ -8979,7 +9227,8 @@
     "employees": 276000,
     "profit_per_employee": 42589,
     "worker_share": 1.45,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21581889
   },
   {
     "ticker": "LULU",
@@ -9010,7 +9259,8 @@
     "employees": 39000,
     "profit_per_employee": 42256,
     "worker_share": 0.486,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14551916
   },
   {
     "ticker": "LITE",
@@ -9072,7 +9322,8 @@
     "employees": 18970,
     "profit_per_employee": 48322,
     "complete": true,
-    "worker_share": 2.279
+    "worker_share": 2.279,
+    "ceo_pay": 15577445
   },
   {
     "ticker": "MTB",
@@ -9103,7 +9354,8 @@
     "employees": 5473,
     "profit_per_employee": 498203,
     "worker_share": 0.167,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12015250
   },
   {
     "ticker": "MPC",
@@ -9134,7 +9386,8 @@
     "employees": 18500,
     "profit_per_employee": 309423,
     "worker_share": 0.602,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 19016261
   },
   {
     "ticker": "MAR",
@@ -9165,7 +9418,8 @@
     "employees": 414000,
     "profit_per_employee": 6489,
     "worker_share": 7.472,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 22970926
   },
   {
     "ticker": "MRSH",
@@ -9196,7 +9450,8 @@
     "employees": 95000,
     "complete": true,
     "profit_per_employee": 42021,
-    "worker_share": 1.811
+    "worker_share": 1.811,
+    "ceo_pay": 25051051
   },
   {
     "ticker": "MLM",
@@ -9258,7 +9513,8 @@
     "employees": 7480,
     "profit_per_employee": 37955,
     "worker_share": 4.185,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25064348
   },
   {
     "ticker": "MAS",
@@ -9289,7 +9545,8 @@
     "employees": 18000,
     "profit_per_employee": 47037,
     "worker_share": 1.108,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12949607
   },
   {
     "ticker": "MA",
@@ -9320,7 +9577,8 @@
     "employees": 39800,
     "complete": true,
     "profit_per_employee": 326943,
-    "worker_share": 0.381
+    "worker_share": 0.381,
+    "ceo_pay": 35422518
   },
   {
     "ticker": "MKC",
@@ -9351,7 +9609,8 @@
     "employees": 14100,
     "profit_per_employee": 53392,
     "worker_share": 0.777,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 10831581
   },
   {
     "ticker": "MCD",
@@ -9382,7 +9641,8 @@
     "employees": 150000,
     "profit_per_employee": 56122,
     "worker_share": 0.339,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 20574525
   },
   {
     "ticker": "MCK",
@@ -9413,7 +9673,8 @@
     "employees": 43000,
     "profit_per_employee": 85729,
     "worker_share": 0.791,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 24213044
   },
   {
     "ticker": "MDT",
@@ -9444,7 +9705,8 @@
     "employees": 95000,
     "profit_per_employee": 46102,
     "worker_share": 1.492,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21240058
   },
   {
     "ticker": "MRK",
@@ -9475,7 +9737,8 @@
     "employees": 75000,
     "profit_per_employee": 158827,
     "worker_share": 0.684,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 20797845
   },
   {
     "ticker": "META",
@@ -9506,7 +9769,8 @@
     "employees": 78865,
     "profit_per_employee": 684359,
     "worker_share": 0.567,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25125904
   },
   {
     "ticker": "MET",
@@ -9537,7 +9801,8 @@
     "employees": 46000,
     "profit_per_employee": 67993,
     "worker_share": 1.184,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 22389780
   },
   {
     "ticker": "MTD",
@@ -9568,7 +9833,8 @@
     "employees": 9300,
     "profit_per_employee": 90362,
     "worker_share": 0.63,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 6741212
   },
   {
     "ticker": "MGM",
@@ -9599,7 +9865,8 @@
     "employees": 18000,
     "profit_per_employee": 38789,
     "worker_share": 1.204,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25329156
   },
   {
     "ticker": "MCHP",
@@ -9630,7 +9897,8 @@
     "employees": 17900,
     "profit_per_employee": 39784,
     "worker_share": 1.458,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 40501951
   },
   {
     "ticker": "MU",
@@ -9661,7 +9929,8 @@
     "employees": 53000,
     "profit_per_employee": 21912,
     "worker_share": 2.668,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 30940146
   },
   {
     "ticker": "MSFT",
@@ -9692,7 +9961,8 @@
     "employees": 228000,
     "profit_per_employee": 383522,
     "worker_share": 0.524,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 96496790
   },
   {
     "ticker": "MAA",
@@ -9816,7 +10086,8 @@
     "employees": 91000,
     "profit_per_employee": 44033,
     "worker_share": 0.864,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 24516114
   },
   {
     "ticker": "MPWR",
@@ -9847,7 +10118,8 @@
     "employees": 4501,
     "profit_per_employee": 195580,
     "worker_share": 0.274,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 19930736
   },
   {
     "ticker": "MNST",
@@ -9878,7 +10150,8 @@
     "employees": 6891,
     "profit_per_employee": 830530,
     "complete": false,
-    "worker_share": null
+    "worker_share": null,
+    "ceo_pay": 19282630
   },
   {
     "ticker": "MCO",
@@ -9909,7 +10182,8 @@
     "employees": 16076,
     "profit_per_employee": 385157,
     "worker_share": 0.973,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18082565
   },
   {
     "ticker": "MS",
@@ -9938,7 +10212,8 @@
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/895421/000114036126012975/ny20058185x1_def14a.htm",
     "employees": null,
-    "complete": false
+    "complete": false,
+    "ceo_pay": 37187657
   },
   {
     "ticker": "MOS",
@@ -9969,7 +10244,8 @@
     "employees": 13249,
     "profit_per_employee": 47312,
     "worker_share": 1.083,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 10410935
   },
   {
     "ticker": "MSI",
@@ -10031,7 +10307,8 @@
     "employees": 6268,
     "profit_per_employee": 184005,
     "worker_share": 0.306,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 33320590
   },
   {
     "ticker": "NDAQ",
@@ -10062,7 +10339,8 @@
     "employees": 9525,
     "profit_per_employee": 652510,
     "worker_share": 0.734,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25014550
   },
   {
     "ticker": "NTAP",
@@ -10093,7 +10371,8 @@
     "employees": 11700,
     "profit_per_employee": 567292,
     "worker_share": 1.635,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 23127224
   },
   {
     "ticker": "NFLX",
@@ -10124,7 +10403,8 @@
     "employees": 16000,
     "profit_per_employee": 522934,
     "worker_share": 0.404,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 53905972
   },
   {
     "ticker": "NEM",
@@ -10155,7 +10435,8 @@
     "employees": 17500,
     "profit_per_employee": 151219,
     "worker_share": 0.554,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15625168
   },
   {
     "ticker": "NWSA",
@@ -10186,7 +10467,8 @@
     "employees": 22300,
     "profit_per_employee": 23842,
     "worker_share": 3.914,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 20623729
   },
   {
     "ticker": "NEE",
@@ -10217,7 +10499,8 @@
     "employees": 9400,
     "profit_per_employee": 747908,
     "worker_share": 0.22,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 24192607
   },
   {
     "ticker": "NKE",
@@ -10248,7 +10531,8 @@
     "employees": 77800,
     "profit_per_employee": 59936,
     "worker_share": 0.813,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 26566145
   },
   {
     "ticker": "NI",
@@ -10372,7 +10656,8 @@
     "employees": 23800,
     "profit_per_employee": 68282,
     "worker_share": 1.082,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 10059154
   },
   {
     "ticker": "NOC",
@@ -10403,7 +10688,8 @@
     "employees": 95000,
     "profit_per_employee": 462756,
     "worker_share": 3.093,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25357443
   },
   {
     "ticker": "NCLH",
@@ -10434,7 +10720,8 @@
     "employees": 44500,
     "profit_per_employee": 94320,
     "worker_share": 2.31,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13752560
   },
   {
     "ticker": "NRG",
@@ -10465,7 +10752,8 @@
     "employees": 16702,
     "profit_per_employee": 35664,
     "worker_share": 2.612,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21788422
   },
   {
     "ticker": "NUE",
@@ -10496,7 +10784,8 @@
     "employees": 33000,
     "complete": true,
     "profit_per_employee": 83798,
-    "worker_share": 1.598
+    "worker_share": 1.598,
+    "ceo_pay": 14945471
   },
   {
     "ticker": "NVDA",
@@ -10527,7 +10816,8 @@
     "employees": 42000,
     "profit_per_employee": 1767516,
     "worker_share": 0.16,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 36343830
   },
   {
     "ticker": "NVR",
@@ -10558,7 +10848,8 @@
     "employees": 6300,
     "profit_per_employee": 244093,
     "worker_share": 0.362,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 1748227
   },
   {
     "ticker": "NXPI",
@@ -10589,7 +10880,8 @@
     "employees": 32169,
     "profit_per_employee": 75932,
     "worker_share": 0.707,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14736019
   },
   {
     "ticker": "ORLY",
@@ -10620,7 +10912,8 @@
     "employees": 92923,
     "profit_per_employee": 26084,
     "worker_share": 1.267,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 4231108
   },
   {
     "ticker": "OXY",
@@ -10649,7 +10942,8 @@
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/797468/000162828026019816/oxy-20260319.htm",
     "employees": null,
-    "complete": false
+    "complete": false,
+    "ceo_pay": 18078677
   },
   {
     "ticker": "ODFL",
@@ -10680,7 +10974,8 @@
     "employees": 20591,
     "profit_per_employee": 55838,
     "worker_share": 1.415,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 11615896
   },
   {
     "ticker": "OMC",
@@ -10711,7 +11006,8 @@
     "employees": 120000,
     "profit_per_employee": 7826,
     "complete": true,
-    "worker_share": 7.326
+    "worker_share": 7.326,
+    "ceo_pay": 69865846
   },
   {
     "ticker": "ON",
@@ -10742,7 +11038,8 @@
     "employees": 2400,
     "profit_per_employee": 538542,
     "worker_share": 0.026,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17678866
   },
   {
     "ticker": "OKE",
@@ -10773,7 +11070,8 @@
     "employees": 6326,
     "profit_per_employee": 478818,
     "worker_share": 0.363,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12003335
   },
   {
     "ticker": "ORCL",
@@ -10804,7 +11102,8 @@
     "employees": 141000,
     "profit_per_employee": 94556,
     "worker_share": 1.046,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 1113417
   },
   {
     "ticker": "OTIS",
@@ -10835,7 +11134,8 @@
     "employees": 72000,
     "complete": true,
     "profit_per_employee": 20532,
-    "worker_share": 2.893
+    "worker_share": 2.893,
+    "ceo_pay": 16977877
   },
   {
     "ticker": "PCAR",
@@ -10928,7 +11228,8 @@
     "employees": 4429,
     "profit_per_employee": 172879,
     "worker_share": 1.36,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8623000
   },
   {
     "ticker": "PANW",
@@ -10959,7 +11260,8 @@
     "employees": 16068,
     "profit_per_employee": 683325,
     "worker_share": 2.622,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 99736336
   },
   {
     "ticker": "PSKY",
@@ -11015,7 +11317,8 @@
     "employees": 57950,
     "complete": true,
     "profit_per_employee": 48668,
-    "worker_share": 1.357
+    "worker_share": 1.357,
+    "ceo_pay": 19317705
   },
   {
     "ticker": "PAYX",
@@ -11046,7 +11349,8 @@
     "employees": 19000,
     "profit_per_employee": 2044,
     "worker_share": 0.813,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8807411
   },
   {
     "ticker": "PYPL",
@@ -11077,7 +11381,8 @@
     "employees": 23800,
     "profit_per_employee": 190840,
     "worker_share": 0.599,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25243486
   },
   {
     "ticker": "PNR",
@@ -11108,7 +11413,8 @@
     "employees": 9000,
     "profit_per_employee": 70441,
     "worker_share": 0.767,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 11374255
   },
   {
     "ticker": "PEP",
@@ -11139,7 +11445,8 @@
     "employees": 306000,
     "profit_per_employee": 29294,
     "worker_share": 1.819,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 23903545
   },
   {
     "ticker": "PFE",
@@ -11170,7 +11477,8 @@
     "employees": 75000,
     "profit_per_employee": 79649,
     "worker_share": 1.251,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 27585301
   },
   {
     "ticker": "PCG",
@@ -11201,7 +11509,8 @@
     "employees": 29000,
     "profit_per_employee": 85874,
     "worker_share": 2.309,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 19812481
   },
   {
     "ticker": "PM",
@@ -11263,7 +11572,8 @@
     "employees": 12600,
     "profit_per_employee": 358069,
     "worker_share": 0.446,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 23143982
   },
   {
     "ticker": "PNW",
@@ -11294,7 +11604,8 @@
     "employees": 6610,
     "profit_per_employee": 89584,
     "worker_share": 2.033,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 7600209
   },
   {
     "ticker": "PNC",
@@ -11325,7 +11636,8 @@
     "employees": 55333,
     "profit_per_employee": 4205563,
     "worker_share": 1.168,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 29530103
   },
   {
     "ticker": "PPG",
@@ -11356,7 +11668,8 @@
     "employees": 43500,
     "profit_per_employee": 30360,
     "worker_share": 1.549,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14885022
   },
   {
     "ticker": "PPL",
@@ -11418,7 +11731,8 @@
     "employees": 19700,
     "profit_per_employee": 57179,
     "worker_share": 1.537,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13638611
   },
   {
     "ticker": "PG",
@@ -11449,7 +11763,8 @@
     "employees": 109000,
     "profit_per_employee": 139162,
     "worker_share": 0.571,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21909816
   },
   {
     "ticker": "PGR",
@@ -11480,7 +11795,8 @@
     "employees": 70000,
     "profit_per_employee": 438722,
     "worker_share": 0.77,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17705924
   },
   {
     "ticker": "PLD",
@@ -11511,7 +11827,8 @@
     "employees": 2802,
     "profit_per_employee": 1665692,
     "worker_share": 0.117,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 24999873
   },
   {
     "ticker": "PRU",
@@ -11542,7 +11859,8 @@
     "employees": 36824,
     "profit_per_employee": 586067,
     "worker_share": 1.264,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 19913520
   },
   {
     "ticker": "PEG",
@@ -11573,7 +11891,8 @@
     "employees": 13189,
     "profit_per_employee": 1061070,
     "worker_share": 1.071,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13866735
   },
   {
     "ticker": "PTC",
@@ -11604,7 +11923,8 @@
     "employees": 7000,
     "profit_per_employee": 64565,
     "worker_share": 1.396,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 24315129
   },
   {
     "ticker": "PSA",
@@ -11635,7 +11955,8 @@
     "employees": 5770,
     "profit_per_employee": 346891,
     "worker_share": 0.112,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9909777
   },
   {
     "ticker": "PHM",
@@ -11666,7 +11987,8 @@
     "employees": 6506,
     "profit_per_employee": 404978,
     "complete": true,
-    "worker_share": 0.267
+    "worker_share": 0.267,
+    "ceo_pay": 15393266
   },
   {
     "ticker": "PWR",
@@ -11697,7 +12019,8 @@
     "employees": 69500,
     "profit_per_employee": 12844,
     "worker_share": 7.957,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15699684
   },
   {
     "ticker": "QCOM",
@@ -11728,7 +12051,8 @@
     "employees": 52000,
     "complete": true,
     "profit_per_employee": 146891,
-    "worker_share": 0.692
+    "worker_share": 0.692,
+    "ceo_pay": 29701097
   },
   {
     "ticker": "DGX",
@@ -11759,7 +12083,8 @@
     "employees": 57000,
     "profit_per_employee": 15889,
     "worker_share": 3.551,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15521601
   },
   {
     "ticker": "Q",
@@ -11821,7 +12146,8 @@
     "employees": 23600,
     "profit_per_employee": 32914,
     "complete": true,
-    "worker_share": 1.04
+    "worker_share": 1.04,
+    "ceo_pay": 23264269
   },
   {
     "ticker": "RJF",
@@ -11852,7 +12178,8 @@
     "employees": 19500,
     "profit_per_employee": 101573,
     "worker_share": 1.211,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18763855
   },
   {
     "ticker": "RTX",
@@ -11883,7 +12210,8 @@
     "employees": 180000,
     "profit_per_employee": 27224,
     "worker_share": 4.411,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 24846826
   },
   {
     "ticker": "O",
@@ -11914,7 +12242,8 @@
     "employees": 544,
     "complete": true,
     "profit_per_employee": 1710583,
-    "worker_share": 0.091
+    "worker_share": 0.091,
+    "ceo_pay": 16251931
   },
   {
     "ticker": "REG",
@@ -11945,7 +12274,8 @@
     "employees": 507,
     "profit_per_employee": 212742,
     "worker_share": 0.182,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 11092432
   },
   {
     "ticker": "REGN",
@@ -11976,7 +12306,8 @@
     "employees": 15410,
     "profit_per_employee": 278414,
     "worker_share": 0.625,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 7280549
   },
   {
     "ticker": "RF",
@@ -12007,7 +12338,8 @@
     "employees": 19969,
     "profit_per_employee": 86751,
     "worker_share": 0.837,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 10071648
   },
   {
     "ticker": "RSG",
@@ -12038,7 +12370,8 @@
     "employees": 42000,
     "profit_per_employee": 46932,
     "worker_share": 1.699,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14857016
   },
   {
     "ticker": "RMD",
@@ -12069,7 +12402,8 @@
     "employees": 10600,
     "profit_per_employee": 104378,
     "worker_share": 0.751,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14674543
   },
   {
     "ticker": "RVTY",
@@ -12100,7 +12434,8 @@
     "employees": 11000,
     "profit_per_employee": 36505,
     "worker_share": 1.582,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13809549
   },
   {
     "ticker": "HOOD",
@@ -12162,7 +12497,8 @@
     "employees": 26000,
     "profit_per_employee": 528230,
     "worker_share": 1.354,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15401707
   },
   {
     "ticker": "ROL",
@@ -12193,7 +12529,8 @@
     "employees": 21946,
     "profit_per_employee": 21690,
     "worker_share": 3.002,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8966870
   },
   {
     "ticker": "ROP",
@@ -12224,7 +12561,8 @@
     "employees": 19400,
     "profit_per_employee": 76801,
     "worker_share": 1.325,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 26227020
   },
   {
     "ticker": "ROST",
@@ -12255,7 +12593,8 @@
     "employees": 111000,
     "profit_per_employee": 1006804,
     "worker_share": 0.548,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17406705
   },
   {
     "ticker": "RCL",
@@ -12317,7 +12656,8 @@
     "employees": 44500,
     "profit_per_employee": 82015,
     "worker_share": 0.49,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12831062
   },
   {
     "ticker": "CRM",
@@ -12348,7 +12688,8 @@
     "employees": 83334,
     "profit_per_employee": 71159,
     "worker_share": 2.343,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 49379252
   },
   {
     "ticker": "SNDK",
@@ -12410,7 +12751,8 @@
     "employees": 1844,
     "profit_per_employee": 416663,
     "worker_share": 0.209,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 11358715
   },
   {
     "ticker": "SLB",
@@ -12472,7 +12814,8 @@
     "employees": 30000,
     "profit_per_employee": 14167,
     "worker_share": 1.408,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17176927
   },
   {
     "ticker": "SRE",
@@ -12503,7 +12846,8 @@
     "employees": 3048,
     "profit_per_employee": 850175,
     "worker_share": 0.202,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 22274952
   },
   {
     "ticker": "NOW",
@@ -12534,7 +12878,8 @@
     "employees": 29187,
     "profit_per_employee": 56007,
     "worker_share": 3.665,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 51550957
   },
   {
     "ticker": "SHW",
@@ -12565,7 +12910,8 @@
     "employees": 64249,
     "profit_per_employee": 39631,
     "worker_share": 1.515,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14914317
   },
   {
     "ticker": "SPG",
@@ -12596,7 +12942,8 @@
     "employees": 3600,
     "profit_per_employee": 3570053,
     "worker_share": 0.08,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 11663678
   },
   {
     "ticker": "SWKS",
@@ -12627,7 +12974,8 @@
     "employees": 10000,
     "profit_per_employee": 68530,
     "worker_share": 0.5,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25611697
   },
   {
     "ticker": "SJM",
@@ -12689,7 +13037,8 @@
     "employees": 97000,
     "profit_per_employee": 6333,
     "worker_share": 9.561,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16429689
   },
   {
     "ticker": "SNA",
@@ -12720,7 +13069,8 @@
     "employees": 13000,
     "profit_per_employee": 78767,
     "worker_share": 0.796,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 10138217
   },
   {
     "ticker": "SOLV",
@@ -12751,7 +13101,8 @@
     "employees": 20000,
     "profit_per_employee": 56350,
     "worker_share": 1.458,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 20139981
   },
   {
     "ticker": "SO",
@@ -12813,7 +13164,8 @@
     "employees": 72790,
     "profit_per_employee": 6278,
     "worker_share": 15.245,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16587882
   },
   {
     "ticker": "SWK",
@@ -12844,7 +13196,8 @@
     "employees": 43500,
     "profit_per_employee": 2956,
     "worker_share": 16.206,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8579210
   },
   {
     "ticker": "SBUX",
@@ -12875,7 +13228,8 @@
     "employees": 381000,
     "profit_per_employee": 8523,
     "worker_share": 2.027,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 30992773
   },
   {
     "ticker": "STT",
@@ -12906,7 +13260,8 @@
     "employees": 52000,
     "profit_per_employee": 48564,
     "complete": true,
-    "worker_share": 0.896
+    "worker_share": 0.896,
+    "ceo_pay": 19529070
   },
   {
     "ticker": "STLD",
@@ -12937,7 +13292,8 @@
     "employees": 14400,
     "profit_per_employee": 119760,
     "worker_share": 0.873,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12059908
   },
   {
     "ticker": "STE",
@@ -12968,7 +13324,8 @@
     "employees": 18000,
     "profit_per_employee": 32872,
     "worker_share": 2.229,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 11530116
   },
   {
     "ticker": "SYK",
@@ -12999,7 +13356,8 @@
     "employees": 56000,
     "profit_per_employee": 55976,
     "worker_share": 1.447,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21401495
   },
   {
     "ticker": "SMCI",
@@ -13076,7 +13434,8 @@
     "employees": 28000,
     "profit_per_employee": 57446,
     "worker_share": 1.628,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 19605963
   },
   {
     "ticker": "SYY",
@@ -13107,7 +13466,8 @@
     "employees": 75000,
     "profit_per_employee": 24680,
     "worker_share": 3.4,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16228599
   },
   {
     "ticker": "TMUS",
@@ -13138,7 +13498,8 @@
     "employees": 75000,
     "profit_per_employee": 136213,
     "worker_share": 0.559,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 37993644
   },
   {
     "ticker": "TROW",
@@ -13169,7 +13530,8 @@
     "employees": 7773,
     "profit_per_employee": 256267,
     "worker_share": 0.664,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17245792
   },
   {
     "ticker": "TTWO",
@@ -13231,7 +13593,8 @@
     "employees": 19000,
     "profit_per_employee": 33951,
     "worker_share": 0.785,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17340349
   },
   {
     "ticker": "TRGP",
@@ -13262,7 +13625,8 @@
     "employees": 3570,
     "profit_per_employee": 427722,
     "worker_share": 0.346,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21470708
   },
   {
     "ticker": "TGT",
@@ -13293,7 +13657,8 @@
     "employees": 400000,
     "profit_per_employee": 9945,
     "worker_share": 2.766,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21830088
   },
   {
     "ticker": "TEL",
@@ -13324,7 +13689,8 @@
     "employees": 93000,
     "profit_per_employee": 24892,
     "worker_share": 1.186,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18325536
   },
   {
     "ticker": "TDY",
@@ -13386,7 +13752,8 @@
     "employees": 6600,
     "profit_per_employee": 78039,
     "worker_share": 1.507,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14107588
   },
   {
     "ticker": "TSLA",
@@ -13448,7 +13815,8 @@
     "employees": 33000,
     "profit_per_employee": 164747,
     "worker_share": 0.508,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 22702299
   },
   {
     "ticker": "TPL",
@@ -13479,7 +13847,8 @@
     "employees": 114,
     "profit_per_employee": 220847,
     "worker_share": 0.041,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 7413075
   },
   {
     "ticker": "TXT",
@@ -13510,7 +13879,8 @@
     "employees": 34000,
     "profit_per_employee": 26137,
     "worker_share": 4.257,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21186411
   },
   {
     "ticker": "TMO",
@@ -13541,7 +13911,8 @@
     "employees": 125000,
     "complete": true,
     "profit_per_employee": 50757,
-    "worker_share": 1.405
+    "worker_share": 1.405,
+    "ceo_pay": 79923350
   },
   {
     "ticker": "TJX",
@@ -13572,7 +13943,8 @@
     "employees": 377000,
     "profit_per_employee": 13114,
     "worker_share": 1.143,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 26603537
   },
   {
     "ticker": "TKO",
@@ -13603,7 +13975,8 @@
     "employees": 4000,
     "profit_per_employee": 14132,
     "worker_share": 5.833,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 67361782
   },
   {
     "ticker": "TTD",
@@ -13634,7 +14007,8 @@
     "employees": 3843,
     "profit_per_employee": 88067,
     "worker_share": 2.485,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 27431583
   },
   {
     "ticker": "TSCO",
@@ -13665,7 +14039,8 @@
     "employees": 26000,
     "profit_per_employee": 42366,
     "worker_share": 0.575,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 32277194
   },
   {
     "ticker": "TT",
@@ -13696,7 +14071,8 @@
     "employees": 44000,
     "profit_per_employee": 56897,
     "worker_share": 1.192,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 27262157
   },
   {
     "ticker": "TDG",
@@ -13727,7 +14103,8 @@
     "employees": 16500,
     "profit_per_employee": 835551,
     "worker_share": 0.664,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 25188430
   },
   {
     "ticker": "TRV",
@@ -13758,7 +14135,8 @@
     "employees": 34000,
     "profit_per_employee": 139980,
     "complete": true,
-    "worker_share": 0.943
+    "worker_share": 0.943,
+    "ceo_pay": 26983859
   },
   {
     "ticker": "TRMB",
@@ -13789,7 +14167,8 @@
     "employees": 11500,
     "profit_per_employee": 64919,
     "complete": true,
-    "worker_share": 1.797
+    "worker_share": 1.797,
+    "ceo_pay": 19129944
   },
   {
     "ticker": "TFC",
@@ -13835,7 +14214,8 @@
     "employees": 7800,
     "profit_per_employee": 31818,
     "worker_share": 3.22,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8858370
   },
   {
     "ticker": "TSN",
@@ -13866,7 +14246,8 @@
     "employees": 133000,
     "profit_per_employee": 1569,
     "complete": true,
-    "worker_share": 27.539
+    "worker_share": 27.539,
+    "ceo_pay": 34469569
   },
   {
     "ticker": "USB",
@@ -13897,7 +14278,8 @@
     "employees": 68520,
     "profit_per_employee": 93880,
     "worker_share": 1.015,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16674515
   },
   {
     "ticker": "UBER",
@@ -13928,7 +14310,8 @@
     "employees": 34000,
     "profit_per_employee": 213686,
     "worker_share": 0.462,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 35595826
   },
   {
     "ticker": "UDR",
@@ -13959,7 +14342,8 @@
     "employees": 1420,
     "profit_per_employee": 214000,
     "worker_share": 0.403,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 9933438
   },
   {
     "ticker": "ULTA",
@@ -13990,7 +14374,8 @@
     "employees": 65000,
     "profit_per_employee": 18695,
     "worker_share": 0.636,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15403663
   },
   {
     "ticker": "UNP",
@@ -14021,7 +14406,8 @@
     "employees": 29287,
     "profit_per_employee": 230637,
     "worker_share": 0.583,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 20296362
   },
   {
     "ticker": "UAL",
@@ -14052,7 +14438,8 @@
     "employees": 113200,
     "profit_per_employee": 26855,
     "worker_share": 3.6,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 32282253
   },
   {
     "ticker": "UPS",
@@ -14114,7 +14501,8 @@
     "employees": 28500,
     "profit_per_employee": 1233416,
     "worker_share": 1.005,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12057571
   },
   {
     "ticker": "UNH",
@@ -14145,7 +14533,8 @@
     "employees": 390000,
     "profit_per_employee": 41745,
     "worker_share": 1.952,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 60950571
   },
   {
     "ticker": "UHS",
@@ -14207,7 +14596,8 @@
     "employees": 9811,
     "profit_per_employee": 474060,
     "worker_share": 0.445,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 34228523
   },
   {
     "ticker": "VEEV",
@@ -14238,7 +14628,8 @@
     "employees": 7928,
     "profit_per_employee": 90344,
     "worker_share": 1.555,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 470833
   },
   {
     "ticker": "VTR",
@@ -14269,7 +14660,8 @@
     "employees": 542,
     "profit_per_employee": 52604,
     "worker_share": 0.628,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17501073
   },
   {
     "ticker": "VLTO",
@@ -14300,7 +14692,8 @@
     "employees": 17000,
     "profit_per_employee": 51216,
     "worker_share": 1.253,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14803238
   },
   {
     "ticker": "VRSN",
@@ -14331,7 +14724,8 @@
     "employees": 928,
     "profit_per_employee": 399835,
     "worker_share": 0.268,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15536674
   },
   {
     "ticker": "VRSK",
@@ -14362,7 +14756,8 @@
     "employees": 8000,
     "profit_per_employee": 103379,
     "worker_share": 0.667,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13540847
   },
   {
     "ticker": "VZ",
@@ -14393,7 +14788,8 @@
     "employees": 89900,
     "profit_per_employee": 171650,
     "complete": true,
-    "worker_share": 0.901
+    "worker_share": 0.901,
+    "ceo_pay": 38264880
   },
   {
     "ticker": "VRTX",
@@ -14424,7 +14820,8 @@
     "employees": 6400,
     "profit_per_employee": 366521,
     "worker_share": 0.722,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 21144261
   },
   {
     "ticker": "VRT",
@@ -14455,7 +14852,8 @@
     "employees": 34000,
     "profit_per_employee": 22439,
     "worker_share": 1.239,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 18311719
   },
   {
     "ticker": "VTRS",
@@ -14517,7 +14915,8 @@
     "employees": 28,
     "profit_per_employee": 1311579,
     "worker_share": 0.005,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14007585
   },
   {
     "ticker": "V",
@@ -14548,7 +14947,8 @@
     "employees": 34100,
     "profit_per_employee": 557908,
     "worker_share": 0.278,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 31560660
   },
   {
     "ticker": "VST",
@@ -14579,7 +14979,8 @@
     "employees": 6390,
     "profit_per_employee": 265832,
     "worker_share": 0.516,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15989188
   },
   {
     "ticker": "VMC",
@@ -14610,7 +15011,8 @@
     "employees": 11548,
     "profit_per_employee": 87176,
     "worker_share": 1.375,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 14722492
   },
   {
     "ticker": "WRB",
@@ -14639,7 +15041,8 @@
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/11544/000119312526170583/d82252ddef14a.htm",
     "employees": null,
-    "complete": false
+    "complete": false,
+    "ceo_pay": 16823866
   },
   {
     "ticker": "GWW",
@@ -14670,7 +15073,8 @@
     "employees": 25000,
     "profit_per_employee": 72587,
     "worker_share": 0.935,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 11622917
   },
   {
     "ticker": "WAB",
@@ -14701,7 +15105,8 @@
     "employees": 31000,
     "profit_per_employee": 32699,
     "worker_share": 1.574,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 26181461
   },
   {
     "ticker": "WMT",
@@ -14732,7 +15137,8 @@
     "employees": 2100000,
     "profit_per_employee": 9022,
     "worker_share": 3.383,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 29240930
   },
   {
     "ticker": "DIS",
@@ -14763,7 +15169,8 @@
     "employees": 231000,
     "profit_per_employee": 28470,
     "worker_share": 2.0,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 45851157
   },
   {
     "ticker": "WBD",
@@ -14856,7 +15263,8 @@
     "employees": 7900,
     "profit_per_employee": 81126,
     "worker_share": 1.144,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13973044
   },
   {
     "ticker": "WEC",
@@ -14887,7 +15295,8 @@
     "employees": 7151,
     "profit_per_employee": 730502,
     "worker_share": 0.647,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12188492
   },
   {
     "ticker": "WFC",
@@ -14918,7 +15327,8 @@
     "employees": 205000,
     "profit_per_employee": 104538,
     "worker_share": 0.838,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 94522642
   },
   {
     "ticker": "WELL",
@@ -14949,7 +15359,8 @@
     "employees": 712,
     "profit_per_employee": 377421,
     "worker_share": 0.116,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 821090355
   },
   {
     "ticker": "WST",
@@ -14980,7 +15391,8 @@
     "employees": 10800,
     "profit_per_employee": 48759,
     "worker_share": 1.326,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 7190876
   },
   {
     "ticker": "WDC",
@@ -15042,7 +15454,8 @@
     "employees": 9517,
     "profit_per_employee": 54604,
     "worker_share": 2.093,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13983685
   },
   {
     "ticker": "WSM",
@@ -15073,7 +15486,8 @@
     "employees": 19800,
     "profit_per_employee": 53257,
     "worker_share": 0.468,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 33297422
   },
   {
     "ticker": "WMB",
@@ -15104,7 +15518,8 @@
     "employees": 5987,
     "profit_per_employee": 446634,
     "worker_share": 0.321,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 8682793
   },
   {
     "ticker": "WTW",
@@ -15135,7 +15550,8 @@
     "employees": 47000,
     "profit_per_employee": 425087,
     "worker_share": 3.468,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 12793605
   },
   {
     "ticker": "WDAY",
@@ -15166,7 +15582,8 @@
     "employees": 21000,
     "profit_per_employee": 41270,
     "worker_share": 5.3,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 26031706
   },
   {
     "ticker": "WYNN",
@@ -15197,7 +15614,8 @@
     "employees": 28500,
     "profit_per_employee": 18227,
     "worker_share": 3.461,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 15090901
   },
   {
     "ticker": "XEL",
@@ -15290,7 +15708,8 @@
     "employees": 49000,
     "profit_per_employee": 55262,
     "worker_share": 0.486,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 17904655
   },
   {
     "ticker": "ZBRA",
@@ -15321,7 +15740,8 @@
     "employees": 10700,
     "profit_per_employee": 38723,
     "worker_share": 1.775,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 13890300
   },
   {
     "ticker": "ZBH",
@@ -15352,7 +15772,8 @@
     "employees": 17000,
     "profit_per_employee": 51625,
     "worker_share": 1.557,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 16106550
   },
   {
     "ticker": "ZTS",
@@ -15383,6 +15804,7 @@
     "employees": 3900,
     "profit_per_employee": 641282,
     "complete": true,
-    "worker_share": 0.126
+    "worker_share": 0.126,
+    "ceo_pay": 19046509
   }
 ]
