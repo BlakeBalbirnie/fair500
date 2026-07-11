@@ -1367,18 +1367,18 @@
     },
     "net_income": {
       "2023": 474326000,
-      "2024": 463742000,
-      "2025": 527362000
+      "2024": 440961000,
+      "2025": 426113000
     },
-    "margin_3yr": 11.17,
-    "avg_net_income": 488476667,
+    "margin_3yr": 10.23,
+    "avg_net_income": 447133333,
     "ratio": 346,
     "median_pay": 197440,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026026286/ares-20260420.htm",
     "employees": 4250,
     "profit_per_employee": 114936,
-    "worker_share": 1.718,
+    "worker_share": 1.877,
     "complete": true,
     "ceo_pay": 68279532
   },
@@ -5058,17 +5058,17 @@
     "net_income": {
       "2023": 423000000,
       "2024": 703000000,
-      "2025": -779000000
+      "2025": 88000000
     },
-    "margin_3yr": 1.72,
-    "avg_net_income": 115666667,
+    "margin_3yr": 6.02,
+    "avg_net_income": 404666667,
     "ratio": 189,
     "median_pay": 85492,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1666700/000119312526151204/d11932ddef14a.htm",
     "employees": 15000,
     "profit_per_employee": 7711,
-    "worker_share": 11.087,
+    "worker_share": 3.169,
     "complete": true,
     "ceo_pay": 16134250
   },
@@ -6339,19 +6339,19 @@
       "2026": 27914000000
     },
     "net_income": {
-      "2024": 1006000000,
+      "2024": 872000000,
       "2025": 838000000,
       "2026": 880000000
     },
-    "margin_3yr": 3.4,
-    "avg_net_income": 908000000,
+    "margin_3yr": 3.23,
+    "avg_net_income": 863333333,
     "ratio": 3431,
     "median_pay": 12939,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/866374/000130817926000365/flex015484-def14a.htm",
     "employees": 150000,
     "profit_per_employee": 6053,
-    "worker_share": 2.138,
+    "worker_share": 2.248,
     "complete": true,
     "ceo_pay": 44391138
   },
@@ -6531,19 +6531,19 @@
       "2025": 25186000000
     },
     "net_income": {
-      "2023": 3751000000,
-      "2024": 4399000000,
-      "2025": 4152000000
+      "2023": 1848000000,
+      "2024": 1889000000,
+      "2025": 2204000000
     },
-    "margin_3yr": 16.84,
-    "avg_net_income": 4100666667,
+    "margin_3yr": 8.13,
+    "avg_net_income": 1980333333,
     "ratio": 128,
     "median_pay": 115935,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/831259/000119312526173666/d30227ddef14a.htm",
     "employees": 29000,
     "profit_per_employee": 141402,
-    "worker_share": 0.82,
+    "worker_share": 1.698,
     "complete": true,
     "ceo_pay": 14808126
   },

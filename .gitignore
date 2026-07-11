@@ -31,3 +31,4 @@ data/verify_batches/
 data/ceo_results/
 data/ceo_pay_all.json
 data/ceo_pay_regex.json
+data/netincome_flags.json
