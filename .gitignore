@@ -33,3 +33,4 @@ data/ceo_pay_all.json
 data/ceo_pay_regex.json
 data/netincome_flags.json
 data/revenue_flags.json
+data/fin_batches/
