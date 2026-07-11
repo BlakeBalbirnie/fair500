@@ -3995,23 +3995,6 @@
   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000023/isrg-20260313.htm"
  },
  {
-  "t": "IVZ",
-  "n": "Invesco",
-  "sec": "Financials",
-  "m": 2.25,
-  "r": 133,
-  "p": 0.14,
-  "med": 122418,
-  "emp": 7500,
-  "cp": 16299849,
-  "y": [
-   2023,
-   2024,
-   2025
-  ],
-  "url": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm"
- },
- {
   "t": "INVH",
   "n": "Invitation Homes",
   "sec": "Real Estate",
