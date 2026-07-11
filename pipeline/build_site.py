@@ -82,6 +82,8 @@ def main():
     # 3) keep the company counts in the copy in sync
     src = re.sub(r"For each of \d+ companies", f"For each of {len(rows)} companies", src)
     src = re.sub(r"All \d+ companies covered", f"All {len(rows)} companies covered", src)
+    # FAQ coverage count (visible + JSON-LD): "maps N of the 500 companies"
+    src = re.sub(r"maps \d+ of the 500 companies", f"maps {len(rows)} of the 500 companies", src)
 
     open(INDEX, "w").write(src)
     print(f"Built {len(rows)} site rows from {len(master)} master records; "
