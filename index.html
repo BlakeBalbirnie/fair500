@@ -85,6 +85,11 @@
     border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer;font-size:17px;
     box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;line-height:1}
   .theme-btn:hover{border-color:var(--accent)}
+  .about-btn{position:absolute;top:32px;right:70px;height:40px;padding:0 15px;border-radius:11px;
+    border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer;font-size:14px;
+    box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;line-height:1;
+    text-decoration:none;font-weight:550}
+  .about-btn:hover{border-color:var(--accent);color:var(--accent)}
   header h1{font-size:30px;letter-spacing:-.02em;margin:0 0 6px;font-weight:750}
   header h1 span{color:var(--accent)}
   .sub{color:var(--muted);max-width:none;margin:0 0 4px;font-size:15px}
@@ -197,6 +202,7 @@
 </head>
 <body>
 <div class="wrap">
+  <a class="about-btn" href="#about" title="About Fair500">About</a>
   <button class="theme-btn" id="themeToggle" aria-label="Toggle light or dark mode" title="Toggle light/dark">☾</button>
   <header>
     <h1>Fair<span>500</span></h1>
@@ -279,12 +285,12 @@
           <th data-k="r">Pay ratio</th>
           <th data-k="med">Median pay</th>
           <th data-k="ceo" class="calc" title="CEO total compensation from the proxy statement (Summary Compensation Table). Estimated as pay ratio times median pay only for the few companies that do not state a dollar figure.">CEO pay</th>
-          <th data-k="p">Total profit</th>
           <th data-k="rev" class="calc" title="3-yr avg revenue, derived from profit divided by net margin">Revenue</th>
-          <th data-k="ppe" class="calc" title="Profit per worker = 3-yr avg profit divided by employees">Profit / worker</th>
-          <th data-k="share" class="calc" title="Worker pay vs. value created = median pay divided by profit per worker">Pay vs. profit</th>
+          <th data-k="p">Total profit</th>
           <th data-k="m">Net margin</th>
           <th data-k="emp">Employees</th>
+          <th data-k="ppe" class="calc" title="Profit per worker = 3-yr avg profit divided by employees">Profit / worker</th>
+          <th data-k="share" class="calc" title="Worker pay vs. value created = median pay divided by profit per worker">Pay vs. profit</th>
         </tr></thead>
         <tbody></tbody>
       </table>
@@ -292,7 +298,7 @@
   </div>
 
 
-  <section class="card content">
+  <section class="card content" id="about">
     <h2>How much the S&amp;P 500 makes, and how much reaches its workers</h2>
     <p>Fair500 maps the profitability and pay fairness of every company in the S&amp;P 500, from <b>Apple, Microsoft, Amazon, Alphabet (Google), Nvidia</b> and <b>Meta</b> to <b>Walmart, JPMorgan Chase, ExxonMobil, Coca-Cola, McDonald's</b> and <b>Disney</b>. For each of 461 companies it plots how much profit the business earns against how much of that money actually reaches the people who do the work.</p>
     <p>It uses two numbers every large company has to disclose: the <b>CEO-to-worker pay ratio</b> (how many times the median employee's pay the CEO takes home) and <b>median worker pay</b> set against the profit each employee generates. Both come straight from SEC filings, so you can compare companies side by side instead of arguing about executive pay in the abstract.</p>
@@ -779,7 +785,7 @@
 
   <footer class="site">
     <p><b>Fair500</b> · Built from public <a href="https://www.sec.gov/edgar" rel="nofollow">SEC EDGAR</a> filings · CEO pay-ratio and median-worker-pay data from DEF 14A proxy statements.</p>
-    <p><a href="/privacy.html">Privacy Policy</a> · <a href="https://github.com/BlakeBalbirnie/fair500" rel="nofollow">Source on GitHub</a> · Data last updated July 2026 · Not affiliated with the U.S. Securities and Exchange Commission or any company listed.</p>
+    <p><a href="/privacy.html">Privacy Policy</a> · Data last updated July 2026 · Not affiliated with the U.S. Securities and Exchange Commission or any company listed.</p>
   </footer>
 </div>
 
@@ -907,12 +913,12 @@ function renderTable(){
     <td>${or(d.r,v=>v.toLocaleString()+':1')}</td>
     <td>${or(d.med,fmt$)}</td>
     <td>${or(d.ceo,fmt$)}</td>
-    <td>${or(d.p,fmt$B)}</td>
     <td>${or(d.rev,fmt$B)}</td>
-    <td>${or(d.ppe,fmt$)}</td>
-    <td>${or(d.share,v=>v.toFixed(2)+'×')}</td>
+    <td>${or(d.p,fmt$B)}</td>
     <td>${or(d.m,v=>v+'%')}</td>
-    <td>${or(d.emp,v=>v.toLocaleString())}</td></tr>`).join('');
+    <td>${or(d.emp,v=>v.toLocaleString())}</td>
+    <td>${or(d.ppe,fmt$)}</td>
+    <td>${or(d.share,v=>v.toFixed(2)+'×')}</td></tr>`).join('');
   document.querySelectorAll('#tbl th').forEach(th=>{th.classList.toggle('sorted',th.dataset.k===sortK);th.classList.toggle('asc',th.dataset.k===sortK&&asc);});
 }
 document.querySelectorAll('#tbl th').forEach(th=>{
