@@ -1073,6 +1073,23 @@
   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000130817926000262/ny-20260410.htm"
  },
  {
+  "t": "BX",
+  "n": "Blackstone Inc.",
+  "sec": "Financials",
+  "m": 20.13,
+  "r": 457,
+  "p": 2.4,
+  "med": 275000,
+  "emp": 5285,
+  "cp": 125641824,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
+ },
+ {
   "t": "BNY",
   "n": "BNY Mellon",
   "sec": "Financials",
@@ -2934,6 +2951,23 @@
   "url": "https://www.sec.gov/Archives/edgar/data/906107/000119312526155007/eqr-20260410.htm"
  },
  {
+  "t": "ERIE",
+  "n": "Erie Indemnity",
+  "sec": "Financials",
+  "m": 14.43,
+  "r": 54,
+  "p": 0.54,
+  "med": 100398,
+  "emp": 6667,
+  "cp": 5395618,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/922621/000119312526116761/d49742ddef14c.htm"
+ },
+ {
   "t": "ESS",
   "n": "Essex Property Trust",
   "sec": "Real Estate",
@@ -4570,6 +4604,23 @@
    2025
   ],
   "url": "https://www.sec.gov/Archives/edgar/data/1506307/000150630726000024/kmi-20260401.htm"
+ },
+ {
+  "t": "KKR",
+  "n": "KKR & Co.",
+  "sec": "Financials",
+  "m": 16.44,
+  "r": 392,
+  "p": 3.06,
+  "med": 210000,
+  "emp": 5043,
+  "cp": 82313323,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm"
  },
  {
   "t": "KLAC",

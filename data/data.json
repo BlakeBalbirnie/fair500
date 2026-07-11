@@ -2079,7 +2079,11 @@
     "employees": 5285,
     "profit_per_employee": 453270,
     "complete": false,
-    "worker_share": null
+    "worker_share": 0.6067,
+    "ratio": 457,
+    "median_pay": 275000,
+    "ceo_pay": 125641824,
+    "proxy_url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
   },
   {
     "ticker": "XYZ",
@@ -5616,7 +5620,11 @@
     "employees": 6667,
     "profit_per_employee": 80281,
     "complete": false,
-    "worker_share": null
+    "worker_share": 1.2506,
+    "ratio": 54,
+    "median_pay": 100398,
+    "ceo_pay": 5395618,
+    "proxy_url": "https://www.sec.gov/Archives/edgar/data/922621/000119312526116761/d49742ddef14c.htm"
   },
   {
     "ticker": "ESS",
@@ -8729,14 +8737,15 @@
     },
     "margin_3yr": 16.44,
     "avg_net_income": 3059656333,
-    "ratio": null,
-    "median_pay": null,
+    "ratio": 392,
+    "median_pay": 210000,
     "confidence": "none",
-    "proxy_url": "https://www.sec.gov/Archives/edgar/data/1404912/000114036126007164/ny20061501x2_def14a.htm",
+    "proxy_url": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000007/kkr-20251231.htm",
     "employees": 5043,
-    "profit_per_employee": 3824570,
+    "profit_per_employee": 606714,
     "complete": false,
-    "worker_share": null
+    "worker_share": 0.3461,
+    "ceo_pay": 82313323
   },
   {
     "ticker": "KLAC",
