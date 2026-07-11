@@ -597,6 +597,23 @@
   "url": "https://www.sec.gov/Archives/edgar/data/315293/000119312526187428/aon-20260428.htm"
  },
  {
+  "t": "APA",
+  "n": "APA Corporation",
+  "sec": "Energy",
+  "m": 18.91,
+  "r": 56,
+  "p": 1.7,
+  "med": 237527,
+  "emp": 1791,
+  "cp": 13202517,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1841666/000119312526149453/apa-20260409.htm"
+ },
+ {
   "t": "APO",
   "n": "Apollo Global Management",
   "sec": "Financials",
@@ -7059,6 +7076,23 @@
   "url": "https://www.sec.gov/Archives/edgar/data/310764/000031076426000013/syk-20260323.htm"
  },
  {
+  "t": "SYF",
+  "n": "Synchrony Financial",
+  "sec": "Financials",
+  "m": 16.65,
+  "r": 337,
+  "p": 3.1,
+  "med": 63465,
+  "emp": 20000,
+  "cp": 21401619,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000017/synchronyfinancialproxy202.htm"
+ },
+ {
   "t": "SNPS",
   "n": "Synopsys",
   "sec": "Technology",
@@ -7466,6 +7500,23 @@
    2026
   ],
   "url": "https://www.sec.gov/Archives/edgar/data/864749/000086474926000042/trmb-20260409.htm"
+ },
+ {
+  "t": "TFC",
+  "n": "Truist Financial",
+  "sec": "Financials",
+  "m": 16.85,
+  "r": 137,
+  "p": 3.01,
+  "med": 104397,
+  "emp": 38711,
+  "cp": 14333032,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/92230/000119312526107144/d12240ddef14a.htm"
  },
  {
   "t": "TYL",

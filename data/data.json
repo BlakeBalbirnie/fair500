@@ -1119,15 +1119,32 @@
     "name": "APA Corporation",
     "sector": "Energy",
     "cik": "0001841666",
-    "years": [],
-    "revenue": {},
-    "net_income": {},
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "revenue": {
+      "2023": 8279000000,
+      "2024": 9737000000,
+      "2025": 8920000000
+    },
+    "net_income": {
+      "2023": 2855000000,
+      "2024": 804000000,
+      "2025": 1434000000
+    },
     "ratio": 56,
     "median_pay": 237527,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1841666/000119312526149453/apa-20260409.htm",
     "employees": 1791,
-    "complete": false
+    "complete": false,
+    "ceo_pay": 13202517,
+    "avg_net_income": 1697666667,
+    "margin_3yr": 18.91,
+    "profit_per_employee": 947888,
+    "worker_share": 0.2506
   },
   {
     "ticker": "APO",
@@ -13424,15 +13441,32 @@
     "name": "Synchrony Financial",
     "sector": "Financials",
     "cik": "0001601712",
-    "years": [],
-    "revenue": {},
-    "net_income": {},
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "revenue": {
+      "2023": 17288000000,
+      "2024": 19532000000,
+      "2025": 18986000000
+    },
+    "net_income": {
+      "2023": 2238000000,
+      "2024": 3499000000,
+      "2025": 3552000000
+    },
     "ratio": 337,
     "median_pay": 63465,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000017/synchronyfinancialproxy202.htm",
-    "employees": 12000,
-    "complete": false
+    "employees": 20000,
+    "complete": false,
+    "ceo_pay": 21401619,
+    "avg_net_income": 3096333333,
+    "margin_3yr": 16.65,
+    "profit_per_employee": 154817,
+    "worker_share": 0.4099
   },
   {
     "ticker": "SNPS",
@@ -14204,15 +14238,32 @@
     "name": "Truist Financial",
     "sector": "Financials",
     "cik": "0000092230",
-    "years": [],
-    "revenue": {},
-    "net_income": {},
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "revenue": {
+      "2023": 20022000000,
+      "2024": 13278000000,
+      "2025": 20319000000
+    },
+    "net_income": {
+      "2023": -1091000000,
+      "2024": 4818000000,
+      "2025": 5307000000
+    },
     "ratio": 137,
     "median_pay": 104397,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/92230/000119312526107144/d12240ddef14a.htm",
-    "employees": null,
-    "complete": false
+    "employees": 38711,
+    "complete": false,
+    "ceo_pay": 14333032,
+    "avg_net_income": 3011333333,
+    "margin_3yr": 16.85,
+    "profit_per_employee": 77790,
+    "worker_share": 1.342
   },
   {
     "ticker": "TYL",
