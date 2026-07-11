@@ -221,6 +221,42 @@
   "url": "https://www.sec.gov/Archives/edgar/data/1086222/000108622226000042/akam-20260330.htm"
  },
  {
+  "t": "ALB",
+  "n": "Albemarle Corporation",
+  "sec": "Materials",
+  "m": -0.58,
+  "r": 216,
+  "p": -0.039,
+  "med": 71667,
+  "emp": 7800,
+  "cp": 15513654,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000050/alb-20260323.htm",
+  "loss": 1
+ },
+ {
+  "t": "ARE",
+  "n": "Alexandria Real Estate Equities",
+  "sec": "Real Estate",
+  "m": -11.11,
+  "r": 43,
+  "p": -0.334,
+  "med": 207588,
+  "emp": 514,
+  "cp": 8844053,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1035443/000103544326000031/are-20260331.htm",
+  "loss": 1
+ },
+ {
   "t": "ALGN",
   "n": "Align Technology",
   "sec": "Health Care",
@@ -1054,6 +1090,24 @@
   "url": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm"
  },
  {
+  "t": "BA",
+  "n": "Boeing",
+  "sec": "Industrials",
+  "m": -5.05,
+  "r": 166,
+  "p": -3.935,
+  "med": 141933,
+  "emp": 182000,
+  "cp": 23581389,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/12927/000119312526096787/d39411ddef14a.htm",
+  "loss": 1
+ },
+ {
   "t": "BKNG",
   "n": "Booking Holdings",
   "sec": "Consumer Discretionary",
@@ -1462,6 +1516,24 @@
   "url": "https://www.sec.gov/Archives/edgar/data/1140859/000162828026003061/cor-20260122.htm"
  },
  {
+  "t": "CNC",
+  "n": "Centene Corporation",
+  "sec": "Health Care",
+  "m": -0.14,
+  "r": 206,
+  "p": -0.222,
+  "med": 94800,
+  "emp": 61100,
+  "cp": 19506298,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000077/cnc-20260326.htm",
+  "loss": 1
+ },
+ {
   "t": "CNP",
   "n": "CenterPoint Energy",
   "sec": "Utilities",
@@ -1819,6 +1891,24 @@
   "url": "https://www.sec.gov/Archives/edgar/data/1058290/000130817926000290/ctsh014861-def14a.htm"
  },
  {
+  "t": "COHR",
+  "n": "Coherent Corp.",
+  "sec": "Technology",
+  "m": -2.34,
+  "r": 163,
+  "p": -0.122,
+  "med": 22791,
+  "emp": 30000,
+  "cp": 3722935,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/820318/000110465925096170/tm2513374-4_def14a.htm",
+  "loss": 1
+ },
+ {
   "t": "COIN",
   "n": "Coinbase",
   "sec": "Financials",
@@ -2089,6 +2179,42 @@
    2025
   ],
   "url": "https://www.sec.gov/Archives/edgar/data/849395/000162828026021560/crh-20260326.htm"
+ },
+ {
+  "t": "CRWD",
+  "n": "CrowdStrike",
+  "sec": "Technology",
+  "m": -0.89,
+  "r": 1391,
+  "p": -0.035,
+  "med": 178015,
+  "emp": 10698,
+  "cp": 247579143,
+  "y": [
+   2024,
+   2025,
+   2026
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1535527/000110465926055599/tm2532333-4_def14a.htm",
+  "loss": 1
+ },
+ {
+  "t": "CCI",
+  "n": "Crown Castle",
+  "sec": "Real Estate",
+  "m": -14.54,
+  "r": 113,
+  "p": -0.652,
+  "med": 149323,
+  "emp": 4000,
+  "cp": 16864557,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000039/cci-20260406.htm",
+  "loss": 1
  },
  {
   "t": "CSX",
@@ -2363,6 +2489,24 @@
   "url": "https://www.sec.gov/Archives/edgar/data/29534/000110465926040394/tm261322-1_def14a.htm"
  },
  {
+  "t": "DLTR",
+  "n": "Dollar Tree",
+  "sec": "Consumer Staples",
+  "m": -5.11,
+  "r": 911,
+  "p": -0.915,
+  "med": 16214,
+  "emp": 150000,
+  "cp": 14775215,
+  "y": [
+   2024,
+   2025,
+   2026
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/935703/000110465926053500/tm261374-1_def14a.htm",
+  "loss": 1
+ },
+ {
   "t": "D",
   "n": "Dominion Energy",
   "sec": "Utilities",
@@ -2429,6 +2573,24 @@
    2025
   ],
   "url": "https://www.sec.gov/Archives/edgar/data/29905/000119312526120708/d935769ddef14a.htm"
+ },
+ {
+  "t": "DOW",
+  "n": "Dow Inc.",
+  "sec": "Materials",
+  "m": -0.72,
+  "r": 207,
+  "p": -0.306,
+  "med": 91995,
+  "emp": 34600,
+  "cp": 19078777,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1751788/000119312526082583/dow-20260227.htm",
+  "loss": 1
  },
  {
   "t": "DHI",
@@ -2531,6 +2693,24 @@
    2025
   ],
   "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278126000285/e26002_ebay-def14a.htm"
+ },
+ {
+  "t": "ECHO",
+  "n": "EchoStar",
+  "sec": "Communication Services",
+  "m": -34.11,
+  "r": 105,
+  "p": -5.44,
+  "med": 85048,
+  "emp": 12100,
+  "cp": 8927865,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1415404/000155837025003470/tmb-20250502xdef14a.htm",
+  "loss": 1
  },
  {
   "t": "ECL",
@@ -3043,6 +3223,24 @@
   "url": "https://www.sec.gov/Archives/edgar/data/1048911/000110465925079800/tm2512613-2_def14a.htm"
  },
  {
+  "t": "FIS",
+  "n": "Fidelity National Information Services",
+  "sec": "Financials",
+  "m": -15.74,
+  "r": 518,
+  "p": -1.608,
+  "med": 44229,
+  "emp": 44000,
+  "cp": 22928412,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000026/fis-20260428.htm",
+  "loss": 1
+ },
+ {
   "t": "FITB",
   "n": "Fifth Third Bancorp",
   "sec": "Financials",
@@ -3536,6 +3734,24 @@
   "url": "https://www.sec.gov/Archives/edgar/data/874766/000087476626000025/hig-20260409.htm"
  },
  {
+  "t": "HAS",
+  "n": "Hasbro",
+  "sec": "Consumer Discretionary",
+  "m": -10.3,
+  "r": 165,
+  "p": -0.475,
+  "med": 113241,
+  "emp": 4520,
+  "cp": 18672521,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/46080/000119312526160426/d36474ddef14a.htm",
+  "loss": 1
+ },
+ {
   "t": "HCA",
   "n": "HCA Healthcare",
   "sec": "Health Care",
@@ -3927,6 +4143,24 @@
   "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114036126013333/ny20060552x1_def14a.htm"
  },
  {
+  "t": "INTC",
+  "n": "Intel",
+  "sec": "Technology",
+  "m": -10.82,
+  "r": 812,
+  "p": -5.778,
+  "med": 114900,
+  "emp": 85100,
+  "cp": 92990900,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
+  "loss": 1
+ },
+ {
   "t": "IBKR",
   "n": "Interactive Brokers",
   "sec": "Financials",
@@ -3961,6 +4195,42 @@
   "url": "https://www.sec.gov/Archives/edgar/data/1571949/000119312526134700/ice-20260330.htm"
  },
  {
+  "t": "IFF",
+  "n": "International Flavors & Fragrances",
+  "sec": "Materials",
+  "m": -7.91,
+  "r": 239,
+  "p": -0.893,
+  "med": 62828,
+  "emp": 21500,
+  "cp": 15002866,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/51253/000114036126009960/ny20055514x1_def14a.htm",
+  "loss": 1
+ },
+ {
+  "t": "IP",
+  "n": "International Paper",
+  "sec": "Materials",
+  "m": -4.81,
+  "r": 164,
+  "p": -0.89,
+  "med": 90506,
+  "emp": 62602,
+  "cp": 14838324,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/51434/000162828026021729/ipc-20260327.htm",
+  "loss": 1
+ },
+ {
   "t": "INTU",
   "n": "Intuit",
   "sec": "Technology",
@@ -3993,6 +4263,24 @@
    2025
   ],
   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000023/isrg-20260313.htm"
+ },
+ {
+  "t": "IVZ",
+  "n": "Invesco",
+  "sec": "Financials",
+  "m": -2.87,
+  "r": 133,
+  "p": -0.174,
+  "med": 122418,
+  "emp": 7500,
+  "cp": 16299849,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm",
+  "loss": 1
  },
  {
   "t": "INVH",
@@ -4301,6 +4589,24 @@
   "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312525213294/d913108ddef14a.htm"
  },
  {
+  "t": "KHC",
+  "n": "Kraft Heinz",
+  "sec": "Consumer Staples",
+  "m": -0.32,
+  "r": 170,
+  "p": -0.082,
+  "med": 63053,
+  "emp": 35000,
+  "cp": 10748810,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1637459/000119312526141397/khc-20260402.htm",
+  "loss": 1
+ },
+ {
   "t": "KR",
   "n": "Kroger",
   "sec": "Consumer Staples",
@@ -4554,6 +4860,24 @@
    2026
   ],
   "url": "https://www.sec.gov/Archives/edgar/data/1397187/000139718725000017/lulu-20250429.htm"
+ },
+ {
+  "t": "LITE",
+  "n": "Lumentum",
+  "sec": "Technology",
+  "m": -13.67,
+  "r": 2884,
+  "p": -0.217,
+  "med": 9595,
+  "emp": 10562,
+  "cp": 27670076,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817925000615/lite014752-def14a.htm",
+  "loss": 1
  },
  {
   "t": "LYB",
@@ -4928,6 +5252,42 @@
    2025
   ],
   "url": "https://www.sec.gov/Archives/edgar/data/912595/000114036126013212/ny20062832x1_def14a.htm"
+ },
+ {
+  "t": "MRNA",
+  "n": "Moderna",
+  "sec": "Health Care",
+  "m": -92.26,
+  "r": 89,
+  "p": -3.699,
+  "med": 225053,
+  "emp": 4700,
+  "cp": 19932217,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1682852/000130817926000081/mrna-20260316.htm",
+  "loss": 1
+ },
+ {
+  "t": "TAP",
+  "n": "Molson Coors Beverage Company",
+  "sec": "Consumer Staples",
+  "m": -0.2,
+  "r": 97,
+  "p": -0.023,
+  "med": 97029,
+  "emp": 16200,
+  "cp": 9402624,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/24545/000110465926034154/tap-20260506xdef14a.htm",
+  "loss": 1
  },
  {
   "t": "MDLZ",
@@ -6443,6 +6803,24 @@
   "url": "https://www.sec.gov/Archives/edgar/data/4127/000110465926039476/tm261577-5_def14a.htm"
  },
  {
+  "t": "SJM",
+  "n": "J.M. Smucker Company",
+  "sec": "Consumer Staples",
+  "m": -2.41,
+  "r": 141,
+  "p": -0.208,
+  "med": 77698,
+  "emp": 6700,
+  "cp": 10935216,
+  "y": [
+   2024,
+   2025,
+   2026
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/91419/000119312526283858/d227901ddef14a.htm",
+  "loss": 1
+ },
+ {
   "t": "SW",
   "n": "Smurfit Westrock",
   "sec": "Materials",
@@ -6696,6 +7074,24 @@
    2025
   ],
   "url": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm"
+ },
+ {
+  "t": "TTWO",
+  "n": "Take-Two Interactive",
+  "sec": "Communication Services",
+  "m": -48.31,
+  "r": 458,
+  "p": -2.84,
+  "med": 73005,
+  "emp": 12909,
+  "cp": null,
+  "y": [
+   2024,
+   2025,
+   2026
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828025036188/ttwo-20250728.htm",
+  "loss": 1
  },
  {
   "t": "TPR",
@@ -7378,6 +7774,24 @@
   "url": "https://www.sec.gov/Archives/edgar/data/1674101/000119312526174898/d18663ddef14a.htm"
  },
  {
+  "t": "VTRS",
+  "n": "Viatris",
+  "sec": "Health Care",
+  "m": -9.24,
+  "r": 327,
+  "p": -1.365,
+  "med": 46729,
+  "emp": 30000,
+  "cp": 15273331,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1792044/000114036126013002/ny20062029x771_def14a.htm",
+  "loss": 1
+ },
+ {
   "t": "VICI",
   "n": "Vici Properties",
   "sec": "Real Estate",
@@ -7531,6 +7945,24 @@
   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000013/dis-20260122.htm"
  },
  {
+  "t": "WBD",
+  "n": "Warner Bros. Discovery",
+  "sec": "Communication Services",
+  "m": -11.62,
+  "r": 1378,
+  "p": -4.57,
+  "med": 119748,
+  "emp": 35500,
+  "cp": 165009366,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1437107/000143710726000046/wbd-20260429.htm",
+  "loss": 1
+ },
+ {
   "t": "WM",
   "n": "Waste Management",
   "sec": "Industrials",
@@ -7631,6 +8063,24 @@
    2025
   ],
   "url": "https://www.sec.gov/Archives/edgar/data/105770/000110465926026778/wst-20260504xdef14a.htm"
+ },
+ {
+  "t": "WDC",
+  "n": "Western Digital",
+  "sec": "Technology",
+  "m": -2.68,
+  "r": 1321,
+  "p": -0.198,
+  "med": 8740,
+  "emp": 40000,
+  "cp": 11547685,
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828025044298/wdc-20251006.htm",
+  "loss": 1
  },
  {
   "t": "WY",

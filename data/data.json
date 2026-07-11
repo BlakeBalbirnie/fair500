@@ -441,8 +441,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000050/alb-20260323.htm",
     "employees": 7800,
     "profit_per_employee": -4983,
-    "worker_share": -14.382,
-    "complete": true
+    "worker_share": -14.3823,
+    "complete": true,
+    "ceo_pay": 15513654
   },
   {
     "ticker": "ARE",
@@ -466,14 +467,15 @@
     },
     "margin_3yr": -11.11,
     "avg_net_income": -334327333,
-    "ratio": 56,
+    "ratio": 43,
     "median_pay": 207588,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1035443/000103544326000031/are-20260331.htm",
     "employees": 514,
     "profit_per_employee": -650442,
-    "worker_share": -0.319,
-    "complete": true
+    "worker_share": -0.3191,
+    "complete": true,
+    "ceo_pay": 8844053
   },
   {
     "ticker": "ALGN",
@@ -2169,9 +2171,10 @@
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/12927/000119312526096787/d39411ddef14a.htm",
     "employees": 182000,
-    "profit_per_employee": -1944005,
-    "worker_share": -6.565,
-    "complete": true
+    "profit_per_employee": -21619,
+    "worker_share": -6.5652,
+    "complete": true,
+    "ceo_pay": 23581389
   },
   {
     "ticker": "BKNG",
@@ -2968,8 +2971,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000077/cnc-20260326.htm",
     "employees": 61100,
     "profit_per_employee": -3639,
-    "worker_share": -26.052,
-    "complete": true
+    "worker_share": -26.0511,
+    "complete": true,
+    "ceo_pay": 19506298
   },
   {
     "ticker": "CNP",
@@ -3668,8 +3672,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/820318/000110465925096170/tm2513374-4_def14a.htm",
     "employees": 30000,
     "profit_per_employee": -4069,
-    "worker_share": -5.601,
-    "complete": true
+    "worker_share": -5.6011,
+    "complete": true,
+    "ceo_pay": 3722935
   },
   {
     "ticker": "COIN",
@@ -4209,8 +4214,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1535527/000110465926055599/tm2532333-4_def14a.htm",
     "employees": 10698,
     "profit_per_employee": -3289,
-    "worker_share": -54.122,
-    "complete": true
+    "worker_share": -54.1244,
+    "complete": true,
+    "ceo_pay": 247579143
   },
   {
     "ticker": "CCI",
@@ -4223,16 +4229,16 @@
       2025
     ],
     "revenue": {
-      "2023": 421000000,
-      "2024": 192000000,
-      "2025": 215000000
+      "2023": 4734000000,
+      "2024": 4460000000,
+      "2025": 4264000000
     },
     "net_income": {
       "2023": 1502000000,
       "2024": -3903000000,
       "2025": 444000000
     },
-    "margin_3yr": -236.35,
+    "margin_3yr": -14.54,
     "avg_net_income": -652333333,
     "ratio": 113,
     "median_pay": 149323,
@@ -4241,7 +4247,8 @@
     "employees": 4000,
     "profit_per_employee": -163083,
     "complete": true,
-    "worker_share": -0.916
+    "worker_share": -0.9156,
+    "ceo_pay": 16864557
   },
   {
     "ticker": "CSX",
@@ -4780,10 +4787,11 @@
     "median_pay": 16214,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/935703/000110465926053500/tm261374-1_def14a.htm",
-    "employees": 35181,
-    "profit_per_employee": -26018,
-    "worker_share": -0.623,
-    "complete": true
+    "employees": 150000,
+    "profit_per_employee": -6102,
+    "worker_share": -2.6572,
+    "complete": true,
+    "ceo_pay": 14775215
   },
   {
     "ticker": "D",
@@ -4929,20 +4937,21 @@
       "2025": 39968000000
     },
     "net_income": {
-      "2023": 660000000,
-      "2024": 1201000000,
-      "2025": -2444000000
+      "2023": 589000000,
+      "2024": 1116000000,
+      "2025": -2623000000
     },
-    "margin_3yr": -0.46,
-    "avg_net_income": -194333333,
+    "margin_3yr": -0.72,
+    "avg_net_income": -306000000,
     "ratio": 207,
     "median_pay": 91995,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1751788/000119312526082583/dow-20260227.htm",
-    "employees": 200000,
-    "profit_per_employee": -972,
-    "worker_share": -94.678,
-    "complete": true
+    "employees": 34600,
+    "profit_per_employee": -8844,
+    "worker_share": -10.402,
+    "complete": true,
+    "ceo_pay": 19078777
   },
   {
     "ticker": "DHI",
@@ -5164,8 +5173,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1415404/000155837025003470/tmb-20250502xdef14a.htm",
     "employees": 12100,
     "profit_per_employee": -449553,
-    "worker_share": -0.189,
-    "complete": true
+    "worker_share": -0.1892,
+    "complete": true,
+    "ceo_pay": 8927865
   },
   {
     "ticker": "ECL",
@@ -6192,8 +6202,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000026/fis-20260428.htm",
     "employees": 44000,
     "profit_per_employee": -36538,
-    "worker_share": -1.21,
-    "complete": true
+    "worker_share": -1.2105,
+    "complete": true,
+    "ceo_pay": 22928412
   },
   {
     "ticker": "FITB",
@@ -7150,8 +7161,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/46080/000119312526160426/d36474ddef14a.htm",
     "employees": 4520,
     "profit_per_employee": -105170,
-    "worker_share": -1.077,
-    "complete": true
+    "worker_share": -1.0767,
+    "complete": true,
+    "ceo_pay": 18672521
   },
   {
     "ticker": "HCA",
@@ -7925,8 +7937,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000061/proxy2026.htm",
     "employees": 85100,
     "profit_per_employee": -67897,
-    "worker_share": -1.692,
-    "complete": true
+    "worker_share": -1.6923,
+    "complete": true,
+    "ceo_pay": 92990900
   },
   {
     "ticker": "IBKR",
@@ -8018,10 +8031,11 @@
     "median_pay": 62828,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/51253/000114036126009960/ny20055514x1_def14a.htm",
-    "employees": 3000,
-    "profit_per_employee": -297667,
-    "worker_share": -0.211,
-    "complete": true
+    "employees": 21500,
+    "profit_per_employee": -41535,
+    "worker_share": -1.5127,
+    "complete": true,
+    "ceo_pay": 15002866
   },
   {
     "ticker": "IP",
@@ -8051,8 +8065,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/51434/000162828026021729/ipc-20260327.htm",
     "employees": 62602,
     "profit_per_employee": -14222,
-    "worker_share": -6.364,
-    "complete": true
+    "worker_share": -6.3638,
+    "complete": true,
+    "ceo_pay": 14838324
   },
   {
     "ticker": "INTU",
@@ -8145,8 +8160,8 @@
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/914208/000119312526140019/d931607ddef14a.htm",
     "employees": 7500,
-    "profit_per_employee": 18196,
-    "worker_share": 6.728,
+    "profit_per_employee": -23200,
+    "worker_share": -5.2766,
     "complete": true,
     "ceo_pay": 16299849
   },
@@ -8784,7 +8799,8 @@
     "employees": 35000,
     "profit_per_employee": -2352,
     "complete": true,
-    "worker_share": -26.804
+    "worker_share": -26.8082,
+    "ceo_pay": 10748810
   },
   {
     "ticker": "KR",
@@ -9290,8 +9306,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1633978/000130817925000615/lite014752-def14a.htm",
     "employees": 10562,
     "profit_per_employee": -20583,
-    "worker_share": -0.466,
-    "complete": true
+    "worker_share": -0.4662,
+    "complete": true,
+    "ceo_pay": 27670076
   },
   {
     "ticker": "LYB",
@@ -10024,7 +10041,8 @@
     "employees": 4700,
     "profit_per_employee": -787021,
     "complete": true,
-    "worker_share": -0.286
+    "worker_share": -0.286,
+    "ceo_pay": 19932217
   },
   {
     "ticker": "TAP",
@@ -10037,16 +10055,16 @@
       2025
     ],
     "revenue": {
-      "2023": 13884600000,
-      "2024": 13734300000,
-      "2025": 13040300000
+      "2023": 11702100000,
+      "2024": 11627000000,
+      "2025": 11140800000
     },
     "net_income": {
       "2023": 948900000,
       "2024": 1122400000,
       "2025": -2139600000
     },
-    "margin_3yr": -0.17,
+    "margin_3yr": -0.2,
     "avg_net_income": -22766667,
     "ratio": 97,
     "median_pay": 97029,
@@ -10054,8 +10072,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/24545/000110465926034154/tap-20260506xdef14a.htm",
     "employees": 16200,
     "profit_per_employee": -1405,
-    "worker_share": -69.043,
-    "complete": true
+    "worker_share": -69.0598,
+    "complete": true,
+    "ceo_pay": 9402624
   },
   {
     "ticker": "MDLZ",
@@ -13003,10 +13022,11 @@
     "median_pay": 77698,
     "confidence": "high",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/91419/000119312526283858/d227901ddef14a.htm",
-    "employees": 3000,
-    "profit_per_employee": -69500,
-    "worker_share": -1.118,
-    "complete": true
+    "employees": 6700,
+    "profit_per_employee": -31119,
+    "worker_share": -2.4968,
+    "complete": true,
+    "ceo_pay": 10935216
   },
   {
     "ticker": "SW",
@@ -13562,7 +13582,7 @@
     "employees": 12909,
     "profit_per_employee": -220035,
     "complete": true,
-    "worker_share": -0.332
+    "worker_share": -0.3318
   },
   {
     "ticker": "TPR",
@@ -14883,8 +14903,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1792044/000114036126013002/ny20062029x771_def14a.htm",
     "employees": 30000,
     "profit_per_employee": -45493,
-    "worker_share": -1.027,
-    "complete": true
+    "worker_share": -1.0272,
+    "complete": true,
+    "ceo_pay": 15273331
   },
   {
     "ticker": "VICI",
@@ -15200,8 +15221,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1437107/000143710726000046/wbd-20260429.htm",
     "employees": 35500,
     "profit_per_employee": -128732,
-    "worker_share": -0.93,
-    "complete": true
+    "worker_share": -0.9302,
+    "complete": true,
+    "ceo_pay": 165009366
   },
   {
     "ticker": "WM",
@@ -15422,8 +15444,9 @@
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/106040/000162828025044298/wdc-20251006.htm",
     "employees": 40000,
     "profit_per_employee": -4942,
-    "worker_share": -1.769,
-    "complete": true
+    "worker_share": -1.7685,
+    "complete": true,
+    "ceo_pay": 11547685
   },
   {
     "ticker": "WY",

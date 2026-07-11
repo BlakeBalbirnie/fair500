@@ -30,19 +30,31 @@ def build_rows(master):
     for r in master:
         p = r.get("avg_net_income")
         ratio, med = r.get("ratio"), r.get("median_pay")
-        if p is None or p <= 0:
+        if p is None:
             continue
-        if not ratio and not med:            # need at least one fairness input
+        loss = p <= 0
+        if loss:
+            # loss-makers plot in the chart's "lost money" band; they can only be
+            # scored on the CEO-pay gap (the value score needs positive profit), so
+            # they must have BOTH a ratio (for the gap score) and a median (for the
+            # bubble). Value/combined fall back to gap in the site JS.
+            if not (ratio and med):
+                continue
+        elif not ratio and not med:          # profitable: need at least one input
             continue
+        # founder rule: disclosed comp of a ~$0-salary founder misrepresents them
         if ratio and med and ratio * med < MIN_CEO_PAY:
             continue
-        rows.append({
+        row = {
             "t": r["ticker"], "n": r["name"], "sec": r.get("sector"),
             "m": r.get("margin_3yr"), "r": ratio,
-            "p": round(p / 1e9, 2), "med": med, "emp": r.get("employees"),
+            "p": round(p / 1e9, 3 if loss else 2), "med": med, "emp": r.get("employees"),
             "cp": r.get("ceo_pay"),  # actual CEO total comp from proxy (null -> site estimates)
             "y": r.get("years"), "url": r.get("proxy_url"),
-        })
+        }
+        if loss:
+            row["loss"] = 1
+        rows.append(row)
     return rows
 
 
