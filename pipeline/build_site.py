@@ -49,7 +49,10 @@ def build_rows(master):
             "t": r["ticker"], "n": r["name"], "sec": r.get("sector"),
             "m": r.get("margin_3yr"), "r": ratio,
             "p": round(p / 1e9, 3 if loss else 2), "med": med, "emp": r.get("employees"),
-            "cp": r.get("ceo_pay"),  # actual CEO total comp from proxy (null -> site estimates)
+            # cp = CEO pay used for the ratio (3-yr average of Summary Comp Table totals,
+            # aligned with the 3-yr profit window); cpy = the per-year figures for the tooltip
+            "cp": r.get("ceo_pay_3yr") if r.get("ceo_pay_3yr") is not None else r.get("ceo_pay"),
+            "cpy": r.get("ceo_pay_years"),
             "y": r.get("years"), "url": r.get("proxy_url"),
         }
         if loss:
