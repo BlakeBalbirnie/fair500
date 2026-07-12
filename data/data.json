@@ -2517,14 +2517,21 @@
     },
     "margin_3yr": 6.0,
     "avg_net_income": 1404151667,
-    "ratio": 1.2344459806438871e-05,
+    "ratio": null,
     "median_pay": 222772,
     "confidence": "high (llm)",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026027203/sq-20260423.htm",
     "employees": 10205,
     "profit_per_employee": 137594,
     "worker_share": 1.619,
-    "complete": true
+    "complete": true,
+    "ceo_pay": 3,
+    "ceo_pay_3yr": 3,
+    "ceo_pay_years": {
+      "2023": 3,
+      "2024": 3,
+      "2025": 3
+    }
   },
   {
     "ticker": "BNY",
@@ -16391,7 +16398,13 @@
     "profit_per_employee": 297494,
     "worker_share": 0.192,
     "complete": false,
-    "ceo_pay": null
+    "ceo_pay": 0,
+    "ceo_pay_3yr": 0,
+    "ceo_pay_years": {
+      "2022": 0,
+      "2023": 0,
+      "2024": 0
+    }
   },
   {
     "ticker": "TXN",

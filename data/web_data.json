@@ -1446,6 +1446,28 @@
   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm"
  },
  {
+  "t": "XYZ",
+  "n": "Block, Inc.",
+  "sec": "Financials",
+  "m": 6.0,
+  "r": null,
+  "p": 1.4,
+  "med": 222772,
+  "emp": 10205,
+  "cp": 3,
+  "cpy": {
+   "2023": 3,
+   "2024": 3,
+   "2025": 3
+  },
+  "y": [
+   2023,
+   2024,
+   2025
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026027203/sq-20260423.htm"
+ },
+ {
   "t": "BNY",
   "n": "BNY Mellon",
   "sec": "Financials",
@@ -9400,8 +9422,12 @@
   "p": 8.63,
   "med": 57243,
   "emp": 29000,
-  "cp": null,
-  "cpy": null,
+  "cp": 0,
+  "cpy": {
+   "2022": 0,
+   "2023": 0,
+   "2024": 0
+  },
   "y": [
    2023,
    2024,
