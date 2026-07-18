@@ -1,0 +1,67 @@
+<!--META
+{"path": "articles/why-one-year-of-ceo-pay-misleads.html",
+ "type": "article",
+ "published": "2026-07-18",
+ "title": "Why one year of CEO pay tells you almost nothing",
+ "title_tag": "Why a single year of CEO pay is misleading · Fair500",
+ "desc": "Equity grants land in a single year, so a chief executive's disclosed compensation can swing seventy-fold between consecutive years without any change in pay policy. Why Fair500 averages CEO pay over three years before computing a pay ratio.",
+ "standfirst": "Broadcom's chief executive was disclosed at $161.8 million, then $2.6 million, then $205.3 million in three consecutive years. Nothing about the job changed. This is what grant timing does to the pay ratio.",
+ "crumb": "<a href=\"/\">Fair500</a> → <a href=\"/articles/\">Analysis</a> → The one-year problem"}
+-->
+
+<p>The Summary Compensation Table records the grant-date fair value of an equity award in the year the board granted it. If a board decides to make a single award covering the next four years of expected pay, the entire amount lands in one row, and the three years that follow look nearly empty.</p>
+
+<p>The result is that a chief executive's disclosed compensation is often a statement about board calendars rather than about pay. Here are the most extreme swings in the S&amp;P 500:</p>
+
+<!--PER-YEAR-->
+<div class="tbl-scroll"><table>
+<caption>Disclosed CEO total compensation in three consecutive proxy years, and the three-year average Fair500 uses instead.</caption>
+<thead><tr><th>Company</th><th>Year 1</th><th>Year 2</th><th>Year 3</th><th>3-yr average</th></tr></thead>
+<tbody>
+<tr><td class="co">Welltower<span class="tk">WELL</span></td><td class="num">$17.3M</td><td class="num">$20.2M</td><td class="num">$821.1M</td><td class="num">$286.2M</td></tr>
+<tr><td class="co">Broadcom<span class="tk">AVGO</span></td><td class="num">$161.8M</td><td class="num">$2.6M</td><td class="num">$205.3M</td><td class="num">$123.2M</td></tr>
+<tr><td class="co">CrowdStrike<span class="tk">CRWD</span></td><td class="num">$47.0M</td><td class="num">$35.2M</td><td class="num">$247.6M</td><td class="num">$109.9M</td></tr>
+<tr><td class="co">Veeva Systems<span class="tk">VEEV</span></td><td class="num">$0.4M</td><td class="num">$172.4M</td><td class="num">$0.5M</td><td class="num">$57.8M</td></tr>
+<tr><td class="co">Axon Enterprise<span class="tk">AXON</span></td><td class="num">$0.0M</td><td class="num">$164.5M</td><td class="num">$0.0M</td><td class="num">$54.9M</td></tr>
+<tr><td class="co">Charter Communications<span class="tk">CHTR</span></td><td class="num">$89.1M</td><td class="num">$5.8M</td><td class="num">$6.5M</td><td class="num">$33.8M</td></tr>
+<tr><td class="co">Howmet Aerospace<span class="tk">HWM</span></td><td class="num">$7.3M</td><td class="num">$22.4M</td><td class="num">$70.5M</td><td class="num">$33.4M</td></tr>
+<tr><td class="co">Supermicro<span class="tk">SMCI</span></td><td class="num">$0.0M</td><td class="num">$28.1M</td><td class="num">$0.0M</td><td class="num">$9.4M</td></tr>
+</tbody></table></div>
+
+<p>Broadcom's figure moves by a factor of seventy-eight between consecutive years. Veeva's moves by a factor of four hundred. In none of these cases did the chief executive's role, performance or negotiated arrangement change in anything like that proportion. What changed was when a grant was booked.</p>
+
+<h2>Why this breaks the pay ratio specifically</h2>
+
+<p>Median worker pay is stable. It moves a few percent a year, because a workforce's midpoint is a slow-moving quantity. CEO pay, as disclosed, is not stable at all.</p>
+
+<p>A ratio with a stable denominator and a volatile numerator inherits all of the numerator's volatility. Welltower's ratio computed on its peak year would be roughly 6,570:1, and on either adjacent year somewhere near 140:1. Both are correct arithmetic on correctly disclosed figures. Neither is a useful description of the company.</p>
+
+<p>This is a serious problem for anyone ranking companies, because <b>the ranking becomes substantially a ranking of which boards happened to grant equity this year.</b> A league table of single-year pay ratios is, in significant part, a league table of grant calendars.</p>
+
+<h2>The fix, and its cost</h2>
+
+<p>Fair500 averages the chief executive's total compensation across the three most recent proxy years, then divides by the disclosed median:</p>
+
+<div class="note"><p><b>Pay ratio = (mean CEO total compensation, 3 years) &divide; (median employee compensation)</b></p></div>
+
+<p>Three years is not an arbitrary choice. It matches the window already used for profit on this site, so the two halves of every comparison cover the same period; and it is long enough to contain a typical multi-year grant cycle without being so long that it blurs a genuine change in pay policy.</p>
+
+<p>The cost of this choice is real and worth stating. <b>The number we publish is not the number the company published.</b> Anyone comparing our figure to a company's proxy will find a discrepancy, and for a handful of companies that discrepancy is enormous. We think the trade is clearly worth it, but it obliges us to show the workings, so the year-by-year amounts appear in the tooltip for every company on the map.</p>
+
+<p>Averaging also does not fix the underlying accounting. Grant-date fair value is an estimate of what an award is worth when granted, not what the executive eventually receives. An award can vest worthless or be worth several times its grant value. Smoothing addresses timing, not valuation.</p>
+
+<h2>An unexpected benefit: founder CEOs</h2>
+
+<p>Smoothing solved a problem we had been handling badly.</p>
+
+<p>Some founder-executives take no salary in most years, then receive a very large performance award occasionally. On a single-year basis these companies alternate between an undefined ratio and an absurd one. Our first approach was a blunt exclusion rule: drop any company whose implied CEO pay fell below $100,000, on the grounds that the disclosure was not describing the executive's real economic position.</p>
+
+<p>That rule swept up companies it should not have. Axon's chief executive received a $164.5 million award inside our window; Supermicro's received $28.1 million. Averaged across three years these become $54.9 million and $9.4 million, which is ordinary large-company compensation, and ratios of 404:1 and 108:1. Both companies now appear on the site. The exclusion rule had been hiding real, substantial pay simply because it arrived unevenly.</p>
+
+<p>What remains after smoothing is a much smaller group: executives who genuinely take nothing, year after year. Tesla discloses $0; Block discloses about a dollar. For those, no amount of averaging helps, because the disclosure is not capturing the equity wealth that actually compensates them. Rather than exclude them, Fair500 now <a href="/methodology.html">scores them neutrally on the pay-gap measure</a> and ranks them on worker pay versus profit alone. They appear on the map, and they are not permitted to top a fairness ranking on the strength of a number that means nothing.</p>
+
+<h2>What smoothing does not claim</h2>
+
+<p>Averaging is a correction for a specific, identifiable distortion. It is not an attempt to make the data look tidier, and it does not make a high ratio into a low one. Broadcom's three-year average is $123.2 million; that is not a flattering figure and it is not meant to be. What the average does is ensure that the figure describes the pay arrangement rather than the accounting calendar, so that when a company appears near the top of a ranking, it is there for a reason that would still be true next year.</p>
+
+<p class="crumb" style="margin-top:36px"><a href="/articles/">← More analysis</a> &middot; <a href="/">Explore the map</a></p>

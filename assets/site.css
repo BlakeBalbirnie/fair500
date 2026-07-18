@@ -1,0 +1,106 @@
+/* Fair500 — shared styles for content pages (articles, sectors, about).
+   Design tokens mirror the ones inlined in index.html. */
+
+:root{
+  --bg:#ffffff; --panel:#f7f8fa; --panel2:#eef1f5; --ink:#14181f; --muted:#5b6472; --line:#e3e7ee;
+  --grid:#eceff4; --accent:#2f6df6; --shadow:0 1px 3px rgba(20,24,31,.08),0 8px 24px rgba(20,24,31,.06);
+  --good:#1f9d55; --mid:#e0a92e; --bad:#d64545;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --bg:#0f1216; --panel:#161a20; --panel2:#1c222a; --ink:#e8ecf3; --muted:#9aa4b2; --line:#252b34;
+    --grid:#1e242c; --shadow:0 1px 3px rgba(0,0,0,.4),0 8px 30px rgba(0,0,0,.35); }
+}
+:root[data-theme="light"]{ --bg:#fff; --panel:#f7f8fa; --panel2:#eef1f5; --ink:#14181f; --muted:#5b6472; --line:#e3e7ee; --grid:#eceff4; }
+:root[data-theme="dark"]{ --bg:#0f1216; --panel:#161a20; --panel2:#1c222a; --ink:#e8ecf3; --muted:#9aa4b2; --line:#252b34; --grid:#1e242c; }
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+
+/* ---------- site chrome ---------- */
+.topbar{border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:30}
+.topbar-in{max-width:1060px;margin:0 auto;padding:0 22px;display:flex;align-items:center;gap:6px;height:56px}
+.brand{font-weight:800;font-size:19px;letter-spacing:-.02em;color:var(--ink);text-decoration:none;margin-right:8px}
+.brand span{color:var(--accent)}
+.nav{display:flex;gap:2px;flex-wrap:wrap;align-items:center}
+.nav a{color:var(--muted);text-decoration:none;font-size:14px;font-weight:600;padding:7px 10px;border-radius:8px;white-space:nowrap}
+.nav a:hover{color:var(--ink);background:var(--panel2)}
+.nav a.on{color:var(--accent);background:var(--panel2)}
+.topbar .theme-btn{margin-left:auto;width:36px;height:36px;border-radius:10px;border:1px solid var(--line);
+  background:var(--bg);color:var(--ink);cursor:pointer;font-size:15px;display:flex;align-items:center;
+  justify-content:center;line-height:1;flex:none}
+.topbar .theme-btn:hover{border-color:var(--accent)}
+@media(max-width:620px){
+  .topbar{position:static}
+  .topbar-in{height:auto;padding:10px 16px;flex-wrap:wrap}
+  .nav a{padding:6px 8px;font-size:13px}
+}
+
+/* ---------- page body ---------- */
+.wrap{max-width:760px;margin:0 auto;padding:38px 22px 80px}
+.wrap.wide{max-width:1060px}
+.crumb{font-size:13px;color:var(--muted);margin:0 0 14px}
+.crumb a{color:var(--muted);text-decoration:none}
+.crumb a:hover{color:var(--accent);text-decoration:underline}
+
+h1{font-size:34px;line-height:1.2;letter-spacing:-.022em;margin:0 0 14px;font-weight:760}
+h2{font-size:23px;line-height:1.28;letter-spacing:-.015em;margin:44px 0 12px;font-weight:700}
+h3{font-size:18px;line-height:1.35;margin:30px 0 8px;font-weight:680}
+p{margin:0 0 18px}
+.standfirst{font-size:19px;line-height:1.6;color:var(--muted);margin:0 0 22px}
+.byline{font-size:13px;color:var(--muted);margin:0 0 30px;padding-bottom:20px;border-bottom:1px solid var(--line)}
+a{color:var(--accent)}
+a:hover{text-decoration:underline}
+ul,ol{margin:0 0 18px;padding-left:22px}
+li{margin:7px 0}
+strong,b{font-weight:650;color:var(--ink)}
+hr{border:0;border-top:1px solid var(--line);margin:36px 0}
+small{font-size:13.5px;color:var(--muted)}
+
+/* pull-quote / callout */
+.note{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);
+  border-radius:10px;padding:15px 18px;margin:24px 0;font-size:15px;color:var(--muted)}
+.note b,.note strong{color:var(--ink)}
+.note p:last-child{margin-bottom:0}
+
+/* ---------- data tables ---------- */
+.tbl-scroll{overflow-x:auto;margin:24px 0;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+caption{caption-side:top;text-align:left;padding:13px 15px 11px;font-size:13px;color:var(--muted);font-weight:600}
+th,td{padding:9px 13px;text-align:right;border-top:1px solid var(--line);white-space:nowrap}
+th{font-size:11.5px;text-transform:uppercase;letter-spacing:.045em;color:var(--muted);font-weight:650;
+  background:var(--panel2);position:sticky;top:0}
+th:first-child,td:first-child{text-align:left}
+tbody tr:hover{background:var(--panel2)}
+td.co{font-weight:600}
+td .tk{color:var(--muted);font-weight:600;font-size:12px;margin-left:6px}
+.num{font-variant-numeric:tabular-nums}
+
+/* ---------- card grids (index pages) ---------- */
+.grid{display:grid;gap:14px;margin:26px 0;grid-template-columns:1fr}
+@media(min-width:640px){ .grid.two{grid-template-columns:1fr 1fr} }
+@media(min-width:760px){ .grid.three{grid-template-columns:repeat(3,1fr)} }
+.tile{display:block;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:17px 19px;
+  text-decoration:none;color:var(--ink);box-shadow:var(--shadow);transition:border-color .15s,transform .15s}
+.tile:hover{border-color:var(--accent);text-decoration:none;transform:translateY(-1px)}
+.tile h3{margin:0 0 6px;font-size:16.5px;font-weight:680;line-height:1.3}
+.tile p{margin:0;font-size:14px;color:var(--muted);line-height:1.5}
+.tile .stat{font-size:12.5px;color:var(--muted);margin-top:9px;font-weight:600}
+.tile .stat b{color:var(--accent)}
+
+/* stat strip */
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:26px 0}
+@media(min-width:640px){ .stats{grid-template-columns:repeat(4,1fr)} }
+.stat-box{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.stat-box .v{font-size:24px;font-weight:750;letter-spacing:-.02em;line-height:1.15;font-variant-numeric:tabular-nums}
+.stat-box .k{font-size:12.5px;color:var(--muted);margin-top:4px;line-height:1.35}
+
+/* ---------- footer ---------- */
+footer.site{border-top:1px solid var(--line);margin-top:60px;padding:26px 22px 46px;color:var(--muted);font-size:13px}
+footer.site .in{max-width:760px;margin:0 auto}
+footer.site .in.wide{max-width:1060px}
+footer.site p{margin:0 0 8px;line-height:1.6}
+footer.site a{color:var(--muted);text-decoration:none}
+footer.site a:hover{color:var(--accent);text-decoration:underline}
+footer.site nav{margin-bottom:12px;display:flex;gap:14px;flex-wrap:wrap}
+footer.site nav a{font-weight:600}

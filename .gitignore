@@ -26,7 +26,6 @@ fair500.com-ssl-bundle/
 data/*_before*.json
 data/validation_flags.json
 data/llm_excerpts.txt
-data/llm_excerpts.txt
 data/verify_batches/
 data/ceo_results/
 data/ceo_pay_all.json

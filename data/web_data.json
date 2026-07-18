@@ -9259,29 +9259,6 @@
   "url": "https://www.sec.gov/Archives/edgar/data/1113169/000110465926028876/tm268615d3_def14a.htm"
  },
  {
-  "t": "TTWO",
-  "n": "Take-Two Interactive",
-  "sec": "Communication Services",
-  "m": -48.31,
-  "r": 2,
-  "p": -2.84,
-  "med": 73005,
-  "emp": 12909,
-  "cp": 165182,
-  "cpy": {
-   "2023": 115015,
-   "2024": 274074,
-   "2025": 106457
-  },
-  "y": [
-   2024,
-   2025,
-   2026
-  ],
-  "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828025036188/ttwo-20250728.htm",
-  "loss": 1
- },
- {
   "t": "TPR",
   "n": "Tapestry, Inc.",
   "sec": "Consumer Discretionary",

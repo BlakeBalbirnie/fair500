@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology · How Fair500 builds its data · Fair500</title>
+<meta name="description" content="A full account of how Fair500 compiles CEO pay ratios, median worker pay, profit and headcount for the S&amp;P 500 from SEC EDGAR and DEF 14A proxy statements, including the verification process and the known limits of the data.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Fair500">
+<meta name="theme-color" content="#2f6df6">
+<link rel="canonical" href="https://fair500.com/methodology.html">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Crect%20width%3D%27100%27%20height%3D%27100%27%20rx%3D%2722%27%20fill%3D%27%232f6df6%27/%3E%3Crect%20x%3D%2722%27%20y%3D%2754%27%20width%3D%2713%27%20height%3D%2726%27%20rx%3D%272%27%20fill%3D%27%23fff%27/%3E%3Crect%20x%3D%2743%27%20y%3D%2740%27%20width%3D%2713%27%20height%3D%2740%27%20rx%3D%272%27%20fill%3D%27%23fff%27/%3E%3Crect%20x%3D%2764%27%20y%3D%2726%27%20width%3D%2713%27%20height%3D%2754%27%20rx%3D%272%27%20fill%3D%27%23fff%27/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fair500">
+<meta property="og:title" content="Methodology: how Fair500 is built">
+<meta property="og:description" content="A full account of how Fair500 compiles CEO pay ratios, median worker pay, profit and headcount for the S&amp;P 500 from SEC EDGAR and DEF 14A proxy statements, including the verification process and the known limits of the data.">
+<meta property="og:url" content="https://fair500.com/methodology.html">
+<meta property="og:image" content="https://fair500.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Methodology: how Fair500 is built">
+<meta name="twitter:description" content="A full account of how Fair500 compiles CEO pay ratios, median worker pay, profit and headcount for the S&amp;P 500 from SEC EDGAR and DEF 14A proxy statements, including the verification process and the known limits of the data.">
+<meta name="twitter:image" content="https://fair500.com/og-image.png">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "WebPage",
+ "name": "Methodology: how Fair500 is built",
+ "description": "A full account of how Fair500 compiles CEO pay ratios, median worker pay, profit and headcount for the S&P 500 from SEC EDGAR and DEF 14A proxy statements, including the verification process and the known limits of the data.",
+ "url": "https://fair500.com/methodology.html",
+ "isPartOf": {
+  "@type": "WebSite",
+  "name": "Fair500",
+  "url": "https://fair500.com/"
+ }
+}
+</script>
+<link rel="stylesheet" href="assets/site.css">
+<script>
+(function(){var k='f500-theme',s=localStorage.getItem(k);if(s)document.documentElement.setAttribute('data-theme',s);
+document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('themeToggle');if(!b)return;
+var d=function(){var t=document.documentElement.getAttribute('data-theme');
+return t?t:(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')};
+b.textContent=d()==='dark'?'☀':'☾';
+b.onclick=function(){var n=d()==='dark'?'light':'dark';
+document.documentElement.setAttribute('data-theme',n);localStorage.setItem(k,n);b.textContent=n==='dark'?'☀':'☾'}})})();
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7286721892267178" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="topbar"><div class="topbar-in">
+  <a class="brand" href="/">Fair<span>500</span></a>
+  <nav class="nav"><a href="/">The map</a><a href="/sectors/">Sectors</a><a href="/articles/">Analysis</a><a href="/methodology.html" class="on">Methodology</a><a href="/about.html">About</a></nav>
+  <button class="theme-btn" id="themeToggle" aria-label="Toggle light or dark mode" title="Toggle light/dark">&#9790;</button>
+</div></div>
+
+<div class="wrap">
+<p class="crumb"><a href="/">Fair500</a> → Methodology</p>
+<h1>Methodology: how Fair500 is built</h1>
+<p class="standfirst">Every number on this site comes from a primary SEC filing. This page explains exactly which filing, how it was extracted, how it was checked, and where the data stops being trustworthy.</p>
+
+<p>Fair500 exists because two facts about a large American company are public, mandatory and machine-readable, and almost never placed side by side. The first is how much money the company makes. The second is what it pays the typical person who works there. This page documents how we join them.</p>
+
+<p>We are deliberately explicit about our limits. A number that comes with no account of how it was produced is not evidence, and several of the figures on this site look more dramatic than they are once you understand what the underlying disclosure rule actually requires.</p>
+
+<h2>What we collect, and from which filing</h2>
+
+<p>For each of the 494 companies on the site, five figures are pulled from three filing types:</p>
+
+<div class="tbl-scroll"><table>
+<caption>Source filing for each field.</caption>
+<thead><tr><th>Figure</th><th>Source</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td class="co">Revenue</td><td>SEC EDGAR XBRL (10-K)</td><td>Last three fiscal years</td></tr>
+<tr><td class="co">Net income</td><td>SEC EDGAR XBRL (10-K)</td><td>Three-year average; attributable to the parent</td></tr>
+<tr><td class="co">CEO-to-worker pay ratio</td><td>DEF 14A proxy statement</td><td>Recomputed on a three-year CEO average</td></tr>
+<tr><td class="co">Median worker pay</td><td>DEF 14A proxy statement</td><td>As disclosed, not adjusted</td></tr>
+<tr><td class="co">Employee headcount</td><td>10-K annual report</td><td>As disclosed, not adjusted</td></tr>
+</tbody></table></div>
+
+<h3>Profit is a three-year average, and it is the parent company's share</h3>
+
+<p>A single year of profit is a poor description of a business. Companies take goodwill impairments, sell divisions, settle litigation and reprice inventory, and any of those can swing one year's net income by billions without telling you much about the underlying enterprise. We therefore use the mean of the three most recent fiscal years.</p>
+
+<p>Which net income figure matters more than it sounds. US GAAP reports two: <code>ProfitLoss</code>, which includes earnings attributable to non-controlling interests, and <code>NetIncomeLoss</code>, which is the parent company's share. We use <code>NetIncomeLoss</code> throughout. For most companies the two are identical. For a handful they are not remotely close. At the large alternative asset managers, consolidated fund interests can make <code>ProfitLoss</code> roughly double the figure that actually belongs to shareholders. Using the wrong tag there would have overstated profit per employee by a factor of two.</p>
+
+<h3>The pay ratio is recomputed, not copied</h3>
+
+<p>Every company discloses its own CEO-to-median-worker ratio, and we could simply reprint it. We don't, for one reason: the disclosed ratio uses a single year of CEO pay, and a single year of CEO pay is extremely lumpy.</p>
+
+<p>Most of a chief executive's compensation is equity, and boards frequently grant several years' worth in one go. When that happens the Summary Compensation Table records the entire grant in the year it was awarded. The same executive doing the same job can therefore appear to earn $248&nbsp;million one year and $35&nbsp;million the next. Welltower's chief executive received a single grant valued at roughly $821&nbsp;million, which would produce a ratio of over 6,500:1 for one year and a far smaller one either side.</p>
+
+<p>Since the rest of the site uses a three-year profit window, we use a three-year CEO window to match, and divide by the disclosed median:</p>
+
+<div class="note"><p><b>Pay ratio = (mean of the CEO's total compensation across the three most recent proxy years) &divide; (median employee compensation as disclosed)</b></p></div>
+
+<p>This is a deliberate departure from the official figure, and it moves some companies a long way. We think it is the more honest number, and the year-by-year amounts are shown in the tooltip for every company on the map so you can see exactly what went into the average. <a href="/articles/why-one-year-of-ceo-pay-misleads.html">The longer argument for smoothing is here.</a></p>
+
+<h3>The fairness score</h3>
+
+<p>Each company gets a 0&ndash;100 score built from two percentile ranks against the rest of the index:</p>
+
+<ul>
+<li><b>CEO pay gap.</b> The three-year pay ratio, ranked so that a narrower gap scores higher.</li>
+<li><b>Worker pay vs. profit.</b> Median worker pay divided by profit per employee, ranked so that a larger share scores higher. This asks a different question: not what the boss takes, but whether the typical worker's pay is large or small relative to the profit each worker generates.</li>
+</ul>
+
+<p>The combined score is the mean of the two. They measure genuinely different things, and a company can score well on one and badly on the other. A partnership where everyone is paid well, including the CEO, scores well on the gap and poorly on the share.</p>
+
+<h3>Companies that can only be measured on one dimension</h3>
+
+<p>Two situations make one of the two scores meaningless rather than merely low. A company that lost money has no profit to share, so the second measure is undefined. A company whose chief executive is paid a nominal salary (Tesla's disclosed CEO compensation is $0, Block's is about a dollar) has no meaningful pay gap, because the disclosure captures none of the equity wealth that actually compensates that person.</p>
+
+<p>Early versions of this site excluded both groups. That was worse: it silently dropped 25 loss-making companies and several of the largest employers in the index. Both now receive a <b>neutral 50</b> on the dimension that cannot be judged, and their real score on the dimension that can. The effect is that they sit mid-table rather than topping or bottoming a ranking on the strength of a number that does not exist. A company with a $0 CEO is not thereby the fairest employer in America, and we no longer let the arithmetic claim it is.</p>
+
+<h2>How the data was verified</h2>
+
+<p>This is the part most data sites leave out. Extraction from filings is error-prone, and we found and corrected roughly 68 substantive errors before launch.</p>
+
+<p>The pay ratio and median pay are usually one clean sentence in the proxy and are reliable to read. CEO compensation is not: it lives in the Summary Compensation Table, a wide multi-year grid whose layout varies between filers. Three independent checks were used:</p>
+
+<ol>
+<li><b>Arithmetic self-verification.</b> In a valid Summary Compensation Table the Total column is the exact sum of the component columns: salary, bonus, stock awards, option awards, non-equity incentive, pension change, other. We only accepted a parsed row when the components summed to the stated total to the dollar, with no percentage tolerance. About 197 companies passed this test outright, and it is a strong check: it is very unlikely to be satisfied by a misidentified row.</li>
+<li><b>Independent reads of the table.</b> For the remaining companies, the relevant excerpt of each proxy was read separately and the figures recorded, then compared against the parser's output.</li>
+<li><b>Manual reconciliation.</b> Every disagreement between those two, about 53 companies, was resolved by opening the filing directly.</li>
+</ol>
+
+<p>That last step mattered more than expected. It surfaced a recurring, systematic error: <b>the first executive listed in a Summary Compensation Table is frequently not the chief executive.</b> Companies commonly list an executive chairman or the finance chief first. Taking the top row would have attributed Intel's ratio to its finance chief rather than its CEO, and made the same mistake at Diamondback Energy, Tyson Foods and Rollins. Mid-year CEO transitions caused a second class of error; we use the person who served as chief executive for the most recent <em>reported</em> fiscal year, which is not always the person holding the job today. Where a company has co-chief-executives, as at KKR and Netflix, we average the two, matching those companies' own disclosure practice.</p>
+
+<h2>Known limitations</h2>
+
+<p>Four things about this data should temper how far you push it.</p>
+
+<h3>1. Companies choose how to identify their median employee</h3>
+
+<p>Section 953(b) of the Dodd-Frank Act requires the ratio, but it gives companies real latitude in finding the median employee. They may use total cash compensation, or W-2 wages, or payroll records; they may apply statistical sampling; they may pick any date in the last quarter of the fiscal year to take the snapshot; and they are permitted to exclude up to 5% of their non-US workforce. They must disclose the methodology, but they are not required to use the same one as anyone else, and they may reuse an identified median employee for three years.</p>
+
+<p>The practical consequence is that <b>median worker pay is less comparable across companies than it looks.</b> Two firms with identical workforces can report different medians through methodology alone.</p>
+
+<h3>2. A global workforce mechanically depresses the median</h3>
+
+<p>This is the single biggest source of misreading on this site. The lowest median pay figures in the S&amp;P 500 belong to companies whose typical employee is a manufacturing worker outside the United States. Western Digital reports a median of $8,740; Lumentum $9,595; Ross Stores $10,059. These are not stories about American wage suppression. They reflect where the workforce is, and the ratio is doing arithmetic across labour markets with very different costs of living. <a href="/articles/median-worker-pay-global-workforces.html">We wrote a full piece on this</a>, because a ratio of 2,884:1 invites a conclusion the underlying disclosure does not support.</p>
+
+<h3>3. Part-time and seasonal staff pull the median down</h3>
+
+<p>The median employee is the median of everyone employed on the snapshot date, whether full-time or not. Retailers, restaurant groups and hospitality companies employ large seasonal and part-time populations, so their median reflects a partial-year or partial-week wage rather than a full-time salary. This is a real fact about those businesses, but it is not the same claim as "the typical full-time worker earns this."</p>
+
+<h3>4. Headcount and profit are measured on different bases</h3>
+
+<p>Profit per employee divides a three-year average profit by a point-in-time headcount from the most recent 10-K. Where a company has grown or shrunk sharply, or has made a large acquisition, the two are not perfectly aligned. Some companies report full-time equivalents and others report all employees; some include contractors and franchise staff and others do not. McDonald's employs a few hundred thousand people directly while millions work under its brand at franchises, and its figures reflect the former.</p>
+
+<h2>Which companies are missing, and why</h2>
+
+<p>Fair500 covers 494 of the 500 companies in the index. Five of the six that are absent, namely FedEx Freight, Honeywell Aerospace, SanDisk, Paramount Skydance and Qnity Electronics, became separate public companies through 2025 and 2026 spinoffs and mergers. A newly public company is exempt from pay-ratio disclosure in its first year, so there is no figure to publish. Each will be added once it files its first full proxy statement.</p>
+
+<p>One lesson from building the coverage is worth passing on to anyone doing similar work: <b>the pay ratio is not always in the DEF 14A.</b> Blackstone files no proxy statement at all, as a controlled company with no proxy-solicited director elections, and discloses its ratio in the 10-K. KKR files a proxy but puts the ratio in the 10-K. Erie Indemnity, controlled by its reciprocal exchange, files a DEF 14C information statement instead. All three were missing from our first pass for that reason alone.</p>
+
+<h2>Update schedule and corrections</h2>
+
+<p>The dataset is rebuilt as companies file new proxy statements and annual reports, which for most of the index means a refresh through the spring. The figures currently shown were compiled in July 2026.</p>
+
+<p>If you find a number that disagrees with a filing, we want to know. That is the only kind of error that matters here, and it is correctable against a primary source. <a href="/contact.html">Contact us</a> with the company and the filing, and we will check it and correct the dataset.</p>
+
+<p class="crumb" style="margin-top:36px"><a href="/">← Back to the map</a></p>
+</div>
+
+<footer class="site"><div class="in">
+  <nav>
+    <a href="/">The map</a><a href="/sectors/">Sectors</a><a href="/articles/">Analysis</a>
+    <a href="/methodology.html">Methodology</a><a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a>
+  </nav>
+  <p><b>Fair500</b> &middot; Built from public <a href="https://www.sec.gov/edgar" rel="nofollow">SEC EDGAR</a> filings &middot;
+     CEO pay-ratio and median-worker-pay data from DEF 14A proxy statements.</p>
+  <p>Data last updated July 2026 &middot; Not affiliated with the U.S. Securities and Exchange Commission or any company listed.
+     Nothing here is investment advice.</p>
+</div></footer>
+</body>
+</html>

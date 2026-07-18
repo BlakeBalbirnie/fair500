@@ -1,0 +1,52 @@
+<!--META
+{"path": "about.html",
+ "type": "page",
+ "title": "About Fair500",
+ "title_tag": "About Fair500 · What this project is and why it exists",
+ "desc": "Fair500 is an independent, non-commercial project that maps how much profit each S&P 500 company makes against how much of it reaches the people who work there, using only primary SEC filings.",
+ "standfirst": "An independent project that puts two public numbers side by side: what a large company earns, and what it pays the typical person who works there.",
+ "crumb": "<a href=\"/\">Fair500</a> → About"}
+-->
+
+<h2>What this is</h2>
+
+<p>Fair500 maps every company in the S&amp;P 500 on two axes. Horizontally: how much money the business actually makes. Vertically: how much of that money reaches the people who do the work. It covers {{STAT:count}} of the 500 constituents, which between them employ over 28 million people and earn roughly $2 trillion a year in combined profit.</p>
+
+<p>The project started from a small irritation. Debates about executive pay are conducted almost entirely in anecdotes, one outrageous package answered by one sympathetic counter-example, while the actual numbers sit in public filings that nobody reads. Since 2018, every US public company has been legally required to disclose the ratio of its chief executive's pay to that of its median employee. Every company also reports its profit and its headcount. Those three facts, joined together across an entire index, answer a question the anecdotes cannot: <em>is this company unusual, or is it ordinary?</em></p>
+
+<p>That is the only question Fair500 tries to answer. It shows you where a company sits relative to its peers, and it shows you the filing the number came from.</p>
+
+<h2>What it is not</h2>
+
+<p>Fair500 is not an ethics rating. A "fairness score" here is a percentile rank on two specific, narrow measures: the CEO-to-worker pay gap, and worker pay measured against profit per employee. It says nothing about working conditions, safety, union relations, benefits, environmental record, or whether a company is a good employer in any broader sense. A capital-intensive utility with 400 highly paid engineers will score well on arithmetic that has nothing to do with how it treats anyone.</p>
+
+<p>It is also not investment advice, and the scores have no relationship to whether a stock is worth owning.</p>
+
+<p>Most importantly, it is not a claim that a wide pay ratio always means what it appears to mean. Several of the widest ratios in the index belong to companies whose median employee works in a lower-cost labour market abroad, or works part-time. Those are real facts about those businesses, but they are not evidence of unusual executive greed, and we have written at length about <a href="/articles/median-worker-pay-global-workforces.html">why the most extreme ratios are usually the least informative</a>. If this site persuades you of one thing, we would rather it be that than any particular company's score.</p>
+
+<h2>Independence and funding</h2>
+
+<p>Fair500 is an independent project with no affiliation to the SEC, to any company listed, to any advocacy organisation, union, or political campaign. No company has any input into its own score, and there is no mechanism, paid or otherwise, by which a listing can be altered, improved or removed. The methodology is applied identically to all {{STAT:count}} companies and is <a href="/methodology.html">published in full</a>, including its known failure modes.</p>
+
+<p>The site is free and carries advertising, which covers hosting and the domain. Advertising is served by a third party and advertisers have no access to the data, no knowledge of which company page an ad appears beside, and no influence on any figure or ranking here. See the <a href="/privacy.html">privacy policy</a> for how that advertising handles your data.</p>
+
+<h2>How the numbers are built</h2>
+
+<p>Everything comes from primary SEC filings: EDGAR XBRL financial data for revenue and profit, DEF 14A proxy statements for the pay ratio and median worker pay, and 10-K annual reports for headcount. Nothing is estimated where a company discloses the real number, and nothing is sourced from press coverage or third-party databases.</p>
+
+<p>Two editorial choices depart from the companies' own presentation, and both are stated openly on the site. Profit is a three-year average rather than a single year. CEO pay is likewise averaged over three years, so that a multi-year equity grant booked in one year does not distort the ratio. That second choice changes some companies' numbers substantially, so the year-by-year figures are shown for every company.</p>
+
+<p>The extraction was verified three ways: arithmetic self-checking against the Summary Compensation Table's own component columns, independent re-reading of each table, and manual reconciliation of every disagreement against the filing. Roughly 68 substantive errors were found and fixed during that process. The <a href="/methodology.html">methodology page</a> describes all of this, including the systematic errors that verification caught and the four limitations that should temper how far you push the data.</p>
+
+<h2>Corrections</h2>
+
+<p>The figures here are checked but not infallible, and the underlying filings are dense. If a number on this site disagrees with the filing it claims to come from, that is a real error and we want to fix it. <a href="/contact.html">Send us the company and the filing</a> and we will verify it against the primary source and correct the dataset.</p>
+
+<h2>Reuse</h2>
+
+<p>The underlying disclosures are public records and belong to no one. If you use Fair500's compiled figures in research, journalism or teaching, a link back is appreciated but not required, though we would encourage you to read the limitations section first, and to cite the original filings where a specific company's number matters to your argument.</p>
+
+<div class="grid two" style="margin-top:36px">
+  <a class="tile" href="/methodology.html"><h3>Methodology</h3><p>Sources, formulas, the verification process, and what the data cannot tell you.</p></a>
+  <a class="tile" href="/articles/"><h3>Analysis</h3><p>Written pieces on what the pay-ratio data actually shows across the index.</p></a>
+</div>

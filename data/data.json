@@ -16124,7 +16124,7 @@
     },
     "margin_3yr": -48.31,
     "avg_net_income": -2840433333,
-    "ratio": 2,
+    "ratio": null,
     "median_pay": 73005,
     "confidence": "high (llm)",
     "proxy_url": "https://www.sec.gov/Archives/edgar/data/946581/000162828025036188/ttwo-20250728.htm",
