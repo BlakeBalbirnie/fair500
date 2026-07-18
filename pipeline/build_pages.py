@@ -26,6 +26,10 @@ ROOT = os.path.dirname(HERE)
 CONTENT = os.path.join(ROOT, "content")
 SITE = "https://fair500.com"
 
+# privacy.html is hand-maintained, not built from content/; bump this when it changes
+# so the sitemap does not tell crawlers to skip a page that actually moved.
+PRIVACY_MODIFIED = "2026-07-18"
+
 NAV = [
     ("/", "The map"),
     ("/sectors/", "Sectors"),
@@ -233,7 +237,7 @@ def main():
 
     # regenerate sitemap: homepage + privacy + every built page
     today = datetime.date.today().isoformat()
-    urls = [("", "1.0", "monthly", today), ("privacy.html", "0.3", "yearly", "2026-07-08")]
+    urls = [("", "1.0", "monthly", today), ("privacy.html", "0.3", "yearly", PRIVACY_MODIFIED)]
     for p, pub in sorted(built):
         pri = "0.9" if p.endswith("index.html") else "0.8"
         urls.append((canonical_path(p), pri, "monthly", pub or today))
